@@ -59,6 +59,6 @@
 
 ## ⭐ Quelques statistiques 💪
 
-[![Discord Presence](https://lanyard.cnrad.dev/api/634433284285268006?theme=dark&bg=282a36&borderRadius=30&animated=true&idleMessage=No%20RPC%20activity%20detected&showDisplayName=true)](https://discord.com/users/634433284285268006)  
+[![Discord Presence](https://lanyard.cnrad.dev/api/634433284285268006?theme=dark&showDisplayName=true&hideSpotify=true&hideActivity=true)](https://discord.com/users/634433284285268006)
 
 [![Spotify Activity](https://spotify-github-profile.kittinanx.com/api/view?uid=opvbaos7dvnawhftj0c4ge42o&cover_image=true&theme=default&show_offline=false&background_color=282a36&interchange=true&bar_color=ffa200&bar_color_cover=false)](https://spotify-github-profile.vercel.app/api/view?uid=opvbaos7dvnawhftj0c4ge42o&redirect=true)  
