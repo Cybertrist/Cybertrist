@@ -67,37 +67,37 @@ Je m'intéresse aux postes en **cybersécurité**, **infrastructure**, **sécuri
 
 <div align="center">
 
-**Sécurité et supervision**
+<img src="docs/stack/lab-securite.png" alt="Sécurité et supervision" width="560" />
 
 <img src="docs/stack/securite.png" alt="LogPoint, Fortinet, Wireshark" width="160" />
 
-**Systèmes et virtualisation**
+<img src="docs/stack/lab-systemes.png" alt="Systèmes et virtualisation" width="560" />
 
 <img src="docs/stack/systemes.png" alt="VMware, Proxmox, Linux, Debian, Windows Server" width="272" />
 
-**Environnement Microsoft**
+<img src="docs/stack/lab-microsoft.png" alt="Environnement Microsoft" width="560" />
 
 <img src="docs/stack/microsoft.png" alt="Microsoft 365, Exchange, Microsoft Entra ID, PowerShell" width="216" />
 
-**Exploitation**
+<img src="docs/stack/lab-exploitation.png" alt="Exploitation" width="560" />
 
 <img src="docs/stack/exploitation.png" alt="Jira, Docker, Nginx, Git" width="216" />
 
 <br>
 
-**Langages**
+<img src="docs/stack/lab-langages.png" alt="Langages" width="560" />
 
 <img src="https://skillicons.dev/icons?i=python,js,ts,java,dart,c,cpp,bash&theme=dark" alt="Langages" />
 
-**Web et mobile**
+<img src="docs/stack/lab-web.png" alt="Web et mobile" width="560" />
 
 <img src="https://skillicons.dev/icons?i=nodejs,express,react,fastapi,flutter,tailwind,vite,html,css&theme=dark" alt="Web et mobile" />
 
-**Infrastructure et données**
+<img src="docs/stack/lab-infra.png" alt="Infrastructure et données" width="560" />
 
 <img src="https://skillicons.dev/icons?i=linux,debian,docker,nginx,mysql,sqlite,mongodb,firebase,git,githubactions&theme=dark" alt="Infrastructure et données" />
 
-**Sécurité et embarqué**
+<img src="docs/stack/lab-embarque.png" alt="Sécurité et embarqué" width="560" />
 
 <img src="https://skillicons.dev/icons?i=kali,arduino,raspberrypi,cloudflare,vscode,idea&theme=dark" alt="Sécurité et embarqué" />
 
