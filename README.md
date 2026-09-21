@@ -32,7 +32,9 @@ Je m'intéresse aux postes en **cybersécurité**, **infrastructure**, **sécuri
 
 <a href="https://github.com/Microcoaster"><img src="docs/projets/microcoaster.png" alt="MicroCoaster, embarqué : une carte conçue de zéro, son firmware et l'application web qui la pilote" width="100%"></a>
 
-<sub>Projet mené au sein de l'organisation <a href="https://github.com/Microcoaster"><b>MicroCoaster</b></a> (<a href="https://microcoaster.com">microcoaster.com</a>) : conception des PCB, firmware ESP32 des modules, gestionnaire Wi-Fi et application web de pilotage.</sub>
+<p align="center">Projet mené au sein de l'organisation <a href="https://github.com/Microcoaster"><b>MicroCoaster</b></a> (<a href="https://microcoaster.com">microcoaster.com</a>) : conception des PCB, firmware ESP32 des modules, gestionnaire Wi-Fi et application web de pilotage.</p>
+
+<br>
 
 <table align="center">
 <tr>
@@ -53,7 +55,7 @@ Je m'intéresse aux postes en **cybersécurité**, **infrastructure**, **sécuri
 </tr>
 </table>
 
-<sub>Chaque bannière porte sa catégorie en haut à droite. KyrlCut est marqué <b>privé</b> : c'est un livrable client, son code reste fermé.</sub>
+<p align="center">Chaque bannière porte sa catégorie en haut à droite. KyrlCut est marqué <b>privé</b> : c'est un livrable client, son code reste fermé.</p>
 
 <img src="docs/sections/chantier.png" alt="En chantier" width="100%">
 
