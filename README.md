@@ -69,31 +69,19 @@ Je m'intéresse aux postes en **cybersécurité**, **infrastructure**, **sécuri
 
 **Sécurité et supervision**
 
-<img src="https://img.shields.io/badge/LogPoint-SIEM-E23B4E?style=for-the-badge&labelColor=0D1117" alt="LogPoint" />
-<img src="https://img.shields.io/badge/Fortinet-EE3124?style=for-the-badge&logo=fortinet&logoColor=white&labelColor=0D1117" alt="Fortinet" />
-<img src="https://img.shields.io/badge/Wireshark-1679A7?style=for-the-badge&logo=wireshark&logoColor=white&labelColor=0D1117" alt="Wireshark" />
+<img src="docs/stack/securite.png" alt="LogPoint, Fortinet, Wireshark" width="160" />
 
 **Systèmes et virtualisation**
 
-<img src="https://img.shields.io/badge/VMware-607078?style=for-the-badge&logo=vmware&logoColor=white&labelColor=0D1117" alt="VMware" />
-<img src="https://img.shields.io/badge/Proxmox-E57000?style=for-the-badge&logo=proxmox&logoColor=white&labelColor=0D1117" alt="Proxmox" />
-<img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black&labelColor=0D1117" alt="Linux" />
-<img src="https://img.shields.io/badge/Debian-A81D33?style=for-the-badge&logo=debian&logoColor=white&labelColor=0D1117" alt="Debian" />
-<img src="https://img.shields.io/badge/Windows%20Server-0078D6?style=for-the-badge&labelColor=0D1117" alt="Windows Server" />
+<img src="docs/stack/systemes.png" alt="VMware, Proxmox, Linux, Debian, Windows Server" width="272" />
 
 **Environnement Microsoft**
 
-<img src="https://img.shields.io/badge/Microsoft%20365-D83B01?style=for-the-badge&labelColor=0D1117" alt="Microsoft 365" />
-<img src="https://img.shields.io/badge/Exchange-0078D4?style=for-the-badge&labelColor=0D1117" alt="Exchange" />
-<img src="https://img.shields.io/badge/Active%20Directory-00A4EF?style=for-the-badge&labelColor=0D1117" alt="Active Directory" />
-<img src="https://img.shields.io/badge/PowerShell-5391FE?style=for-the-badge&labelColor=0D1117" alt="PowerShell" />
+<img src="docs/stack/microsoft.png" alt="Microsoft 365, Exchange, Active Directory, PowerShell" width="216" />
 
 **Exploitation**
 
-<img src="https://img.shields.io/badge/Jira-0052CC?style=for-the-badge&logo=jira&logoColor=white&labelColor=0D1117" alt="Jira" />
-<img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white&labelColor=0D1117" alt="Docker" />
-<img src="https://img.shields.io/badge/Nginx-009639?style=for-the-badge&logo=nginx&logoColor=white&labelColor=0D1117" alt="Nginx" />
-<img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white&labelColor=0D1117" alt="Git" />
+<img src="docs/stack/exploitation.png" alt="Jira, Docker, Nginx, Git" width="216" />
 
 <br>
 
