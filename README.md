@@ -26,31 +26,30 @@ Je travaille aussi sur la **détection** au quotidien : SIEM, corrélation d'év
 
 <a href="https://github.com/Microcoaster"><img src="docs/projets/microcoaster.png" alt="MicroCoaster, embarqué : une carte conçue de zéro, son firmware et l'application web qui la pilote" width="100%"></a>
 
-<sub>Travail mené au sein de l'organisation <a href="https://github.com/Microcoaster"><b>MicroCoaster</b></a> (<a href="https://microcoaster.com">microcoaster.com</a>) : conception des PCB, firmware ESP32 des modules, gestionnaire Wi-Fi, application web de pilotage. Autour : <a href="https://github.com/Cybertrist/Microcoaster">bot garanties et billetterie</a> · <a href="https://github.com/Cybertrist/MicroCoaster_Docs">documentation</a> · <a href="https://github.com/Cybertrist/MicroCoaster_Forum">forum</a></sub>
-
-<a href="https://github.com/Cybertrist/Serenity"><img src="docs/projets/serenity.png" alt="Serenity, coffre de mots de passe auto-hébergé et zéro connaissance" width="100%"></a>
-
-<sub>Le serveur ne voit jamais rien en clair : dérivation Argon2id, chiffrement XChaCha20-Poly1305 côté client via libsodium. Un agent autonome surveille les fuites connues et fait tourner les mots de passe compromis, sous liste blanche et coupe-circuit. 163 tests Python, 43 TypeScript, 8 jobs de CI par pull request dont un exercice de restauration qui détruit vraiment un coffre jetable.</sub>
+<sub>Travail mené au sein de l'organisation <a href="https://github.com/Microcoaster"><b>MicroCoaster</b></a> (<a href="https://microcoaster.com">microcoaster.com</a>) : conception des PCB, firmware ESP32 des modules, gestionnaire Wi-Fi, application web de pilotage. Autour : <a href="https://github.com/Microcoaster/Microcoaster-bot">bot garanties et billetterie</a> · <a href="https://github.com/Cybertrist/MicroCoaster_Docs">documentation</a> · <a href="https://github.com/Cybertrist/MicroCoaster_Forum">forum</a></sub>
 
 <table>
 <tr>
+<td width="50%"><a href="https://github.com/Cybertrist/Serenity"><img src="docs/projets/serenity.png" alt="Serenity, sécurité : coffre de mots de passe auto-hébergé et zéro connaissance" width="100%"></a></td>
 <td width="50%"><a href="https://github.com/Cybertrist/Messagerie-securise-RSA-AES"><img src="docs/projets/messagerie.png" alt="Messagerie chiffrée, cryptographie : RSA, AES et attaques MITM" width="100%"></a></td>
-<td width="50%"><a href="https://github.com/Cybertrist/DIR-ASM"><img src="docs/projets/dirasm.png" alt="Dir ASM, bas niveau : la commande dir slash s réécrite en assembleur x86" width="100%"></a></td>
 </tr>
 <tr>
+<td width="50%"><a href="https://github.com/Cybertrist/DIR-ASM"><img src="docs/projets/dirasm.png" alt="Dir ASM, bas niveau : la commande dir slash s réécrite en assembleur x86" width="100%"></a></td>
 <td width="50%"><a href="https://github.com/Cybertrist/Huffman"><img src="docs/projets/huffman.png" alt="Codage de Huffman, algorithmique : trois variantes de compression" width="100%"></a></td>
+</tr>
+<tr>
 <td width="50%"><a href="https://github.com/Cybertrist/BeVannes"><img src="docs/projets/bevannes.png" alt="BeVannes, mobile : BeReal rencontre GeoGuessr" width="100%"></a></td>
+<td width="50%"><a href="https://github.com/Cybertrist/ubhess-emargement"><img src="docs/projets/emargement.png" alt="Émargement UBS, automatisation : Moodle piloté par Selenium" width="100%"></a></td>
 </tr>
 <tr>
 <td width="50%"><img src="docs/projets/kyrlcut.png" alt="KyrlCut, web : réservation en ligne pour salon de coiffure, dépôt privé" width="100%"></td>
 <td width="50%"><a href="https://github.com/Cybertrist/BodyCount"><img src="docs/projets/bodycount.png" alt="BodyCount, mobile : journal chiffré hors ligne sur Android" width="100%"></a></td>
 </tr>
-<tr>
-<td colspan="2"><a href="https://github.com/Cybertrist/ubhess-emargement"><img src="docs/projets/emargement.png" alt="Émargement UBS, automatisation : Moodle piloté par Selenium" width="100%"></a></td>
-</tr>
 </table>
 
-<sub>Chaque bannière porte sa catégorie. KyrlCut est marqué <b>privé</b> : c'est un livrable client, son code reste fermé. Serenity garde son identité propre, distincte du reste.</sub>
+<sub>Chaque bannière porte sa catégorie en haut à droite. KyrlCut est marqué <b>privé</b> : c'est un livrable client, son code reste fermé.</sub>
+
+**Serenity** est le projet sur lequel je mets le plus d'exigence. Le serveur ne voit jamais rien en clair : dérivation Argon2id, chiffrement XChaCha20-Poly1305 côté client via libsodium. Un agent autonome surveille les fuites connues et fait tourner les mots de passe compromis, sous liste blanche et coupe-circuit. 163 tests Python, 43 TypeScript, et 8 jobs de CI par pull request dont un exercice de restauration qui détruit vraiment un coffre jetable.
 
 ---
 
