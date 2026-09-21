@@ -77,7 +77,7 @@ Je m'intéresse aux postes en **cybersécurité**, **infrastructure**, **sécuri
 
 **Environnement Microsoft**
 
-<img src="docs/stack/microsoft.png" alt="Microsoft 365, Exchange, Active Directory, PowerShell" width="216" />
+<img src="docs/stack/microsoft.png" alt="Microsoft 365, Exchange, Microsoft Entra ID, PowerShell" width="216" />
 
 **Exploitation**
 
