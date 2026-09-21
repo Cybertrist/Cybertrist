@@ -22,79 +22,32 @@ Je travaille aussi sur la **détection** au quotidien : SIEM, corrélation d'év
 
 ---
 
-## Projet phare
+## Projets
 
-<a href="https://github.com/Cybertrist/Microcoaster"><img src="docs/projets/microcoaster.png" alt="MicroCoaster, une carte conçue de zéro, son firmware et l'application web qui la pilote" width="100%"></a>
+<a href="https://github.com/Cybertrist/Microcoaster"><img src="docs/projets/microcoaster.png" alt="MicroCoaster, embarqué : une carte conçue de zéro, son firmware et l'application web qui la pilote" width="100%"></a>
 
-<table>
-<tr>
-<td width="33%" valign="top" align="center">
-
-**🔌 Matériel**
-
-PCB dessinée intégralement, choix et routage de tous les composants, microcontrôleur embarqué.
-
-</td>
-<td width="33%" valign="top" align="center">
-
-**📡 IoT**
-
-Remontée de la télémétrie du matériel vers le serveur, liaison chiffrée de bout en bout.
-
-</td>
-<td width="33%" valign="top" align="center">
-
-**🌐 Logiciel**
-
-Application web de pilotage, plus l'écosystème de support : garanties, billetterie, documentation.
-
-</td>
-</tr>
-</table>
-
-<div align="center">
-<sub>Dépôts liés :
-<a href="https://github.com/Cybertrist/Microcoaster">bot support et garanties</a> ·
-<a href="https://github.com/Cybertrist/MicroCoaster_Docs">documentation</a> ·
-<a href="https://github.com/Cybertrist/MicroCoaster_Forum">forum</a></sub>
-</div>
-
----
-
-## Sécurité et cryptographie
+<sub>Conception de la PCB, firmware embarqué, télémétrie IoT et application web de pilotage. Écosystème de support : <a href="https://github.com/Cybertrist/Microcoaster">garanties et billetterie</a> · <a href="https://github.com/Cybertrist/MicroCoaster_Docs">documentation</a> · <a href="https://github.com/Cybertrist/MicroCoaster_Forum">forum</a></sub>
 
 <table>
 <tr>
-<td width="50%"><a href="https://github.com/Cybertrist/Serenity"><img src="docs/projets/serenity.png" alt="Serenity, coffre de mots de passe auto-hébergé zéro connaissance" width="100%"></a></td>
-<td width="50%"><a href="https://github.com/Cybertrist/Messagerie-securise-RSA-AES"><img src="docs/projets/messagerie.png" alt="Messagerie chiffrée RSA et AES" width="100%"></a></td>
+<td width="50%"><a href="https://github.com/Cybertrist/Serenity"><img src="docs/projets/serenity.png" alt="Serenity, sécurité : coffre de mots de passe auto-hébergé zéro connaissance" width="100%"></a></td>
+<td width="50%"><a href="https://github.com/Cybertrist/Messagerie-securise-RSA-AES"><img src="docs/projets/messagerie.png" alt="Messagerie chiffrée, cryptographie : RSA, AES et attaques MITM" width="100%"></a></td>
 </tr>
-</table>
-
-**Serenity** est le projet sur lequel je mets le plus d'exigence. Le serveur ne voit jamais rien en clair : dérivation Argon2id, chiffrement XChaCha20-Poly1305 côté client via libsodium. Un agent autonome surveille les fuites connues et fait tourner les mots de passe compromis tout seul, sous liste blanche et coupe-circuit. 163 tests Python, 43 TypeScript, et 8 jobs de CI par pull request dont un exercice de restauration qui détruit vraiment un coffre jetable.
-
----
-
-## Bas niveau et algorithmique
-
-<table>
 <tr>
-<td width="50%"><a href="https://github.com/Cybertrist/DIR-ASM"><img src="docs/projets/dirasm.png" alt="Dir ASM, la commande dir slash s réécrite en assembleur x86" width="100%"></a></td>
-<td width="50%"><a href="https://github.com/Cybertrist/Huffman"><img src="docs/projets/huffman.png" alt="Codage de Huffman, trois variantes de compression" width="100%"></a></td>
+<td width="50%"><a href="https://github.com/Cybertrist/DIR-ASM"><img src="docs/projets/dirasm.png" alt="Dir ASM, bas niveau : la commande dir slash s réécrite en assembleur x86" width="100%"></a></td>
+<td width="50%"><a href="https://github.com/Cybertrist/Huffman"><img src="docs/projets/huffman.png" alt="Codage de Huffman, algorithmique : trois variantes de compression" width="100%"></a></td>
 </tr>
-</table>
-
----
-
-## Applications
-
-<table>
 <tr>
-<td width="50%"><a href="https://github.com/Cybertrist/BeVannes"><img src="docs/projets/bevannes.png" alt="BeVannes, BeReal rencontre GeoGuessr" width="100%"></a></td>
-<td width="50%"><a href="https://github.com/Cybertrist/ubhess-emargement"><img src="docs/projets/emargement.png" alt="Émargement UBS, automatisation Moodle" width="100%"></a></td>
+<td width="50%"><a href="https://github.com/Cybertrist/BeVannes"><img src="docs/projets/bevannes.png" alt="BeVannes, mobile : BeReal rencontre GeoGuessr" width="100%"></a></td>
+<td width="50%"><a href="https://github.com/Cybertrist/ubhess-emargement"><img src="docs/projets/emargement.png" alt="Émargement UBS, automatisation : Moodle piloté par Selenium" width="100%"></a></td>
+</tr>
+<tr>
+<td width="50%"><img src="docs/projets/kyrlcut.png" alt="KyrlCut, web : réservation en ligne pour salon de coiffure, dépôt privé" width="100%"></td>
+<td width="50%"><img src="docs/projets/bodycount.png" alt="BodyCount, mobile : journal chiffré hors ligne sur Android, dépôt privé" width="100%"></td>
 </tr>
 </table>
 
-**KyrlCut**, plateforme de réservation livrée à un client, en production sur `kyrlcut.fr`. Développée pour un ami coiffeur qui gérait ses rendez-vous par messages. Accès sur invitation uniquement : il distribue un code à ses clients, eux seuls peuvent créer un compte. Créneaux découpés automatiquement selon la durée de la prestation, confirmations et annulations par email, back-office complet.
+<sub>Chaque bannière porte sa catégorie. Les deux dernières sont marquées <b>privé</b> : le code n'est pas public, l'un étant livré à un client, l'autre encore en chantier.</sub>
 
 ---
 
