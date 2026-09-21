@@ -12,13 +12,23 @@
 
 ---
 
-Élève ingénieur à l'**ENSIBS**, filière **cyberdéfense**, l'une des rares écoles françaises entièrement dédiées à la cybersécurité.
+Élève ingénieur en **cyberdéfense** à l'**ENSIBS**, à Vannes, en alternance dans une équipe d'infrastructure technique.
 
-Ce qui m'intéresse, c'est la chaîne complète et ses points de rupture. J'ai conçu une **carte électronique** de zéro, écrit le firmware qui tourne dessus, fait remonter sa télémétrie jusqu'à une application web, et sécurisé le trajet entre les deux. Le même réflexe m'a fait monter des attaques MITM sur mes propres échanges RSA, pour voir lesquelles passaient avant d'ajouter la signature qui les bloque.
+Je me suis orienté vers la sécurité pour une raison simple : j'aime comprendre comment un système fonctionne, repérer où il cède, et trouver ce qu'il faut pour qu'il tienne. Mon parcours m'a fait passer par le développement, l'administration système, le réseau et la sécurité, et c'est cette vision d'ensemble qui m'intéresse aujourd'hui, plutôt qu'un outil isolé.
 
-Je travaille aussi sur la **détection** au quotidien : SIEM, corrélation d'événements, analyse d'incidents, et l'**infrastructure réseau** qui va avec.
+**Quand une contrainte revient trop souvent, j'écris ce qui la fait disparaître.** La plupart des projets ci-dessous sont nés comme ça : un émargement à cliquer chaque semaine, un ami coiffeur qui gérait ses rendez-vous par messages, des mots de passe éparpillés sans coffre à qui les confier.
 
-> Ouvert à une **alternance** ou un **stage** en cybersécurité, infrastructure ou systèmes embarqués.
+### Au quotidien
+
+Exploitation et analyse des journaux de sécurité avec un **SIEM**, détection d'événements, audit de configurations, administration système et problématiques réseau.
+
+En parallèle, mes projets personnels et académiques me font creuser **Python**, **Linux**, la **cryptographie appliquée** et la sécurité. Ce qui me plaît, c'est le passage de la théorie à la pratique : comprendre le problème, expérimenter, analyser, puis sécuriser l'existant.
+
+### Objectif
+
+Un premier poste au **Luxembourg** à partir de **septembre 2027**, à l'issue de mon cursus d'ingénieur.
+
+Je m'intéresse aux opportunités en **cybersécurité**, **infrastructure**, **sécurité opérationnelle** et **ingénierie des systèmes et réseaux**. Continuer à apprendre, gagner en expertise, et contribuer à la sécurité des systèmes d'information.
 
 ---
 
@@ -26,7 +36,7 @@ Je travaille aussi sur la **détection** au quotidien : SIEM, corrélation d'év
 
 <a href="https://github.com/Microcoaster"><img src="docs/projets/microcoaster.png" alt="MicroCoaster, embarqué : une carte conçue de zéro, son firmware et l'application web qui la pilote" width="100%"></a>
 
-<sub>Travail mené au sein de l'organisation <a href="https://github.com/Microcoaster"><b>MicroCoaster</b></a> (<a href="https://microcoaster.com">microcoaster.com</a>) : conception des PCB, firmware ESP32 des modules, gestionnaire Wi-Fi, application web de pilotage. Autour : <a href="https://github.com/Microcoaster/Microcoaster-bot">bot garanties et billetterie</a> · <a href="https://github.com/Cybertrist/MicroCoaster_Docs">documentation</a> · <a href="https://github.com/Cybertrist/MicroCoaster_Forum">forum</a></sub>
+<sub>Projet mené au sein de l'organisation <a href="https://github.com/Microcoaster"><b>MicroCoaster</b></a> (<a href="https://microcoaster.com">microcoaster.com</a>) : conception des PCB, firmware ESP32 des modules, gestionnaire Wi-Fi, application web de pilotage. Autour : <a href="https://github.com/Microcoaster/Microcoaster-bot">bot garanties et billetterie</a> · <a href="https://github.com/Cybertrist/MicroCoaster_Docs">documentation</a> · <a href="https://github.com/Cybertrist/MicroCoaster_Forum">forum</a></sub>
 
 <table>
 <tr>
