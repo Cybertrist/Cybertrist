@@ -14,11 +14,9 @@
 
 Élève ingénieur à l'**ENSIBS**, filière **cyberdéfense**, l'une des rares écoles françaises entièrement dédiées à la cybersécurité.
 
-J'ai deux obsessions, et elles se sont rejointes. La première, c'est la sécurité : comprendre comment les choses cassent, et ce qu'il faut pour qu'elles tiennent. La seconde, ce sont les **montagnes russes**. Ça paraît anecdotique jusqu'à ce qu'on regarde ce qu'il y a dedans : des automates, des capteurs, des cartes électroniques, des systèmes temps réel où une erreur ne pardonne pas.
+Ce qui m'intéresse, c'est la chaîne complète et ses points de rupture. J'ai conçu une **carte électronique** de zéro, écrit le firmware qui tourne dessus, fait remonter sa télémétrie jusqu'à une application web, et sécurisé le trajet entre les deux. Le même réflexe m'a fait monter des attaques MITM sur mes propres échanges RSA, pour voir lesquelles passaient avant d'ajouter la signature qui les bloque.
 
-C'est exactement ce que je suis allé chercher chez MicroCoaster™ : concevoir la carte, écrire le firmware, faire remonter la télémétrie jusqu'à une application web, et sécuriser la chaîne complète. Du capteur au serveur.
-
-En parallèle, je travaille sur la **détection** (SIEM, corrélation d'événements, analyse d'incidents) et sur l'**infrastructure réseau** au quotidien.
+Je travaille aussi sur la **détection** au quotidien : SIEM, corrélation d'événements, analyse d'incidents, et l'**infrastructure réseau** qui va avec.
 
 > Ouvert à une **alternance** ou un **stage** en cybersécurité, infrastructure ou systèmes embarqués.
 
