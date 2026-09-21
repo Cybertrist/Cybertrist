@@ -43,11 +43,11 @@ Je travaille aussi sur la **détection** au quotidien : SIEM, corrélation d'év
 </tr>
 <tr>
 <td width="50%"><img src="docs/projets/kyrlcut.png" alt="KyrlCut, web : réservation en ligne pour salon de coiffure, dépôt privé" width="100%"></td>
-<td width="50%"><img src="docs/projets/bodycount.png" alt="BodyCount, mobile : journal chiffré hors ligne sur Android, dépôt privé" width="100%"></td>
+<td width="50%"><a href="https://github.com/Cybertrist/BodyCount"><img src="docs/projets/bodycount.png" alt="BodyCount, mobile : journal chiffré hors ligne sur Android" width="100%"></a></td>
 </tr>
 </table>
 
-<sub>Chaque bannière porte sa catégorie. Les deux dernières sont marquées <b>privé</b> : le code n'est pas public, l'un étant livré à un client, l'autre encore en chantier.</sub>
+<sub>Chaque bannière porte sa catégorie. KyrlCut est marqué <b>privé</b> : c'est un livrable client, son code reste fermé.</sub>
 
 ---
 
