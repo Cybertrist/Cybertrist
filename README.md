@@ -2,7 +2,11 @@
 
 <img src="docs/banniere.png" alt="Tristan Joncour, cyberdéfense, infrastructure, sécurité opérationnelle" width="100%">
 
-<img src="docs/entete.png" alt="ENSIBS, ingénieur cyberdéfense · Vannes, Bretagne · Objectif : Luxembourg, septembre 2027" width="100%">
+<p>
+  <img src="https://img.shields.io/badge/ENSIBS-Ing%C3%A9nieur%20Cyberd%C3%A9fense-0D1117?style=for-the-badge&logo=akamai&logoColor=E23B4E&labelColor=0D1117" alt="ENSIBS" />
+  <img src="https://img.shields.io/badge/Vannes-Bretagne-0D1117?style=for-the-badge&logo=googlemaps&logoColor=E23B4E&labelColor=0D1117" alt="Vannes" />
+  <img src="https://img.shields.io/badge/Luxembourg-Septembre%202027-0D1117?style=for-the-badge&logo=target&logoColor=E23B4E&labelColor=0D1117" alt="Objectif Luxembourg" />
+</p>
 
 </div>
 
@@ -51,21 +55,65 @@ Je m'intéresse aux postes en **cybersécurité**, **infrastructure**, **sécuri
 
 <sub>Chaque bannière porte sa catégorie en haut à droite. KyrlCut est marqué <b>privé</b> : c'est un livrable client, son code reste fermé.</sub>
 
-**Serenity** est le projet sur lequel je mets le plus d'exigence. Le serveur ne voit jamais rien en clair : dérivation Argon2id, chiffrement XChaCha20-Poly1305 côté client via libsodium. Un agent autonome surveille les fuites connues et fait tourner les mots de passe compromis, sous liste blanche et coupe-circuit. 163 tests Python, 43 TypeScript, et 8 jobs de CI par pull request dont un exercice de restauration qui détruit vraiment un coffre jetable.
-
 <img src="docs/sections/chantier.png" alt="En chantier" width="100%">
 
-<img src="docs/chantier/proxy.png" alt="Reverse proxy et VPN auto-hébergés, en cours" width="100%">
+<img src="docs/chantier/proxy.png" alt="Reverse proxy et VPN auto-hébergés, en cours. Exposer ce qui doit l'être et rien d'autre : un point d'entrée unique, terminaison TLS, et un tunnel privé pour le reste. Nginx, WireGuard, Debian, auto-hébergé." width="100%">
 
-<img src="docs/chantier/budget.png" alt="Gestionnaire de budget, planifié" width="100%">
+<img src="docs/chantier/budget.png" alt="Gestionnaire de budget, planifié. Savoir où part l'argent sans ressaisir trois fois la même dépense : catégories, échéances, et un bilan qui tient sur un écran." width="100%">
 
-<a href="https://github.com/Cybertrist/BodyCount"><img src="docs/chantier/bodycount.png" alt="BodyCount, à finir" width="100%"></a>
+<a href="https://github.com/Cybertrist/BodyCount"><img src="docs/chantier/bodycount.png" alt="BodyCount, à finir. Le chiffrement de la base manque encore : SQLCipher et clé dérivée du Keystore. La biométrie verrouille l'interface, elle ne chiffre rien. Restent aussi l'export chiffré et les écrans de statistiques." width="100%"></a>
 
 <img src="docs/sections/stack.png" alt="Stack" width="100%">
 
-<img src="docs/sections/stack-board.png" alt="Sécurité et supervision : LogPoint, Fortinet, Wireshark, analyse de journaux, audit de configuration. Systèmes et virtualisation : Linux, Debian, Windows Server, VMware, Proxmox. Environnement Microsoft : Microsoft 365, Exchange, Active Directory, PowerShell. Réseau et exploitation : Nginx, Docker, Cloudflare, Jira, Git, GitHub Actions. Langages : Python, JavaScript, TypeScript, Java, C, C++, Dart, assembleur x86, Bash. Web et mobile : Node.js, Express, React, FastAPI, Flutter, Tailwind, Vite. Données : MySQL, SQLite, MongoDB, Firebase. Embarqué : ESP32, PlatformIO, Arduino, Raspberry Pi." width="100%">
+<div align="center">
 
-<sub>Les trois premières lignes sont ce que je pratique en alternance, le reste vient des projets ci-dessus.</sub>
+**Sécurité et supervision**
+
+<img src="https://img.shields.io/badge/LogPoint-SIEM-E23B4E?style=for-the-badge&labelColor=0D1117" alt="LogPoint" />
+<img src="https://img.shields.io/badge/Fortinet-EE3124?style=for-the-badge&logo=fortinet&logoColor=white&labelColor=0D1117" alt="Fortinet" />
+<img src="https://img.shields.io/badge/Wireshark-1679A7?style=for-the-badge&logo=wireshark&logoColor=white&labelColor=0D1117" alt="Wireshark" />
+
+**Systèmes et virtualisation**
+
+<img src="https://img.shields.io/badge/VMware-607078?style=for-the-badge&logo=vmware&logoColor=white&labelColor=0D1117" alt="VMware" />
+<img src="https://img.shields.io/badge/Proxmox-E57000?style=for-the-badge&logo=proxmox&logoColor=white&labelColor=0D1117" alt="Proxmox" />
+<img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black&labelColor=0D1117" alt="Linux" />
+<img src="https://img.shields.io/badge/Debian-A81D33?style=for-the-badge&logo=debian&logoColor=white&labelColor=0D1117" alt="Debian" />
+<img src="https://img.shields.io/badge/Windows%20Server-0078D6?style=for-the-badge&labelColor=0D1117" alt="Windows Server" />
+
+**Environnement Microsoft**
+
+<img src="https://img.shields.io/badge/Microsoft%20365-D83B01?style=for-the-badge&labelColor=0D1117" alt="Microsoft 365" />
+<img src="https://img.shields.io/badge/Exchange-0078D4?style=for-the-badge&labelColor=0D1117" alt="Exchange" />
+<img src="https://img.shields.io/badge/Active%20Directory-00A4EF?style=for-the-badge&labelColor=0D1117" alt="Active Directory" />
+<img src="https://img.shields.io/badge/PowerShell-5391FE?style=for-the-badge&labelColor=0D1117" alt="PowerShell" />
+
+**Exploitation**
+
+<img src="https://img.shields.io/badge/Jira-0052CC?style=for-the-badge&logo=jira&logoColor=white&labelColor=0D1117" alt="Jira" />
+<img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white&labelColor=0D1117" alt="Docker" />
+<img src="https://img.shields.io/badge/Nginx-009639?style=for-the-badge&logo=nginx&logoColor=white&labelColor=0D1117" alt="Nginx" />
+<img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white&labelColor=0D1117" alt="Git" />
+
+<br>
+
+**Langages**
+
+<img src="https://skillicons.dev/icons?i=python,js,ts,java,dart,c,cpp,bash&theme=dark" alt="Langages" />
+
+**Web et mobile**
+
+<img src="https://skillicons.dev/icons?i=nodejs,express,react,fastapi,flutter,tailwind,vite,html,css&theme=dark" alt="Web et mobile" />
+
+**Infrastructure et données**
+
+<img src="https://skillicons.dev/icons?i=linux,debian,docker,nginx,mysql,sqlite,mongodb,firebase,git,githubactions&theme=dark" alt="Infrastructure et données" />
+
+**Sécurité et embarqué**
+
+<img src="https://skillicons.dev/icons?i=kali,arduino,raspberrypi,cloudflare,vscode,idea&theme=dark" alt="Sécurité et embarqué" />
+
+</div>
 
 <img src="docs/sections/contact.png" alt="Contact" width="100%">
 
