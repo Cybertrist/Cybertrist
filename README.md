@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0D1117,45:1F6FEB,100:58A6FF&height=190&section=header&text=Tristan%20Joncour&fontColor=FFFFFF&fontSize=50&fontAlignY=33&desc=Cyberd%C3%A9fense%20%C2%B7%20Infrastructure%20%C2%B7%20Syst%C3%A8mes%20embarqu%C3%A9s&descAlignY=53&descSize=16" alt="Tristan Joncour" />
+<img src="docs/banniere.png" alt="Tristan Joncour, cyberdéfense, infrastructure, systèmes embarqués" width="100%">
 
 <p>
   <img src="https://img.shields.io/badge/ENSIBS-Ing%C3%A9nieur%20Cyberd%C3%A9fense-0D1117?style=for-the-badge&logo=akamai&logoColor=58A6FF&labelColor=0D1117" alt="ENSIBS" />
