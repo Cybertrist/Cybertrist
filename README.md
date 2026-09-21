@@ -65,7 +65,7 @@ Je m'intéresse aux postes en **cybersécurité**, **infrastructure**, **sécuri
 
 <img src="docs/sections/stack.png" alt="Stack" width="100%">
 <p align="center"><img src="docs/stack/lab-securite.png" alt="Sécurité et supervision" width="560" /></p>
-<p align="center"><img src="docs/stack/securite.png" alt="LogPoint, Fortinet, Wireshark" width="160" /></p>
+<p align="center"><img src="docs/stack/securite.png" alt="LogPoint, Centreon, Fortinet, Wireshark" width="216" /></p>
 <p align="center"><img src="docs/stack/lab-systemes.png" alt="Systèmes et virtualisation" width="560" /></p>
 <p align="center"><img src="docs/stack/systemes.png" alt="VMware, VirtualBox, Proxmox, Linux, Debian, Windows Server" width="328" /></p>
 <p align="center"><img src="docs/stack/lab-microsoft.png" alt="Environnement Microsoft" width="560" /></p>
@@ -80,6 +80,8 @@ Je m'intéresse aux postes en **cybersécurité**, **infrastructure**, **sécuri
 <p align="center"><img src="https://skillicons.dev/icons?i=mysql,sqlite,mongodb,firebase&theme=dark" alt="MySQL, SQLite, MongoDB, Firebase" /></p>
 <p align="center"><img src="docs/stack/lab-embarque.png" alt="Sécurité et embarqué" width="560" /></p>
 <p align="center"><img src="https://skillicons.dev/icons?i=kali,arduino,raspberrypi,cloudflare,vscode,idea&theme=dark" alt="Sécurité et embarqué" /></p>
+<p align="center"><img src="docs/stack/lab-assistants.png" alt="Assistants et prompting" width="560" /></p>
+<p align="center"><img src="docs/stack/assistants.png" alt="Claude, ChatGPT, GitHub Copilot" width="160" /></p>
 <img src="docs/sections/contact.png" alt="Contact" width="100%">
 
 <div align="center">
