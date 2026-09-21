@@ -1,76 +1,148 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0D1117,50:1F6FEB,100:58A6FF&height=180&section=header&text=Tristan%20Joncour&fontColor=FFFFFF&fontSize=48&fontAlignY=34&desc=Infrastructure%20%C2%B7%20R%C3%A9seau%20%C2%B7%20Cybers%C3%A9curit%C3%A9&descAlignY=54&descSize=16" alt="Tristan Joncour" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0D1117,45:1F6FEB,100:58A6FF&height=190&section=header&text=Tristan%20Joncour&fontColor=FFFFFF&fontSize=50&fontAlignY=33&desc=Cyberd%C3%A9fense%20%C2%B7%20Infrastructure%20%C2%B7%20Syst%C3%A8mes%20embarqu%C3%A9s&descAlignY=53&descSize=16" alt="Tristan Joncour" />
 
 <p>
-  <a href="https://spaceprojects.fr/"><img src="https://img.shields.io/badge/Site-spaceprojects.fr-58A6FF?style=flat-square&logo=firefox-browser&logoColor=white&labelColor=0D1117" alt="Site" /></a>
-  <img src="https://img.shields.io/badge/Bretagne-FR-0D1117?style=flat-square&logo=googlemaps&logoColor=58A6FF&labelColor=0D1117" alt="Bretagne" />
-  <img src="https://img.shields.io/badge/ENSIBS-Cyberd%C3%A9fense-0D1117?style=flat-square&logo=academia&logoColor=58A6FF&labelColor=0D1117" alt="ENSIBS" />
-  <img src="https://komarev.com/ghpvc/?username=Cybertrist&style=flat-square&color=1F6FEB&label=Visites" alt="Vues du profil" />
+  <img src="https://img.shields.io/badge/ENSIBS-Ing%C3%A9nieur%20Cyberd%C3%A9fense-0D1117?style=for-the-badge&logo=akamai&logoColor=58A6FF&labelColor=0D1117" alt="ENSIBS" />
+  <img src="https://img.shields.io/badge/Bretagne-France-0D1117?style=for-the-badge&logo=googlemaps&logoColor=58A6FF&labelColor=0D1117" alt="Bretagne" />
+  <a href="https://spaceprojects.fr/"><img src="https://img.shields.io/badge/spaceprojects.fr-1F6FEB?style=for-the-badge&logo=firefoxbrowser&logoColor=white&labelColor=0D1117" alt="Site" /></a>
+  <img src="https://komarev.com/ghpvc/?username=Cybertrist&style=for-the-badge&color=1F6FEB&label=VUES" alt="Vues du profil" />
 </p>
 
 </div>
 
 ---
 
-Étudiant ingénieur à l'**ENSIBS** (Université Bretagne Sud), filière cyberdéfense. Je travaille surtout sur ce qui tient debout entre la machine et le réseau : **infrastructure, systèmes, sécurité**.
+Élève ingénieur à l'**ENSIBS**, filière **cyberdéfense** — l'une des rares écoles françaises entièrement dédiées à la cybersécurité.
 
-J'aime comprendre comment les choses cassent. Ça m'a amené à écrire un gestionnaire de mots de passe chiffré de bout en bout, à monter des attaques MITM sur mes propres échanges RSA pour voir ce qui tenait, et à recoder `dir /s` en assembleur parce que la question « mais concrètement, ça fait quoi le CPU ? » ne me lâchait pas.
+Ce qui m'intéresse, c'est la chaîne complète. Pas juste le code : le capteur, la carte qui le porte, le protocole qui remonte la mesure, le serveur qui la reçoit, et la façon dont tout ça casse quand on le pousse. J'ai conçu une PCB de zéro et écrit le firmware qui tourne dessus ; j'ai aussi monté des attaques MITM sur mes propres échanges RSA pour voir lesquelles passaient.
 
-Le reste du temps, je construis des trucs qui servent : des bots qui gèrent de vraies communautés, des apps mobiles, et des scripts qui m'évitent des tâches répétitives.
+En parallèle, je travaille sur la **détection** — SIEM, corrélation d'événements, analyse d'incidents — et sur l'**infrastructure réseau** au quotidien.
 
-```
-Actuellement  →  Serenity — gestionnaire de mots de passe auto-hébergé, zero-knowledge
-Je creuse     →  durcissement système, détection, réseau bas niveau
-Ouvert à      →  alternance / stage en cybersécurité ou infrastructure
+```console
+$ whoami --now
+  focus       : cyberdéfense, détection, durcissement système
+  en cours    : gestionnaire de mots de passe zero-knowledge auto-hébergé
+  je creuse   : reverse proxy & VPN maison, réseau bas niveau, embarqué
+  ouvert à    : alternance / stage — cybersécurité, infrastructure, embarqué
 ```
 
 ---
 
-## Projets
+## 🏭 Projet phare — MicroCoaster™
+
+> **Une carte électronique conçue de zéro, son firmware, et l'application web qui la pilote.**
+> Projet mené avec **MicroCoaster™**, une entreprise réelle, de la conception matérielle jusqu'à la mise en production.
 
 <table>
 <tr>
-<td width="50%" valign="top">
+<td width="33%" valign="top" align="center">
 
-### 🔐 Serenity
-Gestionnaire de mots de passe **auto-hébergé** et **zero-knowledge**. Chiffrement côté client (XChaCha20-Poly1305, Argon2id), agent autonome qui surveille les fuites et fait tourner les mots de passe tout seul.
+### 🔌 Matériel
 
-`FastAPI` `React` `libsodium` `Docker` `Playwright`
+PCB **dessinée intégralement**, choix et routage de tous les composants, microcontrôleur embarqué.
 
-</td>
-<td width="50%" valign="top">
-
-### 🛡️ Messagerie sécurisée RSA/AES
-Chaîne complète : échange RSA, chiffrement hybride AES, puis **je casse mon propre protocole** — MITM, substitution de clé publique, usurpation d'identité — avant de le durcir par signature.
-
-`Python` `Cryptographie` `MITM` `Flask`
+<img src="https://img.shields.io/badge/PCB-design-4CAF50?style=flat-square&logo=kicad&logoColor=white" /><br>
+<img src="https://img.shields.io/badge/Microcontr%C3%B4leur-embarqu%C3%A9-525252?style=flat-square&logo=arduino&logoColor=white" />
 
 </td>
-</tr>
-<tr>
-<td width="50%" valign="top">
+<td width="33%" valign="top" align="center">
 
-### ⚙️ DIR-ASM
-Réimplémentation de `dir /s` en **assembleur MASM32**, versions CLI et GUI. Parcours récursif de l'arborescence, appels Win32 API bruts, zéro runtime.
+### 📡 IoT
 
-`Assembly` `MASM32` `Win32 API`
+Remontée des mesures du matériel vers le serveur, liaison chiffrée de bout en bout.
+
+<img src="https://img.shields.io/badge/IoT-t%C3%A9l%C3%A9m%C3%A9trie-FF6F00?style=flat-square&logo=mqtt&logoColor=white" /><br>
+<img src="https://img.shields.io/badge/HTTPS-TLS-2EA043?style=flat-square&logo=letsencrypt&logoColor=white" />
 
 </td>
-<td width="50%" valign="top">
+<td width="33%" valign="top" align="center">
 
-### 📦 Huffman
-Trois variantes de compression Huffman : statique, classique (arbre embarqué) et **adaptatif en streaming**, où l'arbre se reconstruit au fil du flux.
+### 🌐 Logiciel
 
-`Python` `Algorithmique` `Théorie de l'information`
+Application web de pilotage, plus l'écosystème de support : garanties, billetterie, documentation.
+
+<img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white" /><br>
+<img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white" />
 
 </td>
 </tr>
 </table>
 
 <div align="center">
-<sub>Aussi dans le coin : <a href="https://github.com/Cybertrist/Microcoaster">Microcoaster</a> (bot Discord de support, garanties & tickets) · <a href="https://github.com/Cybertrist/BeVannes">BeVannes</a> (Flutter, BeReal × GeoGuessr) · <a href="https://github.com/Cybertrist/ubhess-emargement">ubhess-emargement</a> (automatisation Moodle)</sub>
+<sub>Dépôts liés :
+<a href="https://github.com/Cybertrist/Microcoaster">bot support & garanties</a> ·
+<a href="https://github.com/Cybertrist/MicroCoaster_Docs">documentation</a> ·
+<a href="https://github.com/Cybertrist/MicroCoaster_Forum">forum</a></sub>
 </div>
+
+---
+
+## 🔐 Sécurité & cryptographie
+
+<div align="center">
+
+<a href="https://github.com/Cybertrist/Messagerie-securise-RSA-AES">
+<img src="https://github-readme-stats.vercel.app/api/pin/?username=Cybertrist&repo=Messagerie-securise-RSA-AES&bg_color=0D1117&title_color=58A6FF&text_color=C9D1D9&icon_color=1F6FEB&border_color=30363D&description_lines_count=3" />
+</a>
+<a href="https://github.com/Cybertrist/DIR-ASM">
+<img src="https://github-readme-stats.vercel.app/api/pin/?username=Cybertrist&repo=DIR-ASM&bg_color=0D1117&title_color=58A6FF&text_color=C9D1D9&icon_color=1F6FEB&border_color=30363D&description_lines_count=3" />
+</a>
+
+</div>
+
+**Serenity** — non public pour l'instant
+
+> Gestionnaire de mots de passe **auto-hébergé** et **zero-knowledge**. Le serveur ne voit jamais rien en clair : dérivation Argon2id, chiffrement XChaCha20-Poly1305 côté client via libsodium. Un agent autonome surveille les fuites connues et fait tourner les mots de passe compromis tout seul, sous liste blanche et coupe-circuit.
+>
+> `FastAPI` · `React` · `libsodium` · `Docker` · `Playwright` · `Tailscale`
+> CI, `SECURITY.md`, gitleaks et Dependabot en place.
+
+---
+
+## 🛠️ Ingénierie & bas niveau
+
+<div align="center">
+
+<a href="https://github.com/Cybertrist/Huffman">
+<img src="https://github-readme-stats.vercel.app/api/pin/?username=Cybertrist&repo=Huffman&bg_color=0D1117&title_color=58A6FF&text_color=C9D1D9&icon_color=1F6FEB&border_color=30363D&description_lines_count=3" />
+</a>
+<a href="https://github.com/Cybertrist/Microcoaster">
+<img src="https://github-readme-stats.vercel.app/api/pin/?username=Cybertrist&repo=Microcoaster&bg_color=0D1117&title_color=58A6FF&text_color=C9D1D9&icon_color=1F6FEB&border_color=30363D&description_lines_count=3" />
+</a>
+
+</div>
+
+---
+
+## 📱 Applications
+
+<div align="center">
+
+<a href="https://github.com/Cybertrist/BeVannes">
+<img src="https://github-readme-stats.vercel.app/api/pin/?username=Cybertrist&repo=BeVannes&bg_color=0D1117&title_color=58A6FF&text_color=C9D1D9&icon_color=1F6FEB&border_color=30363D&description_lines_count=3" />
+</a>
+<a href="https://github.com/Cybertrist/ubhess-emargement">
+<img src="https://github-readme-stats.vercel.app/api/pin/?username=Cybertrist&repo=ubhess-emargement&bg_color=0D1117&title_color=58A6FF&text_color=C9D1D9&icon_color=1F6FEB&border_color=30363D&description_lines_count=3" />
+</a>
+
+</div>
+
+**KyrlCut** — plateforme de réservation livrée à un client
+
+> Développée pour un ami coiffeur qui gérait ses rendez-vous par messages. Accès **sur invitation uniquement** : il distribue un code à ses clients, eux seuls peuvent créer un compte. Créneaux découpés automatiquement selon la durée de la prestation, confirmations et annulations par email, back-office complet.
+>
+> `Express` · `MySQL` · `bcrypt` · `Nodemailer` · `node-cron`
+
+---
+
+## 🚧 En chantier
+
+| Projet | Où j'en suis |
+|:--|:--|
+| **Reverse proxy & VPN auto-hébergés** | Atteindre mes services à distance sans dépendre de Tailscale — TLS, authentification en amont, exposition minimale |
+| **Gestionnaire de budget** | Application de suivi de dépenses, prochaine sur la liste |
+| **BodyCount** | Application Android de journal chiffré hors ligne. Fonctionnelle, pas encore finie |
 
 ---
 
@@ -80,21 +152,25 @@ Trois variantes de compression Huffman : statique, classique (arbre embarqué) e
 
 **Langages**
 
-<img src="https://skillicons.dev/icons?i=python,js,java,dart,bash,c&theme=dark" alt="Langages" />
+<img src="https://skillicons.dev/icons?i=python,js,java,dart,c,bash&theme=dark" alt="Langages" />
 
 **Web & mobile**
 
 <img src="https://skillicons.dev/icons?i=nodejs,express,react,fastapi,flutter,tailwind,html,css&theme=dark" alt="Web et mobile" />
 
-**Infra & données**
+**Infrastructure & données**
 
-<img src="https://skillicons.dev/icons?i=linux,debian,docker,nginx,mysql,mongodb,git,githubactions&theme=dark" alt="Infra et données" />
+<img src="https://skillicons.dev/icons?i=linux,debian,docker,nginx,mysql,mongodb,firebase,git,githubactions&theme=dark" alt="Infrastructure" />
+
+**Sécurité & embarqué**
+
+<img src="https://skillicons.dev/icons?i=kali,arduino,raspberrypi,cloudflare&theme=dark" alt="Sécurité et embarqué" />
 
 </div>
 
 <div align="center">
 <sub>
-Et au quotidien : Proxmox · Wireshark · Nmap · Burp Suite · Tailscale · Argon2id / libsodium · Selenium & Playwright
+Au quotidien : SIEM & corrélation d'événements · analyse d'incidents · assembleur x86 (MASM32) · Argon2id & libsodium · Selenium / Playwright · Tailscale
 </sub>
 </div>
 
@@ -104,8 +180,12 @@ Et au quotidien : Proxmox · Wireshark · Nmap · Burp Suite · Tailscale · Arg
 
 <div align="center">
 
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=Cybertrist&show_icons=true&hide_border=true&count_private=true&include_all_commits=true&bg_color=0D1117&title_color=58A6FF&text_color=C9D1D9&icon_color=1F6FEB&ring_color=58A6FF" alt="Statistiques GitHub" />
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Cybertrist&layout=compact&hide_border=true&langs_count=8&hide=html,css,shell&bg_color=0D1117&title_color=58A6FF&text_color=C9D1D9" alt="Langages les plus utilisés" />
+<img height="170" src="https://github-readme-stats.vercel.app/api?username=Cybertrist&show_icons=true&hide_border=true&count_private=true&include_all_commits=true&bg_color=0D1117&title_color=58A6FF&text_color=C9D1D9&icon_color=1F6FEB&ring_color=58A6FF" alt="Statistiques GitHub" />
+<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Cybertrist&layout=compact&hide_border=true&langs_count=8&hide=html,css&bg_color=0D1117&title_color=58A6FF&text_color=C9D1D9" alt="Langages" />
+
+<br>
+
+<img height="170" src="https://github-readme-streak-stats.herokuapp.com/?user=Cybertrist&hide_border=true&background=0D1117&stroke=30363D&ring=58A6FF&fire=1F6FEB&currStreakLabel=58A6FF&sideLabels=C9D1D9&dates=8B949E&currStreakNum=C9D1D9&sideNums=C9D1D9" alt="Série de contributions" />
 
 </div>
 
@@ -113,12 +193,12 @@ Et au quotidien : Proxmox · Wireshark · Nmap · Burp Suite · Tailscale · Arg
 
 <div align="center">
 
-<a href="mailto:tristanjoncour29@gmail.com"><img src="https://img.shields.io/badge/Me%20contacter-tristanjoncour29%40gmail.com-1F6FEB?style=for-the-badge&logo=gmail&logoColor=white&labelColor=0D1117" alt="Email" /></a>
-<a href="https://spaceprojects.fr/"><img src="https://img.shields.io/badge/Portfolio-spaceprojects.fr-58A6FF?style=for-the-badge&logo=aboutdotme&logoColor=white&labelColor=0D1117" alt="Portfolio" /></a>
+<a href="mailto:tristanjoncour29@gmail.com"><img src="https://img.shields.io/badge/Me%20contacter-1F6FEB?style=for-the-badge&logo=gmail&logoColor=white&labelColor=0D1117" alt="Email" /></a>
+<a href="https://spaceprojects.fr/"><img src="https://img.shields.io/badge/Portfolio-58A6FF?style=for-the-badge&logo=aboutdotme&logoColor=white&labelColor=0D1117" alt="Portfolio" /></a>
 
 <br><br>
 
-<sub>« Sécurisé, ou pas. Il n'y a pas d'entre-deux. »</sub>
+<sub><i>Construire, puis chercher où ça casse.</i></sub>
 
 <br><br>
 
