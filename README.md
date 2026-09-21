@@ -134,6 +134,5 @@ Je m'intéresse aux postes en **cybersécurité**, **infrastructure**, **sécuri
 
 <br><br>
 
-<sub><i>Une problématique, je la résous. Et j'en fais un outil.</i></sub>
 
 </div>
