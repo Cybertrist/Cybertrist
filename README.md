@@ -13,23 +13,23 @@
 
 ---
 
-Élève ingénieur à l'**ENSIBS**, filière **cyberdéfense** — l'une des rares écoles françaises entièrement dédiées à la cybersécurité.
+Élève ingénieur à l'**ENSIBS**, filière **cyberdéfense**, l'une des rares écoles françaises entièrement dédiées à la cybersécurité.
 
-Ce qui m'intéresse, c'est la chaîne complète. Pas juste le code : le capteur, la carte qui le porte, le protocole qui remonte la mesure, le serveur qui la reçoit, et la façon dont tout ça casse quand on le pousse. J'ai conçu une PCB de zéro et écrit le firmware qui tourne dessus ; j'ai aussi monté des attaques MITM sur mes propres échanges RSA pour voir lesquelles passaient.
+Ce qui m'intéresse, c'est la chaîne complète. Pas seulement le code : le capteur, la carte qui le porte, le protocole qui remonte la mesure, le serveur qui la reçoit, et la façon dont tout ça casse quand on le pousse. J'ai dessiné une PCB de zéro et écrit le firmware qui tourne dessus. J'ai aussi monté des attaques MITM sur mes propres échanges RSA pour voir lesquelles passaient.
 
-En parallèle, je travaille sur la **détection** — SIEM, corrélation d'événements, analyse d'incidents — et sur l'**infrastructure réseau** au quotidien.
+En parallèle, je travaille sur la **détection** (SIEM, corrélation d'événements, analyse d'incidents) et sur l'**infrastructure réseau** au quotidien.
 
 ```console
 $ whoami --now
   focus       : cyberdéfense, détection, durcissement système
-  en cours    : gestionnaire de mots de passe zero-knowledge auto-hébergé
-  je creuse   : reverse proxy & VPN maison, réseau bas niveau, embarqué
-  ouvert à    : alternance / stage — cybersécurité, infrastructure, embarqué
+  en cours    : Serenity, coffre de mots de passe zéro connaissance
+  je creuse   : reverse proxy et VPN maison, réseau bas niveau, embarqué
+  ouvert à    : alternance ou stage en cybersécurité, infrastructure, embarqué
 ```
 
 ---
 
-## 🏭 Projet phare — MicroCoaster™
+## 🏭 Projet phare : MicroCoaster™
 
 > **Une carte électronique conçue de zéro, son firmware, et l'application web qui la pilote.**
 > Projet mené avec **MicroCoaster™**, une entreprise réelle, de la conception matérielle jusqu'à la mise en production.
@@ -71,44 +71,39 @@ Application web de pilotage, plus l'écosystème de support : garanties, billett
 
 <div align="center">
 <sub>Dépôts liés :
-<a href="https://github.com/Cybertrist/Microcoaster">bot support & garanties</a> ·
+<a href="https://github.com/Cybertrist/Microcoaster">bot support et garanties</a> ·
 <a href="https://github.com/Cybertrist/MicroCoaster_Docs">documentation</a> ·
 <a href="https://github.com/Cybertrist/MicroCoaster_Forum">forum</a></sub>
 </div>
 
 ---
 
-## 🔐 Sécurité & cryptographie
+## 🔐 Sécurité et cryptographie
 
 <div align="center">
 
+<a href="https://github.com/Cybertrist/Serenity">
+<img src="https://github-readme-stats.vercel.app/api/pin/?username=Cybertrist&repo=Serenity&bg_color=0D1117&title_color=58A6FF&text_color=C9D1D9&icon_color=1F6FEB&border_color=30363D&description_lines_count=3" />
+</a>
 <a href="https://github.com/Cybertrist/Messagerie-securise-RSA-AES">
 <img src="https://github-readme-stats.vercel.app/api/pin/?username=Cybertrist&repo=Messagerie-securise-RSA-AES&bg_color=0D1117&title_color=58A6FF&text_color=C9D1D9&icon_color=1F6FEB&border_color=30363D&description_lines_count=3" />
-</a>
-<a href="https://github.com/Cybertrist/DIR-ASM">
-<img src="https://github-readme-stats.vercel.app/api/pin/?username=Cybertrist&repo=DIR-ASM&bg_color=0D1117&title_color=58A6FF&text_color=C9D1D9&icon_color=1F6FEB&border_color=30363D&description_lines_count=3" />
 </a>
 
 </div>
 
-**Serenity** — non public pour l'instant
-
-> Gestionnaire de mots de passe **auto-hébergé** et **zero-knowledge**. Le serveur ne voit jamais rien en clair : dérivation Argon2id, chiffrement XChaCha20-Poly1305 côté client via libsodium. Un agent autonome surveille les fuites connues et fait tourner les mots de passe compromis tout seul, sous liste blanche et coupe-circuit.
->
-> `FastAPI` · `React` · `libsodium` · `Docker` · `Playwright` · `Tailscale`
-> CI, `SECURITY.md`, gitleaks et Dependabot en place.
+**Serenity** est le projet sur lequel je mets le plus d'exigence. Le serveur ne voit jamais rien en clair : dérivation Argon2id, chiffrement XChaCha20-Poly1305 côté client via libsodium. Un agent autonome surveille les fuites connues et fait tourner les mots de passe compromis tout seul, sous liste blanche et coupe-circuit. 163 tests Python, 43 TypeScript, 8 jobs de CI par pull request dont un exercice de restauration qui détruit vraiment un coffre jetable.
 
 ---
 
-## 🛠️ Ingénierie & bas niveau
+## 🛠️ Ingénierie et bas niveau
 
 <div align="center">
 
+<a href="https://github.com/Cybertrist/DIR-ASM">
+<img src="https://github-readme-stats.vercel.app/api/pin/?username=Cybertrist&repo=DIR-ASM&bg_color=0D1117&title_color=58A6FF&text_color=C9D1D9&icon_color=1F6FEB&border_color=30363D&description_lines_count=3" />
+</a>
 <a href="https://github.com/Cybertrist/Huffman">
 <img src="https://github-readme-stats.vercel.app/api/pin/?username=Cybertrist&repo=Huffman&bg_color=0D1117&title_color=58A6FF&text_color=C9D1D9&icon_color=1F6FEB&border_color=30363D&description_lines_count=3" />
-</a>
-<a href="https://github.com/Cybertrist/Microcoaster">
-<img src="https://github-readme-stats.vercel.app/api/pin/?username=Cybertrist&repo=Microcoaster&bg_color=0D1117&title_color=58A6FF&text_color=C9D1D9&icon_color=1F6FEB&border_color=30363D&description_lines_count=3" />
 </a>
 
 </div>
@@ -119,20 +114,16 @@ Application web de pilotage, plus l'écosystème de support : garanties, billett
 
 <div align="center">
 
+<a href="https://github.com/Cybertrist/Microcoaster">
+<img src="https://github-readme-stats.vercel.app/api/pin/?username=Cybertrist&repo=Microcoaster&bg_color=0D1117&title_color=58A6FF&text_color=C9D1D9&icon_color=1F6FEB&border_color=30363D&description_lines_count=3" />
+</a>
 <a href="https://github.com/Cybertrist/BeVannes">
 <img src="https://github-readme-stats.vercel.app/api/pin/?username=Cybertrist&repo=BeVannes&bg_color=0D1117&title_color=58A6FF&text_color=C9D1D9&icon_color=1F6FEB&border_color=30363D&description_lines_count=3" />
-</a>
-<a href="https://github.com/Cybertrist/ubhess-emargement">
-<img src="https://github-readme-stats.vercel.app/api/pin/?username=Cybertrist&repo=ubhess-emargement&bg_color=0D1117&title_color=58A6FF&text_color=C9D1D9&icon_color=1F6FEB&border_color=30363D&description_lines_count=3" />
 </a>
 
 </div>
 
-**KyrlCut** — plateforme de réservation livrée à un client
-
-> Développée pour un ami coiffeur qui gérait ses rendez-vous par messages. Accès **sur invitation uniquement** : il distribue un code à ses clients, eux seuls peuvent créer un compte. Créneaux découpés automatiquement selon la durée de la prestation, confirmations et annulations par email, back-office complet.
->
-> `Express` · `MySQL` · `bcrypt` · `Nodemailer` · `node-cron`
+**KyrlCut**, plateforme de réservation livrée à un client. Développée pour un ami coiffeur qui gérait ses rendez-vous par messages. Accès sur invitation uniquement : il distribue un code à ses clients, eux seuls peuvent créer un compte. Créneaux découpés automatiquement selon la durée de la prestation, confirmations et annulations par email, back-office complet. En production sur `kyrlcut.fr`.
 
 ---
 
@@ -140,9 +131,9 @@ Application web de pilotage, plus l'écosystème de support : garanties, billett
 
 | Projet | Où j'en suis |
 |:--|:--|
-| **Reverse proxy & VPN auto-hébergés** | Atteindre mes services à distance sans dépendre de Tailscale — TLS, authentification en amont, exposition minimale |
+| **Reverse proxy et VPN auto-hébergés** | Atteindre mes services à distance sans dépendre de Tailscale : TLS, authentification en amont, exposition minimale |
 | **Gestionnaire de budget** | Application de suivi de dépenses, prochaine sur la liste |
-| **BodyCount** | Application Android de journal chiffré hors ligne. Fonctionnelle, pas encore finie |
+| **BodyCount** | Journal chiffré hors ligne sur Android. Fonctionnel, reste le chiffrement de la base au repos |
 
 ---
 
@@ -152,17 +143,17 @@ Application web de pilotage, plus l'écosystème de support : garanties, billett
 
 **Langages**
 
-<img src="https://skillicons.dev/icons?i=python,js,java,dart,c,bash&theme=dark" alt="Langages" />
+<img src="https://skillicons.dev/icons?i=python,js,ts,java,dart,c,bash&theme=dark" alt="Langages" />
 
-**Web & mobile**
+**Web et mobile**
 
-<img src="https://skillicons.dev/icons?i=nodejs,express,react,fastapi,flutter,tailwind,html,css&theme=dark" alt="Web et mobile" />
+<img src="https://skillicons.dev/icons?i=nodejs,express,react,fastapi,flutter,tailwind,vite,html&theme=dark" alt="Web et mobile" />
 
-**Infrastructure & données**
+**Infrastructure et données**
 
-<img src="https://skillicons.dev/icons?i=linux,debian,docker,nginx,mysql,mongodb,firebase,git,githubactions&theme=dark" alt="Infrastructure" />
+<img src="https://skillicons.dev/icons?i=linux,debian,docker,nginx,mysql,sqlite,firebase,git,githubactions&theme=dark" alt="Infrastructure" />
 
-**Sécurité & embarqué**
+**Sécurité et embarqué**
 
 <img src="https://skillicons.dev/icons?i=kali,arduino,raspberrypi,cloudflare&theme=dark" alt="Sécurité et embarqué" />
 
@@ -170,7 +161,7 @@ Application web de pilotage, plus l'écosystème de support : garanties, billett
 
 <div align="center">
 <sub>
-Au quotidien : SIEM & corrélation d'événements · analyse d'incidents · assembleur x86 (MASM32) · Argon2id & libsodium · Selenium / Playwright · Tailscale
+Au quotidien : SIEM et corrélation d'événements · analyse d'incidents · assembleur x86 (MASM32) · Argon2id et libsodium · Playwright et Selenium · restic · Tailscale
 </sub>
 </div>
 
@@ -185,7 +176,7 @@ Au quotidien : SIEM & corrélation d'événements · analyse d'incidents · asse
 
 <br>
 
-<img height="170" src="https://github-readme-streak-stats.herokuapp.com/?user=Cybertrist&hide_border=true&background=0D1117&stroke=30363D&ring=58A6FF&fire=1F6FEB&currStreakLabel=58A6FF&sideLabels=C9D1D9&dates=8B949E&currStreakNum=C9D1D9&sideNums=C9D1D9" alt="Série de contributions" />
+<img height="170" src="https://github-readme-streak-stats.herokuapp.com/?user=Cybertrist&hide_border=true&background=0D1117&stroke=30363D&ring=58A6FF&fire=1F6FEB&currStreakLabel=58A6FF&sideLabels=C9D1D9&dates=8B949E&currStreakNum=C9D1D9" alt="Série de contributions" />
 
 </div>
 
