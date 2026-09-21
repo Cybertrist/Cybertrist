@@ -1,64 +1,127 @@
-### **✨ CyberTrist**, Explorateur du Cyberspace 🛸
+<div align="center">
 
-🪴 *Naviguer dans les méandres du numérique, armé d’un pare-feu d’acier et de lignes de code affûtées.*  
-🛡️ *Neutraliser les failles, déjouer les attaques sournoises et esquiver les malwares comme un pro.*  
-🎢 *Entre deux exploits, quelques boucles sur des montagnes russes ou une séance de muscu pour rester en forme.*  
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0D1117,50:1F6FEB,100:58A6FF&height=180&section=header&text=Tristan%20Joncour&fontColor=FFFFFF&fontSize=48&fontAlignY=34&desc=Infrastructure%20%C2%B7%20R%C3%A9seau%20%C2%B7%20Cybers%C3%A9curit%C3%A9&descAlignY=54&descSize=16" alt="Tristan Joncour" />
 
-🚀 *Parce qu’ici, c’est tout ou rien : sécurisé 🔒 ou **ouch** 💀.*  
+<p>
+  <a href="https://spaceprojects.fr/"><img src="https://img.shields.io/badge/Site-spaceprojects.fr-58A6FF?style=flat-square&logo=firefox-browser&logoColor=white&labelColor=0D1117" alt="Site" /></a>
+  <img src="https://img.shields.io/badge/Bretagne-FR-0D1117?style=flat-square&logo=googlemaps&logoColor=58A6FF&labelColor=0D1117" alt="Bretagne" />
+  <img src="https://img.shields.io/badge/Universit%C3%A9%20Bretagne%20Sud-Cybers%C3%A9curit%C3%A9-0D1117?style=flat-square&logo=graduation-cap&logoColor=58A6FF&labelColor=0D1117" alt="UBS" />
+  <img src="https://komarev.com/ghpvc/?username=Cybertrist&style=flat-square&color=1F6FEB&label=Visites" alt="Vues du profil" />
+</p>
 
-🙌 *Connexion établie. Bienvenue dans mon espace (et pas de phishing, merci). 🐟❌*
+</div>
 
+---
 
-<details>
-  <summary><h2> 📣 Languages et outils</h2></summary>
+Étudiant en informatique à l'Université Bretagne Sud, spécialisé **infrastructure, réseau et sécurité**.
 
-### Langages de programmation
-<a href="https://www.java.com/en/" target="_blank" rel="noreferrer"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original-wordmark.svg" alt="java" width="50" height="50"/></a>
-<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-plain.svg" alt="javascript" width="50" height="50"/></a>
-<a href="https://www.python.org" target="_blank" rel="noreferrer"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original-wordmark.svg" alt="python" width="50" height="50"/></a>
+J'aime comprendre comment les choses cassent. Ça m'a amené à écrire un gestionnaire de mots de passe chiffré de bout en bout, à monter des attaques MITM sur mes propres échanges RSA pour voir ce qui tenait, et à recoder `dir /s` en assembleur parce que la question « mais concrètement, ça fait quoi le CPU ? » ne me lâchait pas.
 
-### Développement Front-End
-<a href="https://getbootstrap.com/" target="_blank" rel="noreferrer"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original-wordmark.svg" alt="bootstrap" width="50" height="50"/></a>
-<a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original-wordmark.svg" alt="css3" width="50" height="50"/></a>
-<a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original-wordmark.svg" alt="html5" width="50" height="50"/></a>
+Le reste du temps, je construis des trucs qui servent : des bots qui gèrent de vraies communautés, des apps mobiles, et des scripts qui m'évitent des tâches répétitives.
 
-### Développement du backend
-<a href="https://httpd.apache.org/" target="_blank" rel="noreferrer"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/apache/apache-original-wordmark.svg" alt="apache" width="50" height="50"/></a>
-<a href="https://nodejs.org" target="_blank" rel="noreferrer"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" alt="nodejs" width="50" height="50"/></a>
+```
+Actuellement  →  Serenity — gestionnaire de mots de passe auto-hébergé, zero-knowledge
+Je creuse     →  durcissement système, détection, réseau bas niveau
+Ouvert à      →  alternance / stage en cybersécurité ou infrastructure
+```
 
-### Base de données
-<a href="https://www.mongodb.com/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg" alt="mongodb" width="50" height="50"/></a>
-<a href="https://www.mysql.com/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="mysql" width="50" height="50"/></a>
-<a href="https://www.oracle.com/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/oracle/oracle-original.svg" alt="oracle" width="50" height="50"/></a>
+---
 
-### DevOps
-<a href="https://www.gnu.org/software/bash/" target="_blank" rel="noreferrer"><img src="https://www.vectorlogo.zone/logos/gnu_bash/gnu_bash-icon.svg" alt="bash" width="50" height="50"/></a>
-<a href="https://www.docker.com/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg" alt="docker" width="50" height="50"/></a>
+## Projets
 
-### Framework
-<a href="https://getbootstrap.com/" target="_blank" rel="noreferrer"><img src="https://upload.wikimedia.org/wikipedia/commons/b/b2/Bootstrap_logo.svg" alt="Boostrap" width="60" height="50"/></a>
+<table>
+<tr>
+<td width="50%" valign="top">
 
+### 🔐 Serenity
+Gestionnaire de mots de passe **auto-hébergé** et **zero-knowledge**. Chiffrement côté client (XChaCha20-Poly1305, Argon2id), agent autonome qui surveille les fuites et fait tourner les mots de passe tout seul.
 
-### Logiciel
-<a href="https://developer.android.com/studio" target="_blank" rel="noreferrer"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/androidstudio/androidstudio-original.svg" alt="android studio" width="50" height="50"/></a>
-<a href="https://www.google.com/chrome/" target="_blank" rel="noreferrer"><img src="https://github.com/ChromeDevTools/devtools-logo/raw/master/logos/svg/chrome-devtools-circle-responsive.svg" alt="chrome" width="50" height="50"/></a>
-<a href="https://code.visualstudio.com/" target="_blank" rel="noreferrer"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original-wordmark.svg" alt="vs code" width="50" height="50"/></a>
+`FastAPI` `React` `libsodium` `Docker` `Playwright`
 
-### Outils
-<a href="https://chat.openai.com/chat" target="_blank" rel="noreferrer"><img src="https://upload.wikimedia.org/wikipedia/commons/0/04/ChatGPT_logo.svg" alt="chatgpt" width="50" height="50"/></a>
-<a href="https://github.com/features/copilot" target="_blank" rel="noreferrer"><img src="https://github.gallerycdn.vsassets.io/extensions/github/copilot-nightly/1.86.118/1685065376405/Microsoft.VisualStudio.Services.Icons.Default" alt="copilot" width="50" height="50"/></a>
+</td>
+<td width="50%" valign="top">
 
-### Autres
-<a href="https://www.canva.com/" target="_blank" rel="noreferrer"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/canva/canva-original.svg" alt="canva" width="50" height="50"/></a>
-<a href="https://www.debian.org/" target="_blank" rel="noreferrer"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/debian/debian-original-wordmark.svg" alt="debian" width="50" height="50"/></a>
-<a href="https://git-scm.com/" target="_blank" rel="noreferrer"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original-wordmark.svg" alt="git" width="50" height="50"/></a>
-<a href="https://www.linux.org/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" alt="linux" width="50" height="50"/></a>
-<a href="https://daringfireball.net/projects/markdown/" target="_blank" rel="noreferrer"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/markdown/markdown-original.svg" alt="markdown" width="50" height="50"/></a>
-<a href="https://blogs.windows.com/blog/tag/windows-11/" target="_blank" rel="noreferrer"><img src="https://upload.wikimedia.org/wikipedia/commons/8/87/Windows_logo_-_2021.svg" alt="windows 11" width="50" height="50"/></a>
-</details>
+### 🛡️ Messagerie sécurisée RSA/AES
+Chaîne complète : échange RSA, chiffrement hybride AES, puis **je casse mon propre protocole** — MITM, substitution de clé publique, usurpation d'identité — avant de le durcir par signature.
 
-## ⭐ Quelques statistiques 💪
+`Python` `Cryptographie` `MITM` `Flask`
 
-[![Discord Presence](https://lanyard.cnrad.dev/api/634433284285268006?theme=dark&showDisplayName=true&hideSpotify=true&hideActivity=true)](https://discord.com/users/634433284285268006)
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
 
-[![Spotify Activity](https://spotify-github-profile.kittinanx.com/api/view?uid=opvbaos7dvnawhftj0c4ge42o&cover_image=true&theme=default&show_offline=false&background_color=282a36&interchange=true&bar_color=ffa200&bar_color_cover=false)](https://spotify-github-profile.vercel.app/api/view?uid=opvbaos7dvnawhftj0c4ge42o&redirect=true)  
+### ⚙️ DIR-ASM
+Réimplémentation de `dir /s` en **assembleur MASM32**, versions CLI et GUI. Parcours récursif de l'arborescence, appels Win32 API bruts, zéro runtime.
+
+`Assembly` `MASM32` `Win32 API`
+
+</td>
+<td width="50%" valign="top">
+
+### 📦 Huffman
+Trois variantes de compression Huffman : statique, classique (arbre embarqué) et **adaptatif en streaming**, où l'arbre se reconstruit au fil du flux.
+
+`Python` `Algorithmique` `Théorie de l'information`
+
+</td>
+</tr>
+</table>
+
+<div align="center">
+<sub>Aussi dans le coin : <a href="https://github.com/Cybertrist/Microcoaster">Microcoaster</a> (bot Discord de support, garanties & tickets) · <a href="https://github.com/Cybertrist/BeVannes">BeVannes</a> (Flutter, BeReal × GeoGuessr) · <a href="https://github.com/Cybertrist/ubhess-emargement">ubhess-emargement</a> (automatisation Moodle)</sub>
+</div>
+
+---
+
+## Stack
+
+<div align="center">
+
+**Langages**
+
+<img src="https://skillicons.dev/icons?i=python,js,java,dart,bash,c&theme=dark" alt="Langages" />
+
+**Web & mobile**
+
+<img src="https://skillicons.dev/icons?i=nodejs,express,react,fastapi,flutter,tailwind,html,css&theme=dark" alt="Web et mobile" />
+
+**Infra & données**
+
+<img src="https://skillicons.dev/icons?i=linux,debian,docker,nginx,mysql,mongodb,git,githubactions&theme=dark" alt="Infra et données" />
+
+</div>
+
+<div align="center">
+<sub>
+Et au quotidien : Proxmox · Wireshark · Nmap · Burp Suite · Tailscale · Argon2id / libsodium · Selenium & Playwright
+</sub>
+</div>
+
+---
+
+## Statistiques
+
+<div align="center">
+
+<img height="165" src="https://github-readme-stats.vercel.app/api?username=Cybertrist&show_icons=true&hide_border=true&count_private=true&include_all_commits=true&bg_color=0D1117&title_color=58A6FF&text_color=C9D1D9&icon_color=1F6FEB&ring_color=58A6FF" alt="Statistiques GitHub" />
+<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Cybertrist&layout=compact&hide_border=true&langs_count=8&hide=html,css,shell&bg_color=0D1117&title_color=58A6FF&text_color=C9D1D9" alt="Langages les plus utilisés" />
+
+</div>
+
+---
+
+<div align="center">
+
+<a href="mailto:tristanjoncour29@gmail.com"><img src="https://img.shields.io/badge/Me%20contacter-tristanjoncour29%40gmail.com-1F6FEB?style=for-the-badge&logo=gmail&logoColor=white&labelColor=0D1117" alt="Email" /></a>
+<a href="https://spaceprojects.fr/"><img src="https://img.shields.io/badge/Portfolio-spaceprojects.fr-58A6FF?style=for-the-badge&logo=aboutdotme&logoColor=white&labelColor=0D1117" alt="Portfolio" /></a>
+
+<br><br>
+
+<sub>« Sécurisé, ou pas. Il n'y a pas d'entre-deux. »</sub>
+
+<br><br>
+
+[![Spotify](https://spotify-github-profile.kittinanx.com/api/view?uid=opvbaos7dvnawhftj0c4ge42o&cover_image=true&theme=novatorem&show_offline=false&background_color=0d1117&bar_color=58a6ff&bar_color_cover=false)](https://spotify-github-profile.vercel.app/api/view?uid=opvbaos7dvnawhftj0c4ge42o&redirect=true)
+
+</div>
