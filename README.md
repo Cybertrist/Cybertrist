@@ -67,7 +67,7 @@ Je m'intéresse aux postes en **cybersécurité**, **infrastructure**, **sécuri
 <p align="center"><img src="docs/stack/lab-securite.png" alt="Sécurité et supervision" width="560" /></p>
 <p align="center"><img src="docs/stack/securite.png" alt="LogPoint, Fortinet, Wireshark" width="160" /></p>
 <p align="center"><img src="docs/stack/lab-systemes.png" alt="Systèmes et virtualisation" width="560" /></p>
-<p align="center"><img src="docs/stack/systemes.png" alt="VMware, Proxmox, Linux, Debian, Windows Server" width="272" /></p>
+<p align="center"><img src="docs/stack/systemes.png" alt="VMware, VirtualBox, Proxmox, Linux, Debian, Windows Server" width="328" /></p>
 <p align="center"><img src="docs/stack/lab-microsoft.png" alt="Environnement Microsoft" width="560" /></p>
 <p align="center"><img src="docs/stack/microsoft.png" alt="Microsoft 365, Exchange, Microsoft Entra ID, PowerShell" width="216" /></p>
 <p align="center"><img src="docs/stack/lab-exploitation.png" alt="Exploitation" width="560" /></p>
