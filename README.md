@@ -5,7 +5,7 @@
 <p>
   <a href="https://spaceprojects.fr/"><img src="https://img.shields.io/badge/Site-spaceprojects.fr-58A6FF?style=flat-square&logo=firefox-browser&logoColor=white&labelColor=0D1117" alt="Site" /></a>
   <img src="https://img.shields.io/badge/Bretagne-FR-0D1117?style=flat-square&logo=googlemaps&logoColor=58A6FF&labelColor=0D1117" alt="Bretagne" />
-  <img src="https://img.shields.io/badge/Universit%C3%A9%20Bretagne%20Sud-Cybers%C3%A9curit%C3%A9-0D1117?style=flat-square&logo=graduation-cap&logoColor=58A6FF&labelColor=0D1117" alt="UBS" />
+  <img src="https://img.shields.io/badge/ENSIBS-Cyberd%C3%A9fense-0D1117?style=flat-square&logo=academia&logoColor=58A6FF&labelColor=0D1117" alt="ENSIBS" />
   <img src="https://komarev.com/ghpvc/?username=Cybertrist&style=flat-square&color=1F6FEB&label=Visites" alt="Vues du profil" />
 </p>
 
@@ -13,7 +13,7 @@
 
 ---
 
-Étudiant en informatique à l'Université Bretagne Sud, spécialisé **infrastructure, réseau et sécurité**.
+Étudiant ingénieur à l'**ENSIBS** (Université Bretagne Sud), filière cyberdéfense. Je travaille surtout sur ce qui tient debout entre la machine et le réseau : **infrastructure, systèmes, sécurité**.
 
 J'aime comprendre comment les choses cassent. Ça m'a amené à écrire un gestionnaire de mots de passe chiffré de bout en bout, à monter des attaques MITM sur mes propres échanges RSA pour voir ce qui tenait, et à recoder `dir /s` en assembleur parce que la question « mais concrètement, ça fait quoi le CPU ? » ne me lâchait pas.
 
