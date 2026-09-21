@@ -71,13 +71,13 @@ Je m'intéresse aux postes en **cybersécurité**, **infrastructure**, **sécuri
 <p align="center"><img src="docs/stack/lab-microsoft.png" alt="Environnement Microsoft" width="560" /></p>
 <p align="center"><img src="docs/stack/microsoft.png" alt="Microsoft 365, Exchange, Microsoft Entra ID, PowerShell" width="216" /></p>
 <p align="center"><img src="docs/stack/lab-exploitation.png" alt="Exploitation" width="560" /></p>
-<p align="center"><img src="docs/stack/exploitation.png" alt="Jira, Docker, Nginx, Git" width="216" /></p>
+<p align="center"><img src="docs/stack/exploitation.png" alt="Jira, Docker, Nginx, Git, GitHub Actions" width="272" /></p>
 <p align="center"><img src="docs/stack/lab-langages.png" alt="Langages" width="560" /></p>
 <p align="center"><img src="https://skillicons.dev/icons?i=python,js,ts,java,dart,c,cpp,bash&theme=dark" alt="Langages" /></p>
 <p align="center"><img src="docs/stack/lab-web.png" alt="Web et mobile" width="560" /></p>
 <p align="center"><img src="https://skillicons.dev/icons?i=nodejs,express,react,fastapi,flutter,tailwind,vite,html,css&theme=dark" alt="Web et mobile" /></p>
-<p align="center"><img src="docs/stack/lab-infra.png" alt="Infrastructure et données" width="560" /></p>
-<p align="center"><img src="https://skillicons.dev/icons?i=linux,debian,docker,nginx,mysql,sqlite,mongodb,firebase,git,githubactions&theme=dark" alt="Infrastructure et données" /></p>
+<p align="center"><img src="docs/stack/lab-donnees.png" alt="Données" width="560" /></p>
+<p align="center"><img src="https://skillicons.dev/icons?i=mysql,sqlite,mongodb,firebase&theme=dark" alt="MySQL, SQLite, MongoDB, Firebase" /></p>
 <p align="center"><img src="docs/stack/lab-embarque.png" alt="Sécurité et embarqué" width="560" /></p>
 <p align="center"><img src="https://skillicons.dev/icons?i=kali,arduino,raspberrypi,cloudflare,vscode,idea&theme=dark" alt="Sécurité et embarqué" /></p>
 <img src="docs/sections/contact.png" alt="Contact" width="100%">
