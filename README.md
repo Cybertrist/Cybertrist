@@ -32,10 +32,6 @@ Je m'intéresse aux postes en **cybersécurité**, **infrastructure**, **sécuri
 
 <a href="https://github.com/Microcoaster"><img src="docs/projets/microcoaster.png" alt="MicroCoaster, embarqué : une carte conçue de zéro, son firmware et l'application web qui la pilote" width="100%"></a>
 
-<p align="center">Projet mené au sein de l'organisation <a href="https://github.com/Microcoaster"><b>MicroCoaster</b></a> (<a href="https://microcoaster.com">microcoaster.com</a>) : conception des PCB, firmware ESP32 des modules, gestionnaire Wi-Fi et application web de pilotage.</p>
-
-<br>
-
 <table align="center">
 <tr>
 <td width="50%"><a href="https://github.com/Cybertrist/Serenity"><img src="docs/projets/serenity.png" alt="Serenity, sécurité : coffre de mots de passe auto-hébergé et zéro connaissance" width="100%"></a></td>
@@ -55,7 +51,7 @@ Je m'intéresse aux postes en **cybersécurité**, **infrastructure**, **sécuri
 </tr>
 </table>
 
-<p align="center">Chaque bannière porte sa catégorie en haut à droite. KyrlCut est marqué <b>privé</b> : c'est un livrable client, son code reste fermé.</p>
+<img src="docs/notes/prive.png" alt="Dépôt privé. KyrlCut est un livrable client : son code reste fermé. Sa bannière est là pour montrer le projet, pas pour ouvrir un dépôt. Chaque bannière porte sa catégorie en haut à droite." width="100%">
 
 <img src="docs/sections/chantier.png" alt="En chantier" width="100%">
 
@@ -86,12 +82,14 @@ Je m'intéresse aux postes en **cybersécurité**, **infrastructure**, **sécuri
 <p align="center"><img src="docs/stack/assistants.png" alt="Claude, ChatGPT, GitHub Copilot" width="160" /></p>
 <img src="docs/sections/contact.png" alt="Contact" width="100%">
 
-<div align="center">
+<p align="center">Une question sur un projet, une opportunité, ou simplement l'envie de parler d'infrastructure et de sécurité :<br>l'e-mail reste le plus sûr moyen de me joindre, Discord le plus rapide.</p>
 
-<a href="mailto:tristanjoncour29@gmail.com"><img src="docs/contact/email.png" alt="Écrire : tristanjoncour29@gmail.com" width="49%"></a>
-<a href="https://discord.com/users/634433284285268006"><img src="docs/contact/discord.png" alt="Discuter sur Discord : cybertrist" width="49%"></a>
-
-<a href="https://www.instagram.com/cybertrist"><img src="docs/contact/instagram.png" alt="Suivre sur Instagram : @cybertrist" width="49%"></a>
-<a href="https://open.spotify.com/user/opvbaos7dvnawhftj0c4ge42o"><img src="docs/contact/spotify.png" alt="Écouter sur Spotify : ce que j'écoute en codant" width="49%"></a>
-
-</div>
+<p align="center">
+  <a href="mailto:tristanjoncour29@gmail.com"><img src="docs/contact/email.png" alt="Écrire à tristanjoncour29@gmail.com" width="72" /></a>
+  &nbsp;
+  <a href="https://discord.com/users/634433284285268006"><img src="docs/contact/discord.png" alt="Discuter sur Discord, cybertrist" width="72" /></a>
+  &nbsp;
+  <a href="https://www.instagram.com/cybertrist"><img src="docs/contact/instagram.png" alt="Suivre sur Instagram, arobase cybertrist" width="72" /></a>
+  &nbsp;
+  <a href="https://open.spotify.com/user/opvbaos7dvnawhftj0c4ge42o"><img src="docs/contact/spotify.png" alt="Écouter sur Spotify ce que j'écoute en codant" width="72" /></a>
+</p>
