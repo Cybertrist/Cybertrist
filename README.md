@@ -32,7 +32,7 @@ Je m'intéresse aux postes en **cybersécurité**, **infrastructure**, **sécuri
 
 <a href="https://github.com/Microcoaster"><img src="docs/projets/microcoaster.png" alt="MicroCoaster, embarqué : une carte conçue de zéro, son firmware et l'application web qui la pilote" width="100%"></a>
 
-<sub>Projet mené au sein de l'organisation <a href="https://github.com/Microcoaster"><b>MicroCoaster</b></a> (<a href="https://microcoaster.com">microcoaster.com</a>) : conception des PCB, firmware ESP32 des modules, gestionnaire Wi-Fi, application web de pilotage. Autour : bot garanties et billetterie · <a href="https://github.com/Cybertrist/MicroCoaster_Docs">documentation</a> · <a href="https://github.com/Cybertrist/MicroCoaster_Forum">forum</a></sub>
+<sub>Projet mené au sein de l'organisation <a href="https://github.com/Microcoaster"><b>MicroCoaster</b></a> (<a href="https://microcoaster.com">microcoaster.com</a>) : conception des PCB, firmware ESP32 des modules, gestionnaire Wi-Fi et application web de pilotage.</sub>
 
 <table>
 <tr>
