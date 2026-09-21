@@ -112,6 +112,7 @@ Je m'intéresse aux postes en **cybersécurité**, **infrastructure**, **sécuri
 <a href="mailto:tristanjoncour29@gmail.com"><img src="https://img.shields.io/badge/Email-tristanjoncour29%40gmail.com-E23B4E?style=for-the-badge&logo=gmail&logoColor=white&labelColor=0D1117" alt="Email" /></a>
 
 <a href="https://discord.com/users/634433284285268006"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white&labelColor=0D1117" alt="Discord" /></a>
+<a href="https://www.instagram.com/cybertrist"><img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white&labelColor=0D1117" alt="Instagram" /></a>
 <a href="https://open.spotify.com/user/opvbaos7dvnawhftj0c4ge42o"><img src="https://img.shields.io/badge/Spotify-1DB954?style=for-the-badge&logo=spotify&logoColor=white&labelColor=0D1117" alt="Spotify" /></a>
 <a href="https://github.com/Cybertrist"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white&labelColor=0D1117" alt="GitHub" /></a>
 
