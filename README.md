@@ -59,11 +59,11 @@ Je m'intéresse aux postes en **cybersécurité**, **infrastructure**, **sécuri
 
 <img src="docs/sections/chantier.png" alt="En chantier" width="100%">
 
-| Projet | Où j'en suis |
-|:--|:--|
-| **Reverse proxy et VPN auto-hébergés** | Atteindre mes services à distance sans dépendre de Tailscale : TLS, authentification en amont, exposition minimale |
-| **Gestionnaire de budget** | Application de suivi de dépenses, prochaine sur la liste |
-| **BodyCount** | Journal chiffré hors ligne sur Android. Fonctionnel, reste le chiffrement de la base au repos |
+<img src="docs/chantier/proxy.png" alt="Reverse proxy et VPN auto-hébergés, en cours" width="100%">
+
+<img src="docs/chantier/budget.png" alt="Gestionnaire de budget, planifié" width="100%">
+
+<a href="https://github.com/Cybertrist/BodyCount"><img src="docs/chantier/bodycount.png" alt="BodyCount, à finir" width="100%"></a>
 
 <img src="docs/sections/stack.png" alt="Stack" width="100%">
 
@@ -103,9 +103,5 @@ Au quotidien : SIEM et corrélation d'événements · analyse d'incidents · aud
 <br><br>
 
 <sub><i>Une problématique, je la résous. Et j'en fais un outil.</i></sub>
-
-<br><br>
-
-[![Spotify](https://spotify-github-profile.kittinanx.com/api/view?uid=opvbaos7dvnawhftj0c4ge42o&cover_image=true&theme=novatorem&show_offline=false&background_color=0d1117&bar_color=e23b4e&bar_color_cover=false)](https://spotify-github-profile.vercel.app/api/view?uid=opvbaos7dvnawhftj0c4ge42o&redirect=true)
 
 </div>
