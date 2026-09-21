@@ -97,11 +97,23 @@ Je m'intéresse aux postes en **cybersécurité**, **infrastructure**, **sécuri
 <img src="https://img.shields.io/badge/Nginx-009639?style=for-the-badge&logo=nginx&logoColor=white&labelColor=0D1117" alt="Nginx" />
 <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white&labelColor=0D1117" alt="Git" />
 
-<br><br>
+<br>
 
-**Développement**
+**Langages**
 
-<img src="https://skillicons.dev/icons?i=python,bash,js,ts,nodejs,react,fastapi,flutter,mysql,git&theme=dark" alt="Développement" />
+<img src="https://skillicons.dev/icons?i=python,js,ts,java,dart,c,cpp,bash&theme=dark" alt="Langages" />
+
+**Web et mobile**
+
+<img src="https://skillicons.dev/icons?i=nodejs,express,react,fastapi,flutter,tailwind,vite,html,css&theme=dark" alt="Web et mobile" />
+
+**Infrastructure et données**
+
+<img src="https://skillicons.dev/icons?i=linux,debian,docker,nginx,mysql,sqlite,mongodb,firebase,git,githubactions&theme=dark" alt="Infrastructure et données" />
+
+**Sécurité et embarqué**
+
+<img src="https://skillicons.dev/icons?i=kali,arduino,raspberrypi,cloudflare,vscode,idea&theme=dark" alt="Sécurité et embarqué" />
 
 </div>
 
