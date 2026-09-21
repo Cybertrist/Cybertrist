@@ -2,11 +2,7 @@
 
 <img src="docs/banniere.png" alt="Tristan Joncour, cyberdéfense, infrastructure, sécurité opérationnelle" width="100%">
 
-<p>
-  <img src="https://img.shields.io/badge/ENSIBS-Ing%C3%A9nieur%20Cyberd%C3%A9fense-0D1117?style=for-the-badge&logo=akamai&logoColor=E23B4E&labelColor=0D1117" alt="ENSIBS" />
-  <img src="https://img.shields.io/badge/Vannes-Bretagne-0D1117?style=for-the-badge&logo=googlemaps&logoColor=E23B4E&labelColor=0D1117" alt="Vannes" />
-  <img src="https://img.shields.io/badge/Luxembourg-Septembre%202027-0D1117?style=for-the-badge&logo=target&logoColor=E23B4E&labelColor=0D1117" alt="Objectif Luxembourg" />
-</p>
+<img src="docs/entete.png" alt="ENSIBS, ingénieur cyberdéfense · Vannes, Bretagne · Objectif : Luxembourg, septembre 2027" width="100%">
 
 </div>
 
@@ -34,7 +30,7 @@ Je m'intéresse aux postes en **cybersécurité**, **infrastructure**, **sécuri
 
 <sub>Projet mené au sein de l'organisation <a href="https://github.com/Microcoaster"><b>MicroCoaster</b></a> (<a href="https://microcoaster.com">microcoaster.com</a>) : conception des PCB, firmware ESP32 des modules, gestionnaire Wi-Fi et application web de pilotage.</sub>
 
-<table>
+<table align="center">
 <tr>
 <td width="50%"><a href="https://github.com/Cybertrist/Serenity"><img src="docs/projets/serenity.png" alt="Serenity, sécurité : coffre de mots de passe auto-hébergé et zéro connaissance" width="100%"></a></td>
 <td width="50%"><a href="https://github.com/Cybertrist/Messagerie-securise-RSA-AES"><img src="docs/projets/messagerie.png" alt="Messagerie chiffrée, cryptographie : RSA, AES et attaques MITM" width="100%"></a></td>
@@ -67,72 +63,18 @@ Je m'intéresse aux postes en **cybersécurité**, **infrastructure**, **sécuri
 
 <img src="docs/sections/stack.png" alt="Stack" width="100%">
 
-<div align="center">
+<img src="docs/sections/stack-board.png" alt="Sécurité et supervision : LogPoint, Fortinet, Wireshark, analyse de journaux, audit de configuration. Systèmes et virtualisation : Linux, Debian, Windows Server, VMware, Proxmox. Environnement Microsoft : Microsoft 365, Exchange, Active Directory, PowerShell. Réseau et exploitation : Nginx, Docker, Cloudflare, Jira, Git, GitHub Actions. Langages : Python, JavaScript, TypeScript, Java, C, C++, Dart, assembleur x86, Bash. Web et mobile : Node.js, Express, React, FastAPI, Flutter, Tailwind, Vite. Données : MySQL, SQLite, MongoDB, Firebase. Embarqué : ESP32, PlatformIO, Arduino, Raspberry Pi." width="100%">
 
-**Sécurité et supervision**
-
-<img src="https://img.shields.io/badge/LogPoint-SIEM-E23B4E?style=for-the-badge&labelColor=0D1117" alt="LogPoint" />
-<img src="https://img.shields.io/badge/Fortinet-EE3124?style=for-the-badge&logo=fortinet&logoColor=white&labelColor=0D1117" alt="Fortinet" />
-<img src="https://img.shields.io/badge/Wireshark-1679A7?style=for-the-badge&logo=wireshark&logoColor=white&labelColor=0D1117" alt="Wireshark" />
-
-**Systèmes et virtualisation**
-
-<img src="https://img.shields.io/badge/VMware-607078?style=for-the-badge&logo=vmware&logoColor=white&labelColor=0D1117" alt="VMware" />
-<img src="https://img.shields.io/badge/Proxmox-E57000?style=for-the-badge&logo=proxmox&logoColor=white&labelColor=0D1117" alt="Proxmox" />
-<img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black&labelColor=0D1117" alt="Linux" />
-<img src="https://img.shields.io/badge/Debian-A81D33?style=for-the-badge&logo=debian&logoColor=white&labelColor=0D1117" alt="Debian" />
-<img src="https://img.shields.io/badge/Windows%20Server-0078D6?style=for-the-badge&labelColor=0D1117" alt="Windows Server" />
-
-**Environnement Microsoft**
-
-<img src="https://img.shields.io/badge/Microsoft%20365-D83B01?style=for-the-badge&labelColor=0D1117" alt="Microsoft 365" />
-<img src="https://img.shields.io/badge/Exchange-0078D4?style=for-the-badge&labelColor=0D1117" alt="Exchange" />
-<img src="https://img.shields.io/badge/Active%20Directory-00A4EF?style=for-the-badge&labelColor=0D1117" alt="Active Directory" />
-<img src="https://img.shields.io/badge/PowerShell-5391FE?style=for-the-badge&labelColor=0D1117" alt="PowerShell" />
-
-**Exploitation**
-
-<img src="https://img.shields.io/badge/Jira-0052CC?style=for-the-badge&logo=jira&logoColor=white&labelColor=0D1117" alt="Jira" />
-<img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white&labelColor=0D1117" alt="Docker" />
-<img src="https://img.shields.io/badge/Nginx-009639?style=for-the-badge&logo=nginx&logoColor=white&labelColor=0D1117" alt="Nginx" />
-<img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white&labelColor=0D1117" alt="Git" />
-
-<br>
-
-**Langages**
-
-<img src="https://skillicons.dev/icons?i=python,js,ts,java,dart,c,cpp,bash&theme=dark" alt="Langages" />
-
-**Web et mobile**
-
-<img src="https://skillicons.dev/icons?i=nodejs,express,react,fastapi,flutter,tailwind,vite,html,css&theme=dark" alt="Web et mobile" />
-
-**Infrastructure et données**
-
-<img src="https://skillicons.dev/icons?i=linux,debian,docker,nginx,mysql,sqlite,mongodb,firebase,git,githubactions&theme=dark" alt="Infrastructure et données" />
-
-**Sécurité et embarqué**
-
-<img src="https://skillicons.dev/icons?i=kali,arduino,raspberrypi,cloudflare,vscode,idea&theme=dark" alt="Sécurité et embarqué" />
-
-</div>
+<sub>Les trois premières lignes sont ce que je pratique en alternance, le reste vient des projets ci-dessus.</sub>
 
 <img src="docs/sections/contact.png" alt="Contact" width="100%">
 
 <div align="center">
 
-<a href="mailto:tristanjoncour29@gmail.com"><img src="https://img.shields.io/badge/Email-tristanjoncour29%40gmail.com-E23B4E?style=for-the-badge&logo=gmail&logoColor=white&labelColor=0D1117" alt="Email" /></a>
+<a href="mailto:tristanjoncour29@gmail.com"><img src="docs/contact/email.png" alt="Écrire : tristanjoncour29@gmail.com" width="49%"></a>
+<a href="https://discord.com/users/634433284285268006"><img src="docs/contact/discord.png" alt="Discuter sur Discord : cybertrist" width="49%"></a>
 
-<a href="https://discord.com/users/634433284285268006"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white&labelColor=0D1117" alt="Discord" /></a>
-<a href="https://www.instagram.com/cybertrist"><img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white&labelColor=0D1117" alt="Instagram" /></a>
-<a href="https://open.spotify.com/user/opvbaos7dvnawhftj0c4ge42o"><img src="https://img.shields.io/badge/Spotify-1DB954?style=for-the-badge&logo=spotify&logoColor=white&labelColor=0D1117" alt="Spotify" /></a>
-<a href="https://github.com/Cybertrist"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white&labelColor=0D1117" alt="GitHub" /></a>
-
-<br><br>
-
-<a href="https://discord.com/users/634433284285268006"><img src="https://lanyard.cnrad.dev/api/634433284285268006?theme=dark&bg=0D1117&borderRadius=12px&idleMessage=Pas%20d%27activit%C3%A9%20en%20cours&showDisplayName=true" alt="Statut Discord" /></a>
-
-<br><br>
-
+<a href="https://www.instagram.com/cybertrist"><img src="docs/contact/instagram.png" alt="Suivre sur Instagram : @cybertrist" width="49%"></a>
+<a href="https://open.spotify.com/user/opvbaos7dvnawhftj0c4ge42o"><img src="docs/contact/spotify.png" alt="Écouter sur Spotify : ce que j'écoute en codant" width="49%"></a>
 
 </div>
