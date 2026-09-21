@@ -1,16 +1,14 @@
 <div align="center">
 
-<img src="docs/banniere.png" alt="Tristan Joncour, cyberdéfense, infrastructure, systèmes embarqués" width="100%">
+<img src="docs/banniere.png" alt="Tristan Joncour, cyberdéfense, infrastructure, sécurité opérationnelle" width="100%">
 
 <p>
   <img src="https://img.shields.io/badge/ENSIBS-Ing%C3%A9nieur%20Cyberd%C3%A9fense-0D1117?style=for-the-badge&logo=akamai&logoColor=E23B4E&labelColor=0D1117" alt="ENSIBS" />
-  <img src="https://img.shields.io/badge/Bretagne-France-0D1117?style=for-the-badge&logo=googlemaps&logoColor=E23B4E&labelColor=0D1117" alt="Bretagne" />
+  <img src="https://img.shields.io/badge/Vannes-Bretagne-0D1117?style=for-the-badge&logo=googlemaps&logoColor=E23B4E&labelColor=0D1117" alt="Vannes" />
   <a href="https://spaceprojects.fr/"><img src="https://img.shields.io/badge/spaceprojects.fr-E23B4E?style=for-the-badge&logo=firefoxbrowser&logoColor=white&labelColor=0D1117" alt="Site" /></a>
 </p>
 
 </div>
-
----
 
 Élève ingénieur en **cyberdéfense** à l'**ENSIBS**, à Vannes, en alternance dans une équipe d'infrastructure technique.
 
@@ -18,21 +16,19 @@ Je me suis orienté vers la sécurité pour une raison simple : j'aime comprendr
 
 **Quand une contrainte revient trop souvent, j'écris ce qui la fait disparaître.** La plupart des projets ci-dessous sont nés comme ça : un émargement à cliquer chaque semaine, un ami coiffeur qui gérait ses rendez-vous par messages, des mots de passe éparpillés sans coffre à qui les confier.
 
-### Au quotidien
+<img src="docs/sections/quotidien.png" alt="Au quotidien" width="100%">
 
 Exploitation et analyse des journaux de sécurité avec un **SIEM**, détection d'événements, audit de configurations, administration système et problématiques réseau.
 
 En parallèle, mes projets personnels et académiques me font creuser **Python**, **Linux**, la **cryptographie appliquée** et la sécurité. Ce qui me plaît, c'est le passage de la théorie à la pratique : comprendre le problème, expérimenter, analyser, puis sécuriser l'existant.
 
-### Objectif
+<img src="docs/sections/objectif.png" alt="Objectif : Luxembourg, septembre 2027" width="100%">
 
-Un premier poste au **Luxembourg** à partir de **septembre 2027**, à l'issue de mon cursus d'ingénieur.
+À l'issue de mon cursus d'ingénieur, en **septembre 2027**, je vise le **Luxembourg**, fort de **trois années d'alternance** en infrastructure et en sécurité.
 
-Je m'intéresse aux opportunités en **cybersécurité**, **infrastructure**, **sécurité opérationnelle** et **ingénierie des systèmes et réseaux**. Continuer à apprendre, gagner en expertise, et contribuer à la sécurité des systèmes d'information.
+Je m'intéresse aux postes en **cybersécurité**, **infrastructure**, **sécurité opérationnelle** et **ingénierie des systèmes et réseaux**. Continuer à apprendre, gagner en expertise, et contribuer à la sécurité des systèmes d'information.
 
----
-
-## Projets
+<img src="docs/sections/projets.png" alt="Projets" width="100%">
 
 <a href="https://github.com/Microcoaster"><img src="docs/projets/microcoaster.png" alt="MicroCoaster, embarqué : une carte conçue de zéro, son firmware et l'application web qui la pilote" width="100%"></a>
 
@@ -61,9 +57,7 @@ Je m'intéresse aux opportunités en **cybersécurité**, **infrastructure**, **
 
 **Serenity** est le projet sur lequel je mets le plus d'exigence. Le serveur ne voit jamais rien en clair : dérivation Argon2id, chiffrement XChaCha20-Poly1305 côté client via libsodium. Un agent autonome surveille les fuites connues et fait tourner les mots de passe compromis, sous liste blanche et coupe-circuit. 163 tests Python, 43 TypeScript, et 8 jobs de CI par pull request dont un exercice de restauration qui détruit vraiment un coffre jetable.
 
----
-
-## En chantier
+<img src="docs/sections/chantier.png" alt="En chantier" width="100%">
 
 | Projet | Où j'en suis |
 |:--|:--|
@@ -71,9 +65,7 @@ Je m'intéresse aux opportunités en **cybersécurité**, **infrastructure**, **
 | **Gestionnaire de budget** | Application de suivi de dépenses, prochaine sur la liste |
 | **BodyCount** | Journal chiffré hors ligne sur Android. Fonctionnel, reste le chiffrement de la base au repos |
 
----
-
-## Stack
+<img src="docs/sections/stack.png" alt="Stack" width="100%">
 
 <div align="center">
 
@@ -97,11 +89,11 @@ Je m'intéresse aux opportunités en **cybersécurité**, **infrastructure**, **
 
 <div align="center">
 <sub>
-Au quotidien : SIEM et corrélation d'événements · analyse d'incidents · assembleur x86 (MASM32) · Argon2id et libsodium · conception de PCB · Playwright et Selenium · restic · Tailscale
+Au quotidien : SIEM et corrélation d'événements · analyse d'incidents · audit de configurations · Argon2id et libsodium · assembleur x86 (MASM32) · Playwright et Selenium · restic · Tailscale
 </sub>
 </div>
 
----
+<img src="docs/sections/contact.png" alt="Contact" width="100%">
 
 <div align="center">
 
@@ -110,7 +102,7 @@ Au quotidien : SIEM et corrélation d'événements · analyse d'incidents · ass
 
 <br><br>
 
-<sub><i>Construire, puis chercher où ça casse.</i></sub>
+<sub><i>Une problématique, je la résous. Et j'en fais un outil.</i></sub>
 
 <br><br>
 
