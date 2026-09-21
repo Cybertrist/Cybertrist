@@ -3,9 +3,9 @@
 <img src="docs/banniere.png" alt="Tristan Joncour, cyberdéfense, infrastructure, systèmes embarqués" width="100%">
 
 <p>
-  <img src="https://img.shields.io/badge/ENSIBS-Ing%C3%A9nieur%20Cyberd%C3%A9fense-0D1117?style=for-the-badge&logo=akamai&logoColor=58A6FF&labelColor=0D1117" alt="ENSIBS" />
-  <img src="https://img.shields.io/badge/Bretagne-France-0D1117?style=for-the-badge&logo=googlemaps&logoColor=58A6FF&labelColor=0D1117" alt="Bretagne" />
-  <a href="https://spaceprojects.fr/"><img src="https://img.shields.io/badge/spaceprojects.fr-1F6FEB?style=for-the-badge&logo=firefoxbrowser&logoColor=white&labelColor=0D1117" alt="Site" /></a>
+  <img src="https://img.shields.io/badge/ENSIBS-Ing%C3%A9nieur%20Cyberd%C3%A9fense-0D1117?style=for-the-badge&logo=akamai&logoColor=E23B4E&labelColor=0D1117" alt="ENSIBS" />
+  <img src="https://img.shields.io/badge/Bretagne-France-0D1117?style=for-the-badge&logo=googlemaps&logoColor=E23B4E&labelColor=0D1117" alt="Bretagne" />
+  <a href="https://spaceprojects.fr/"><img src="https://img.shields.io/badge/spaceprojects.fr-E23B4E?style=for-the-badge&logo=firefoxbrowser&logoColor=white&labelColor=0D1117" alt="Site" /></a>
 </p>
 
 </div>
@@ -140,8 +140,8 @@ Au quotidien : SIEM et corrélation d'événements · analyse d'incidents · ass
 
 <div align="center">
 
-<a href="mailto:tristanjoncour29@gmail.com"><img src="https://img.shields.io/badge/Me%20contacter-1F6FEB?style=for-the-badge&logo=gmail&logoColor=white&labelColor=0D1117" alt="Email" /></a>
-<a href="https://spaceprojects.fr/"><img src="https://img.shields.io/badge/Portfolio-58A6FF?style=for-the-badge&logo=aboutdotme&logoColor=white&labelColor=0D1117" alt="Portfolio" /></a>
+<a href="mailto:tristanjoncour29@gmail.com"><img src="https://img.shields.io/badge/Me%20contacter-E23B4E?style=for-the-badge&logo=gmail&logoColor=white&labelColor=0D1117" alt="Email" /></a>
+<a href="https://spaceprojects.fr/"><img src="https://img.shields.io/badge/Portfolio-A31D2C?style=for-the-badge&logo=aboutdotme&logoColor=white&labelColor=0D1117" alt="Portfolio" /></a>
 
 <br><br>
 
@@ -149,6 +149,6 @@ Au quotidien : SIEM et corrélation d'événements · analyse d'incidents · ass
 
 <br><br>
 
-[![Spotify](https://spotify-github-profile.kittinanx.com/api/view?uid=opvbaos7dvnawhftj0c4ge42o&cover_image=true&theme=novatorem&show_offline=false&background_color=0d1117&bar_color=58a6ff&bar_color_cover=false)](https://spotify-github-profile.vercel.app/api/view?uid=opvbaos7dvnawhftj0c4ge42o&redirect=true)
+[![Spotify](https://spotify-github-profile.kittinanx.com/api/view?uid=opvbaos7dvnawhftj0c4ge42o&cover_image=true&theme=novatorem&show_offline=false&background_color=0d1117&bar_color=e23b4e&bar_color_cover=false)](https://spotify-github-profile.vercel.app/api/view?uid=opvbaos7dvnawhftj0c4ge42o&redirect=true)
 
 </div>
