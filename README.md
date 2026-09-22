@@ -34,17 +34,8 @@ Je m'intéresse aux postes en **cybersécurité**, **infrastructure**, **sécuri
 
 <p align="center">
 <a href="https://github.com/Cybertrist/Serenity"><img src="docs/projets/serenity.png" alt="Serenity, gestionnaire de mots de passe chiffré de bout en bout" width="49.8%"></a><a href="https://github.com/Cybertrist/Messagerie-securise-RSA-AES"><img src="docs/projets/messagerie.png" alt="Messagerie sécurisée RSA et AES, chiffrement hybride en Python" width="49.8%"></a>
-</p>
-
-<p align="center">
 <a href="https://github.com/Cybertrist/DIR-ASM"><img src="docs/projets/dirasm.png" alt="DIR-ASM, exploration du langage assembleur x86" width="49.8%"></a><a href="https://github.com/Cybertrist/Huffman"><img src="docs/projets/huffman.png" alt="Huffman, compression sans perte implémentée en C" width="49.8%"></a>
-</p>
-
-<p align="center">
 <a href="https://github.com/Cybertrist/BeVannes"><img src="docs/projets/bevannes.png" alt="BeVannes, application mobile Flutter pour la vie étudiante à Vannes" width="49.8%"></a><a href="https://github.com/Cybertrist/ubhess-emargement"><img src="docs/projets/emargement.png" alt="Émargement UBS automatisé, fin du clic hebdomadaire" width="49.8%"></a>
-</p>
-
-<p align="center">
 <img src="docs/projets/kyrlcut.png" alt="KyrlCut, prise de rendez-vous pour un salon de coiffure, dépôt privé" width="49.8%"><a href="https://github.com/Cybertrist/BodyCount"><img src="docs/projets/bodycount.png" alt="BodyCount, suivi de séances de sport" width="49.8%"></a>
 </p>
 
