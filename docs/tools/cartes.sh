@@ -3,7 +3,9 @@
 # Chaque bannière porte sa catégorie en haut à droite, et la mention
 # « privé » quand le dépôt n'est pas public, pour qu'un visiteur comprenne
 # pourquoi il ne peut pas cliquer.
-D="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"; mkdir -p "$D/html" "$D/png"
+D="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+source "$D/langue.sh"
+mkdir -p "$D/html$SUF" "$D/png$SUF"
 CH="${CHROME:-/c/Program Files/Google/Chrome/Application/chrome.exe}"
 B="$(cd "$D" && pwd -W 2>/dev/null || pwd)"
 LOGO="file:///C:/Users/trist/Documents/Github/Microcoaster/images/logo.png"
@@ -11,7 +13,7 @@ ICONE="file:///$B/src-icone.png"
 
 # ban <nom> <accent> <accent2> <fond> <glyphe> <titre> <l1> <l2> <pastilles> <categorie> <prive|"">
 ban () {
-cat > "$D/html/f-$1.html" <<HTML
+cat > "$D/html$SUF/f-$1.html" <<HTML
 <!doctype html><html lang="fr"><head><meta charset="utf-8">
 <link href="https://fonts.googleapis.com/css2?family=Syne:wght@700;800&family=Space+Grotesk:wght@400;500;600&family=JetBrains+Mono:wght@500&family=Playfair+Display:wght@900&display=swap" rel="stylesheet">
 <style>
@@ -52,9 +54,9 @@ p{font-family:'Space Grotesk',sans-serif;font-size:18.5px;line-height:1.46;color
 <div class="ln"></div></div></body></html>
 HTML
 "$CH" --headless=new --disable-gpu --hide-scrollbars --virtual-time-budget=10000 --force-device-scale-factor=2 \
-  --screenshot="$B/png/f-$1.png" --window-size=1280,320 "file:///$B/html/f-$1.html" >/dev/null 2>&1
+  --screenshot="$B/png$SUF/f-$1.png" --window-size=1280,320 "file:///$B/html$SUF/f-$1.html" >/dev/null 2>&1
 echo "  f-$1.png"
 }
 P () { for x in "$@"; do printf '<span>%s</span>' "$x"; done; }
-PRIV='<i>PRIVÉ</i>'
+PRIV="<i>$(t 'PRIVÉ' 'PRIVATE')</i>"
 

@@ -2,12 +2,14 @@
 # Bandeaux de section : index numéroté, titre, règle de séparation.
 # Rien ne dépend de la longueur du titre, donc les six sont alignés à
 # l'identique : même marge, même hauteur, même position de règle.
-D="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"; mkdir -p "$D/html" "$D/png"
+D="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+source "$D/langue.sh"
+mkdir -p "$D/html$SUF" "$D/png$SUF"
 CH="${CHROME:-/c/Program Files/Google/Chrome/Application/chrome.exe}"
 B="$(cd "$D" && pwd -W 2>/dev/null || pwd)"
 
 sec () {
-cat > "$D/html/s-$1.html" <<HTML
+cat > "$D/html$SUF/s-$1.html" <<HTML
 <!doctype html><html lang="fr"><head><meta charset="utf-8">
 <link href="https://fonts.googleapis.com/css2?family=Syne:wght@800&family=JetBrains+Mono:wght@500&display=swap" rel="stylesheet">
 <style>
@@ -40,7 +42,7 @@ h2{font-family:Syne,sans-serif;font-weight:800;font-size:29px;line-height:40px;l
 HTML
 "$CH" --headless=new --disable-gpu --hide-scrollbars --virtual-time-budget=10000 --force-device-scale-factor=2 \
   --virtual-time-budget=10000 \
-  --screenshot="$B/png/s-$1.png" --window-size=1280,118 "file:///$B/html/s-$1.html" >/dev/null 2>&1
+  --screenshot="$B/png$SUF/s-$1.png" --window-size=1280,118 "file:///$B/html$SUF/s-$1.html" >/dev/null 2>&1
 echo "  s-$1.png"
 }
 

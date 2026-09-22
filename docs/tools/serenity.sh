@@ -3,11 +3,13 @@
 # éléments du projet lui-même, le cadenas de web/public/icon.svg, le
 # logotype en Saira Stencil One et le bandeau tricolore, plutôt que le
 # gabarit commun. Rendue à 3x : le pochoir s'écaille en dessous.
-D="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"; mkdir -p "$D/html" "$D/png"
+D="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+source "$D/langue.sh"
+mkdir -p "$D/html$SUF" "$D/png$SUF"
 CH="${CHROME:-/c/Program Files/Google/Chrome/Application/chrome.exe}"
 B="$(cd "$D" && pwd -W 2>/dev/null || pwd)"
 
-cat > "$D/html/f-serenity.html" <<'HTML'
+cat > "$D/html$SUF/f-serenity.html" <<'HTML'
 <!doctype html><html lang="fr"><head><meta charset="utf-8">
 <link href="https://fonts.googleapis.com/css2?family=Saira+Stencil+One&family=Space+Grotesk:wght@400;500&family=JetBrains+Mono:wght@500&display=swap" rel="stylesheet">
 <style>
@@ -73,6 +75,6 @@ HTML
 
 "$CH" --headless=new --disable-gpu --hide-scrollbars --virtual-time-budget=10000 \
   --force-device-scale-factor=3 \
-  --screenshot="$B/png/f-serenity.png" --window-size=1280,320 \
-  "file:///$B/html/f-serenity.html" >/dev/null 2>&1
+  --screenshot="$B/png$SUF/f-serenity.png" --window-size=1280,320 \
+  "file:///$B/html$SUF/f-serenity.html" >/dev/null 2>&1
 echo "  f-serenity.png"

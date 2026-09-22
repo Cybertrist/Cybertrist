@@ -2,12 +2,14 @@
 # Avertissement sous la grille de projets. Il couvre maintenant quatre
 # dépôts fermés, et dit pourquoi chacun l'est : un visiteur qui tombe sur
 # une 404 doit comprendre que le lien n'est pas cassé.
-D="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"; mkdir -p "$D/html" "$D/notes"
+D="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+source "$D/langue.sh"
+mkdir -p "$D/html$SUF" "$D/notes$SUF"
 CH="${CHROME:-/c/Program Files/Google/Chrome/Application/chrome.exe}"
 B="$(cd "$D" && pwd -W 2>/dev/null || pwd)"
 H=196
 
-cat > "$D/html/n-prive.html" <<'HTML'
+cat > "$D/html$SUF/n-prive.html" <<'HTML'
 <!doctype html><html lang="fr"><head><meta charset="utf-8">
 <link href="https://fonts.googleapis.com/css2?family=Syne:wght@800&family=Space+Grotesk:wght@400;500&family=JetBrains+Mono:wght@500&display=swap" rel="stylesheet">
 <style>
@@ -44,5 +46,5 @@ p b{color:#FFFFFF;font-weight:500}
 HTML
 "$CH" --headless=new --disable-gpu --hide-scrollbars --virtual-time-budget=11000 \
   --force-device-scale-factor=2 \
-  --screenshot="$B/notes/prive.png" --window-size=1280,$H "file:///$B/html/n-prive.html" >/dev/null 2>&1
+  --screenshot="$B/notes$SUF/prive.png" --window-size=1280,$H "file:///$B/html$SUF/n-prive.html" >/dev/null 2>&1
 echo "  prive.png"

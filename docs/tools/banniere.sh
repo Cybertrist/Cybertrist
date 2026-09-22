@@ -2,11 +2,13 @@
 # La bannière d'en-tête du profil : le nom, le cursus, et les trois lignes
 # qui disent ce que je fais. Elle ne passe pas par cartes.sh, qui est fait
 # pour des cartes de projet.
-D="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"; mkdir -p "$D/html" "$D/png"
+D="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+source "$D/langue.sh"
+mkdir -p "$D/html$SUF" "$D/png$SUF"
 CH="${CHROME:-/c/Program Files/Google/Chrome/Application/chrome.exe}"
 B="$(cd "$D" && pwd -W 2>/dev/null || pwd)"
 
-cat > "$D/html/banniere.html" <<'HTML'
+cat > "$D/html$SUF/banniere.html" <<'HTML'
 <!doctype html><html lang="fr"><head><meta charset="utf-8">
 <link href="https://fonts.googleapis.com/css2?family=Syne:wght@700;800&family=Space+Grotesk:wght@400;500;600&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
 <style>
@@ -107,6 +109,6 @@ HTML
 
 "$CH" --headless=new --disable-gpu --hide-scrollbars --virtual-time-budget=10000 \
   --force-device-scale-factor=2 \
-  --screenshot="$B/png/banniere.png" --window-size=1280,320 \
-  "file:///$B/html/banniere.html" >/dev/null 2>&1
+  --screenshot="$B/png$SUF/banniere.png" --window-size=1280,320 \
+  "file:///$B/html$SUF/banniere.html" >/dev/null 2>&1
 echo "  banniere.png"
