@@ -8,8 +8,13 @@ mkdir -p "$D/html$SUF" "$D/png$SUF"
 CH="${CHROME:-/c/Program Files/Google/Chrome/Application/chrome.exe}"
 B="$(cd "$D" && pwd -W 2>/dev/null || pwd)"
 
-cat > "$D/html$SUF/banniere.html" <<'HTML'
-<!doctype html><html lang="fr"><head><meta charset="utf-8">
+SOUS="$(t 'CYBERDÉFENSE · INFRASTRUCTURE · SÉCURITÉ OPÉRATIONNELLE' 'CYBERDEFENCE · INFRASTRUCTURE · SECURITY OPERATIONS')"
+ACCROCHE="$(t "Une problématique, je la résous. Et j'en fais un outil." 'I run into a problem, I solve it. Then I turn it into a tool.')"
+SUITE="$(t 'Chacun de mes projets est né comme ça.' 'Every project here started that way.')"
+RESEAU="$(t 'RÉSEAU' 'NETWORKS')"
+
+cat > "$D/html$SUF/banniere.html" <<HTML
+<!doctype html><html lang="$LG"><head><meta charset="utf-8">
 <link href="https://fonts.googleapis.com/css2?family=Syne:wght@700;800&family=Space+Grotesk:wght@400;500;600&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
 <style>
 *{margin:0;padding:0;box-sizing:border-box}
@@ -97,9 +102,9 @@ p{font-family:'Space Grotesk',sans-serif;font-size:19px;line-height:1.46;color:#
   </div>
   <div class="tx">
     <h1>Tristan <em>JONCOUR</em></h1>
-    <div class="sub">CYBERDÉFENSE · INFRASTRUCTURE · SÉCURITÉ OPÉRATIONNELLE</div>
-    <p>Une problématique, je la résous. Et j'en fais un outil.<br>Chacun de mes projets est né comme ça.</p>
-    <div class="pl"><span>ENSIBS</span><span>SIEM</span><span>INFRASTRUCTURE</span><span>RÉSEAU</span></div>
+    <div class="sub">$SOUS</div>
+    <p>$ACCROCHE<br>$SUITE</p>
+    <div class="pl"><span>ENSIBS</span><span>SIEM</span><span>INFRASTRUCTURE</span><span>$RESEAU</span></div>
   </div>
 </div>
 <div class="ln"></div>

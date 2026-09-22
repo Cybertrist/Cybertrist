@@ -14,14 +14,16 @@ L="file:///$B/../chantier/smartbudget-logo.png"
 A="#50F48D"
 NEON="border:1.5px solid ${A}C0;box-shadow:0 0 7px ${A}30, 0 12px 34px rgba(0,0,0,.5)"
 T='Smart <em>Budget</em>'
-L1="Arrêter de dépenser sans regarder, et de piocher dans l'épargne."
-L2="Le mois entier sur un écran, et la part que prend chaque catégorie."
+L1="$(t "Arrêter de dépenser sans regarder, et de piocher dans l'épargne." 'Stop spending blind, and stop dipping into the savings.')"
+L2="$(t 'Le mois entier sur un écran, et la part que prend chaque catégorie.' 'The whole month on one screen, and the share each category takes.')"
 GL="<div class='crop' style='$NEON'><img src='$L' style='width:182px;height:182px'></div>"
+PASTILLE="$(P "$(t 'À DÉFINIR' 'TO BE DECIDED')")"
+ETAT="$(t 'PLANIFIÉ' 'PLANNED')"
 
 # Carte de la grille de projets : catégorie, puis état.
 ban p-smartbudget "$A" "#1BCC6D" "#02120A" "$GL" "$T" "$L1" "$L2" \
-"$(P 'À DÉFINIR')" "FINANCES" '<i>PLANIFIÉ</i>'
+"$PASTILLE" "$(t 'FINANCES' 'FINANCE')" "<i>$ETAT</i>"
 
 # Carte de la section « En chantier » : l'état seul tient lieu de cartouche.
 ban ch-smartbudget "$A" "#1BCC6D" "#02120A" "$GL" "$T" "$L1" "$L2" \
-"$(P 'À DÉFINIR')" "PLANIFIÉ" ""
+"$PASTILLE" "$ETAT" ""

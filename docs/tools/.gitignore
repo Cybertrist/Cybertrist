@@ -1,7 +1,12 @@
-# Sorties de rendu : les images retenues sont recopiées dans docs/ par
-# installer.sh, le reste n'a pas à être versionné.
+# Sorties de rendu : les images retenues sont recopiées dans docs/ et
+# docs/en/ par installer.sh, le reste n'a pas à être versionné.
 html/
 png/
 stack/
 liens/
 notes/
+langues/
+html-en/
+png-en/
+stack-en/
+notes-en/

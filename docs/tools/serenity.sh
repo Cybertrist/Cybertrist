@@ -9,8 +9,14 @@ mkdir -p "$D/html$SUF" "$D/png$SUF"
 CH="${CHROME:-/c/Program Files/Google/Chrome/Application/chrome.exe}"
 B="$(cd "$D" && pwd -W 2>/dev/null || pwd)"
 
-cat > "$D/html$SUF/f-serenity.html" <<'HTML'
-<!doctype html><html lang="fr"><head><meta charset="utf-8">
+CAT="$(t 'SÉCURITÉ' 'SECURITY')"
+P1="$(t 'Ton coffre de mots de passe, chez toi.' 'Your password vault, hosted at home.')"
+P2="$(t 'Un <b>agent</b> surveille les fuites, et change ceux que tu lui confies.' 'An <b>agent</b> watches for breaches, and rotates the ones you trust it with.')"
+PL1="$(t 'Zéro connaissance' 'Zero knowledge')"
+PL3="$(t 'Auto-hébergé' 'Self-hosted')"
+
+cat > "$D/html$SUF/f-serenity.html" <<HTML
+<!doctype html><html lang="$LG"><head><meta charset="utf-8">
 <link href="https://fonts.googleapis.com/css2?family=Saira+Stencil+One&family=Space+Grotesk:wght@400;500&family=JetBrains+Mono:wght@500&display=swap" rel="stylesheet">
 <style>
 *{margin:0;padding:0;box-sizing:border-box}
@@ -46,7 +52,7 @@ p b{font-weight:400;color:#4D8EF7}
 </style></head><body>
 <div class="w">
   <div class="card"></div>
-  <div class="cat">SÉCURITÉ</div>
+  <div class="cat">$CAT</div>
   <div class="in">
     <div class="gl">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 268" height="164">
@@ -61,10 +67,10 @@ p b{font-weight:400;color:#4D8EF7}
     </div>
     <div class="tx">
       <h1>SEREN<em>I</em>TY</h1>
-      <p>Ton coffre de mots de passe, chez toi.<br>
-         Un <b>agent</b> surveille les fuites, et change ceux que tu lui confies.</p>
+      <p>$P1<br>
+         $P2</p>
       <div class="pl">
-        <span>Zéro connaissance</span><span>libsodium</span><span>Auto-hébergé</span><span>AGPL v3</span>
+        <span>$PL1</span><span>libsodium</span><span>$PL3</span><span>AGPL v3</span>
       </div>
     </div>
   </div>

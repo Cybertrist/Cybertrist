@@ -1,7 +1,7 @@
 #!/bin/bash
-# Avertissement sous la grille de projets. Il couvre maintenant quatre
-# dépôts fermés, et dit pourquoi chacun l'est : un visiteur qui tombe sur
-# une 404 doit comprendre que le lien n'est pas cassé.
+# Avertissement sous la grille de projets. Il couvre quatre dépôts fermés,
+# et dit pourquoi chacun l'est : un visiteur qui tombe sur une 404 doit
+# comprendre que le lien n'est pas cassé.
 D="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 source "$D/langue.sh"
 mkdir -p "$D/html$SUF" "$D/notes$SUF"
@@ -9,8 +9,12 @@ CH="${CHROME:-/c/Program Files/Google/Chrome/Application/chrome.exe}"
 B="$(cd "$D" && pwd -W 2>/dev/null || pwd)"
 H=196
 
-cat > "$D/html$SUF/n-prive.html" <<'HTML'
-<!doctype html><html lang="fr"><head><meta charset="utf-8">
+TITRE="$(t 'Dépôts privés' 'Private repositories')"
+CORPS="$(t "<b>KyrlCut</b> est un livrable client, son code appartient à celui qui l'a commandé. Les trois bots <b>Basic-Fit</b> servent un vrai serveur Discord et lisent des exports de compte : identifiants de salons et données personnelles n'ont rien à faire en public. Leurs cartes mènent bien au dépôt, mais GitHub répondra 404 à qui n'y a pas accès." "<b>KyrlCut</b> was built for a client, and the code belongs to whoever paid for it. The three <b>Basic-Fit</b> bots run a real Discord server and read account exports: channel IDs and personal data have no business being public. Their cards do point at the repository, but GitHub answers 404 to anyone without access.")"
+PIED="$(t "CHAQUE BANNIÈRE PORTE SA CATÉGORIE, ET SON ÉTAT QUAND LE DÉPÔT N'EXISTE PAS ENCORE" 'EVERY CARD CARRIES ITS CATEGORY, AND ITS STATUS WHEN THE REPOSITORY DOES NOT EXIST YET')"
+
+cat > "$D/html$SUF/n-prive.html" <<HTML
+<!doctype html><html lang="$LG"><head><meta charset="utf-8">
 <link href="https://fonts.googleapis.com/css2?family=Syne:wght@800&family=Space+Grotesk:wght@400;500&family=JetBrains+Mono:wght@500&display=swap" rel="stylesheet">
 <style>
 *{margin:0;padding:0;box-sizing:border-box}
@@ -38,9 +42,9 @@ p b{color:#FFFFFF;font-weight:500}
   <path d="M7.8 10.4V7.2a4.2 4.2 0 018.4 0v3.2" stroke="#FF5B6E" stroke-width="1.9" stroke-linecap="round"/>
   <circle cx="12" cy="15.4" r="1.7" fill="#FF5B6E"/></svg></span>
 <div class="tx">
-  <h3>Dépôts privés</h3>
-  <p><b>KyrlCut</b> est un livrable client, son code appartient à celui qui l'a commandé. Les trois bots <b>Basic-Fit</b> servent un vrai serveur Discord et lisent des exports de compte : identifiants de salons et données personnelles n'ont rien à faire en public. Leurs cartes mènent bien au dépôt, mais GitHub répondra 404 à qui n'y a pas accès.</p>
-  <div class="sec">CHAQUE BANNIÈRE PORTE SA CATÉGORIE, ET SON ÉTAT QUAND LE DÉPÔT N'EXISTE PAS ENCORE</div>
+  <h3>$TITRE</h3>
+  <p>$CORPS</p>
+  <div class="sec">$PIED</div>
 </div>
 </div></div></body></html>
 HTML

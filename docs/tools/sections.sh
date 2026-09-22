@@ -46,9 +46,9 @@ HTML
 echo "  s-$1.png"
 }
 
-sec quotidien "Au quotidien" "01"
-sec objectif  "Objectif"     "02"
-sec projets   "Projets"      "03"
-sec chantier  "En chantier"  "04"
-sec stack     "Stack"        "05"
-sec contact   "Contact"      "06"
+sec quotidien "$(t 'Au quotidien' 'Day to day')"      "01"
+sec objectif  "$(t 'Objectif' "Where I'm headed")"    "02"
+sec projets   "$(t 'Projets' 'Projects')"             "03"
+sec chantier  "$(t 'En chantier' 'In progress')"      "04"
+sec stack     "$(t 'Stack' 'Stack')"                  "05"
+sec contact   "$(t 'Contact' 'Contact')"              "06"

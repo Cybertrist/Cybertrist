@@ -13,8 +13,7 @@ ban gomuscu "#4ADE80" "#22C55E" "#04120A" \
     <path d="M18 63v20M128 63v20"/></g>
 </svg>' \
 'Go<em>Muscu</em>' \
-'Le bot Discord qui suit les séances de la salle,' \
-'tient les comptes et relance ceux qui sèchent.' \
+"$(t 'Le bot Discord qui suit les séances de la salle,' 'The Discord bot that tracks the gym sessions,')" \
+"$(t 'tient les comptes et relance ceux qui sèchent.' 'keeps the tally, and nudges whoever skips.')" \
 "$(P 'DISCORD.JS' 'NODE.JS' 'JSON' 'CRON')" \
 'BOT' ''
-
