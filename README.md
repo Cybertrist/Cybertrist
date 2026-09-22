@@ -32,24 +32,21 @@ Je m'intéresse aux postes en **cybersécurité**, **infrastructure**, **sécuri
 
 <a href="https://github.com/Microcoaster"><img src="docs/projets/microcoaster.png" alt="MicroCoaster, embarqué : une carte conçue de zéro, son firmware et l'application web qui la pilote" width="100%"></a>
 
-<table align="center">
-<tr>
-<td width="50%"><a href="https://github.com/Cybertrist/Serenity"><img src="docs/projets/serenity.png" alt="Serenity, sécurité : coffre de mots de passe auto-hébergé et zéro connaissance" width="100%"></a></td>
-<td width="50%"><a href="https://github.com/Cybertrist/Messagerie-securise-RSA-AES"><img src="docs/projets/messagerie.png" alt="Messagerie chiffrée, cryptographie : RSA, AES et attaques MITM" width="100%"></a></td>
-</tr>
-<tr>
-<td width="50%"><a href="https://github.com/Cybertrist/DIR-ASM"><img src="docs/projets/dirasm.png" alt="Dir ASM, bas niveau : la commande dir slash s réécrite en assembleur x86" width="100%"></a></td>
-<td width="50%"><a href="https://github.com/Cybertrist/Huffman"><img src="docs/projets/huffman.png" alt="Codage de Huffman, algorithmique : trois variantes de compression" width="100%"></a></td>
-</tr>
-<tr>
-<td width="50%"><a href="https://github.com/Cybertrist/BeVannes"><img src="docs/projets/bevannes.png" alt="BeVannes, mobile : BeReal rencontre GeoGuessr" width="100%"></a></td>
-<td width="50%"><a href="https://github.com/Cybertrist/ubhess-emargement"><img src="docs/projets/emargement.png" alt="Émargement UBS, automatisation : Moodle piloté par Selenium" width="100%"></a></td>
-</tr>
-<tr>
-<td width="50%"><img src="docs/projets/kyrlcut.png" alt="KyrlCut, web : réservation en ligne pour salon de coiffure, dépôt privé" width="100%"></td>
-<td width="50%"><a href="https://github.com/Cybertrist/BodyCount"><img src="docs/projets/bodycount.png" alt="BodyCount, mobile : journal chiffré hors ligne sur Android" width="100%"></a></td>
-</tr>
-</table>
+<p align="center">
+<a href="https://github.com/Cybertrist/Serenity"><img src="docs/projets/serenity.png" alt="Serenity, gestionnaire de mots de passe chiffré de bout en bout" width="49.8%"></a><a href="https://github.com/Cybertrist/Messagerie-securise-RSA-AES"><img src="docs/projets/messagerie.png" alt="Messagerie sécurisée RSA et AES, chiffrement hybride en Python" width="49.8%"></a>
+</p>
+
+<p align="center">
+<a href="https://github.com/Cybertrist/DIR-ASM"><img src="docs/projets/dirasm.png" alt="DIR-ASM, exploration du langage assembleur x86" width="49.8%"></a><a href="https://github.com/Cybertrist/Huffman"><img src="docs/projets/huffman.png" alt="Huffman, compression sans perte implémentée en C" width="49.8%"></a>
+</p>
+
+<p align="center">
+<a href="https://github.com/Cybertrist/BeVannes"><img src="docs/projets/bevannes.png" alt="BeVannes, application mobile Flutter pour la vie étudiante à Vannes" width="49.8%"></a><a href="https://github.com/Cybertrist/ubhess-emargement"><img src="docs/projets/emargement.png" alt="Émargement UBS automatisé, fin du clic hebdomadaire" width="49.8%"></a>
+</p>
+
+<p align="center">
+<img src="docs/projets/kyrlcut.png" alt="KyrlCut, prise de rendez-vous pour un salon de coiffure, dépôt privé" width="49.8%"><a href="https://github.com/Cybertrist/BodyCount"><img src="docs/projets/bodycount.png" alt="BodyCount, suivi de séances de sport" width="49.8%"></a>
+</p>
 
 <img src="docs/notes/prive.png" alt="Dépôt privé. KyrlCut est un livrable client : son code reste fermé. Sa bannière est là pour montrer le projet, pas pour ouvrir un dépôt. Chaque bannière porte sa catégorie en haut à droite." width="100%">
 
@@ -82,14 +79,16 @@ Je m'intéresse aux postes en **cybersécurité**, **infrastructure**, **sécuri
 <p align="center"><img src="docs/stack/assistants.png" alt="Claude, ChatGPT, GitHub Copilot" width="160" /></p>
 <img src="docs/sections/contact.png" alt="Contact" width="100%">
 
-<p align="center">Une question sur un projet, une opportunité, ou simplement l'envie de parler d'infrastructure et de sécurité :<br>l'e-mail reste le plus sûr moyen de me joindre, Discord le plus rapide.</p>
+<p align="center">
+  <a href="mailto:tristanjoncour29@gmail.com"><img src="docs/liens/gmail.png" alt="Écrire à tristanjoncour29@gmail.com" width="72" /></a>
+  &nbsp;&nbsp;&nbsp;
+  <a href="https://discord.com/users/634433284285268006"><img src="docs/liens/discord.png" alt="Discuter sur Discord, cybertrist" width="72" /></a>
+  &nbsp;&nbsp;&nbsp;
+  <a href="https://www.instagram.com/cybertrist"><img src="docs/liens/instagram.png" alt="Suivre sur Instagram, @cybertrist" width="72" /></a>
+  &nbsp;&nbsp;&nbsp;
+  <a href="https://open.spotify.com/user/opvbaos7dvnawhftj0c4ge42o"><img src="docs/liens/spotify.png" alt="Écouter sur Spotify ce que j'écoute en codant" width="72" /></a>
+</p>
 
 <p align="center">
-  <a href="mailto:tristanjoncour29@gmail.com"><img src="docs/contact/email.png" alt="Écrire à tristanjoncour29@gmail.com" width="72" /></a>
-  &nbsp;
-  <a href="https://discord.com/users/634433284285268006"><img src="docs/contact/discord.png" alt="Discuter sur Discord, cybertrist" width="72" /></a>
-  &nbsp;
-  <a href="https://www.instagram.com/cybertrist"><img src="docs/contact/instagram.png" alt="Suivre sur Instagram, arobase cybertrist" width="72" /></a>
-  &nbsp;
-  <a href="https://open.spotify.com/user/opvbaos7dvnawhftj0c4ge42o"><img src="docs/contact/spotify.png" alt="Écouter sur Spotify ce que j'écoute en codant" width="72" /></a>
+  <a href="mailto:tristanjoncour29@gmail.com"><img src="docs/liens/adresse.png" alt="tristanjoncour29@gmail.com" width="380" /></a>
 </p>
