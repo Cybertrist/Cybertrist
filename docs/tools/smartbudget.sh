@@ -14,8 +14,8 @@ L="file:///$B/../chantier/smartbudget-logo.png"
 A="#50F48D"
 NEON="border:1.5px solid ${A}C0;box-shadow:0 0 7px ${A}30, 0 12px 34px rgba(0,0,0,.5)"
 T='Smart <em>Budget</em>'
-L1="Tenir son budget sans tenir un tableur : le mois entier sur un écran,"
-L2="ce qui rentre, ce qui sort, et la part que prend chaque catégorie."
+L1="Arrêter de dépenser sans regarder, et de piocher dans l'épargne."
+L2="Le mois entier sur un écran, et la part que prend chaque catégorie."
 GL="<div class='crop' style='$NEON'><img src='$L' style='width:182px;height:182px'></div>"
 
 # Carte de la grille de projets : catégorie, puis état.
