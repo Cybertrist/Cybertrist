@@ -45,7 +45,7 @@ Je m'intéresse aux postes en **cybersécurité**, **infrastructure**, **sécuri
 
 <img src="docs/sections/chantier.png" alt="En chantier" width="100%">
 
-<img src="docs/chantier/proxy.png" alt="Reverse proxy et VPN auto-hébergés, en cours. Exposer ce qui doit l'être et rien d'autre : un point d'entrée unique, terminaison TLS, et un tunnel privé pour le reste. Nginx, WireGuard, Debian, auto-hébergé." width="100%">
+<img src="docs/chantier/cybersas.png" alt="CyberSas, reverse proxy et VPN auto-hébergés, en cours. Exposer ce qui doit l'être et rien d'autre : un point d'entrée unique, terminaison TLS, et un tunnel privé pour le reste. Nginx, WireGuard, Debian, auto-hébergé." width="100%">
 
 <img src="docs/chantier/budget.png" alt="Gestionnaire de budget, planifié. Savoir où part l'argent sans ressaisir trois fois la même dépense : catégories, échéances, et un bilan qui tient sur un écran." width="100%">
 
