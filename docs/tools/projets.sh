@@ -58,8 +58,11 @@ ban emargement "#22D3EE" "#3B82F6" "#06111A" \
 "$(P 'PYTHON' 'SELENIUM' 'HEADLESS')" \
 "$(t 'AUTOMATISATION' 'AUTOMATION')" ""
 
+# Le badge néon du logo n'occupe que 80 % du fichier, et son trait réduit
+# à la taille de la plaque sortirait crénelé. Le logo est donc cadré
+# au-delà de son cadre, à 190 px, et le contour est redessiné en CSS.
 ban kyrlcut "#C26BFF" "#FFB3C8" "#100322" \
-'<span style="font-family:Playfair Display,serif;font-weight:900;font-size:150px;line-height:.8;background:linear-gradient(140deg,#F7ECFF 0%,#C26BFF 50%,#982BFF 100%);-webkit-background-clip:text;-webkit-text-fill-color:transparent">K</span>' \
+"<div class='crop' style='border:1.5px solid #B45CFFC0;box-shadow:0 0 7px #B45CFF30, 0 12px 34px rgba(0,0,0,.5)'><img src='file:///$B/kyrlcut-logo.png' style='width:190px;height:190px'></div>" \
 'Kyrl<em>Cut</em>' \
 "$(t 'Réservation en ligne pour salon de coiffure, sur code' 'Online booking for a hair salon, by invitation code')" \
 "$(t "d'invitation. En production sur kyrlcut.fr." 'only. Live at kyrlcut.fr.')" \
