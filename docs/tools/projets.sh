@@ -66,8 +66,8 @@ ban emargement "#22D3EE" "#3B82F6" "#06111A" \
 ban kyrlcut "#C26BFF" "#FFB3C8" "#100322" \
 "<div class='crop' style='border:1.5px solid #B45CFFC0;box-shadow:0 0 7px #B45CFF30, 0 12px 34px rgba(0,0,0,.5)'><img src='file:///$B/kyrlcut-logo.png' style='width:190px;height:190px'></div>" \
 'Kyrl<em>Cut</em>' \
-"$(t 'Réservation en ligne pour salon de coiffure, sur code' 'Online booking for a hair salon, by invitation code')" \
-"$(t "d'invitation. En production sur kyrlcut.fr." 'only. Live at kyrlcut.fr.')" \
+"$(t 'Réservation en ligne pour salon de coiffure, sur invitation.' 'Online booking for a hair salon, by invitation only.')" \
+"$(t 'Créneaux au quart d’heure, rappel par email la veille.' 'Quarter-hour slots, an email reminder the day before.')" \
 "$(P 'EXPRESS' 'MYSQL' 'BCRYPT')" \
 "$(C 'WEB' 'MOBILE' "$(t 'COIFFURE' 'HAIR SALON')")" "$PRIV"
 
