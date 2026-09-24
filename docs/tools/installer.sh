@@ -19,8 +19,9 @@ pose "png$SUF/f-p-smartbudget.png"  projets/smartbudget.png
 pose "png$SUF/f-ch-cybersas.png"    chantier/cybersas.png
 pose "png$SUF/f-ch-smartbudget.png" chantier/smartbudget.png
 pose "png$SUF/f-ch-bodycount.png"   chantier/bodycount.png
-# KyrlCut et Serenity tournent déjà mais restent au chantier : leur carte
+# BeVannes, KyrlCut et Serenity tournent déjà mais restent au chantier : leur carte
 # de projet sert telle quelle, en pleine largeur.
+pose "png$SUF/f-bevannes.png"       chantier/bevannes.png
 pose "png$SUF/f-kyrlcut.png"        chantier/kyrlcut.png
 pose "png$SUF/f-serenity.png"       chantier/serenity.png
 

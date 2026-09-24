@@ -42,13 +42,15 @@ ban huffman "#FB7185" "#FDA4AF" "#160A0E" \
 "$(P 'PYTHON' 'COMPRESSION' "$(t 'ADAPTATIF' 'ADAPTIVE')")" \
 "$(t 'ALGORITHMIQUE' 'ALGORITHMS')" ""
 
-ban bevannes "#39D2C0" "#4B39EF" "#04130F" \
-'<svg viewBox="0 0 132 132" fill="none"><circle cx="66" cy="66" r="56" stroke="#F2F6FA" stroke-width="7"/><g stroke="#39D2C0" stroke-width="7" stroke-linecap="round"><path d="M122 66 76.3 85.4"/><path d="M94 114.5 54.3 84.7"/><path d="M38 114.5 44 65.2"/><path d="M10 66 55.7 46.6"/><path d="M38 17.5 77.7 47.3"/><path d="M94 17.5 88 66.8"/></g></svg>' \
-'Be<span style="background:#F2F6FA;color:#080808;padding:0 16px 6px;border-radius:12px;margin-left:6px;display:inline-block;line-height:.92">Vannes</span>' \
+# Le cadre néon du logo n'occupe que 77 % du fichier : cadré au-delà, à
+# 198 px, et contour redessiné en CSS pour rester net.
+ban bevannes "#39D2C0" "#A7F3E6" "#04130F" \
+"<div class='crop' style='border:1.5px solid #39D2C0C0;box-shadow:0 0 7px #39D2C030, 0 12px 34px rgba(0,0,0,.5)'><img src='file:///$B/bevannes-logo.png' style='width:198px;height:198px'></div>" \
+'Be<em>Vannes</em>' \
 "$(t 'BeReal rencontre GeoGuessr : un lieu tiré au sort chaque jour,' 'BeReal meets GeoGuessr: a spot drawn at random every day,')" \
 "$(t 'et la photo ne compte que si le GPS confirme que vous y êtes.' 'and the photo only counts if GPS says you were there.')" \
 "$(P 'FLUTTER' 'FIREBASE' "$(t 'GÉOLOCALISATION' 'GEOLOCATION')")" \
-'MOBILE' ""
+"$(C 'MOBILE' "$(t 'GÉOGRAPHIE' 'GEOGRAPHY')" 'PHOTO' "$(t 'JEU' 'GAME')")" ""
 
 ban emargement "#22D3EE" "#3B82F6" "#06111A" \
 '<svg viewBox="0 0 132 132" fill="none"><rect x="10" y="26" width="112" height="98" rx="11" stroke="#E8EFF6" stroke-width="6"/><path d="M10 56h112" stroke="#E8EFF6" stroke-width="6"/><path d="M38 26V8M94 26V8" stroke="#E8EFF6" stroke-width="6" stroke-linecap="round"/><path d="M38 90l20 18 38-38" stroke="#22D3EE" stroke-width="11" stroke-linecap="round" stroke-linejoin="round"/></svg>' \

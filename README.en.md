@@ -51,15 +51,17 @@ I am looking at roles in **cybersecurity**, **infrastructure**, **security opera
 
 <img src="docs/en/sections/chantier.png" alt="In progress" width="100%">
 
-<img src="docs/en/chantier/cybersas.png" alt="CyberSas, a self-hosted reverse proxy and VPN, in progress. Expose what has to be exposed, and nothing else: a single way in, TLS terminated there, and a private tunnel for the rest. Nginx, WireGuard, Debian, self-hosted." width="100%">
-
-<a href="https://github.com/Cybertrist/SmartBudget"><img src="docs/en/chantier/smartbudget.png" alt="Smart Budget, planned. Stop spending blind, and stop dipping into the savings. The whole month on one screen, and the share each category takes." width="100%"></a>
+<a href="https://github.com/Cybertrist/BeVannes/blob/main/README.en.md"><img src="docs/en/chantier/bevannes.png" alt="BeVannes, mobile, geography, photo, game. BeReal meets GeoGuessr: a spot drawn at random every day, and the photo only counts if GPS says you were there. Flutter, Firebase, geolocation." width="100%"></a>
 
 <a href="https://github.com/Cybertrist/BodyCount/blob/main/README.en.md"><img src="docs/en/chantier/bodycount.png" alt="BodyCount, a mobile app for adults. An encrypted personal journal, offline, on Android. No server, no account, no telemetry. Flutter, SQLCipher, biometrics." width="100%"></a>
 
-<a href="https://github.com/Cybertrist/Serenity/blob/main/README.en.md"><img src="docs/en/chantier/serenity.png" alt="Serenity, security. Your password vault, hosted at home. An agent watches for breaches, and rotates the ones you trust it with. Zero knowledge, libsodium, self-hosted, AGPL v3." width="100%"></a>
+<img src="docs/en/chantier/cybersas.png" alt="CyberSas, a self-hosted reverse proxy and VPN, in progress. Expose what has to be exposed, and nothing else: a single way in, TLS terminated there, and a private tunnel for the rest. Nginx, WireGuard, Debian, self-hosted." width="100%">
 
 <a href="https://github.com/Cybertrist/KyrlCut/blob/main/README.en.md"><img src="docs/en/chantier/kyrlcut.png" alt="KyrlCut, web, private repository. Online booking for a hair salon, by invitation code only. Live at kyrlcut.fr. Express, MySQL, bcrypt." width="100%"></a>
+
+<a href="https://github.com/Cybertrist/Serenity/blob/main/README.en.md"><img src="docs/en/chantier/serenity.png" alt="Serenity, security. Your password vault, hosted at home. An agent watches for breaches, and rotates the ones you trust it with. Zero knowledge, libsodium, self-hosted, AGPL v3." width="100%"></a>
+
+<a href="https://github.com/Cybertrist/SmartBudget"><img src="docs/en/chantier/smartbudget.png" alt="Smart Budget, planned. Stop spending blind, and stop dipping into the savings. The whole month on one screen, and the share each category takes." width="100%"></a>
 
 <img src="docs/en/sections/stack.png" alt="Stack" width="100%">
 <p align="center"><img src="docs/en/stack/lab-securite.png" alt="Security and monitoring" width="560" /></p>

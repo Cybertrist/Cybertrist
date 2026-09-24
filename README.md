@@ -51,15 +51,17 @@ Je m'intéresse aux postes en **cybersécurité**, **infrastructure**, **sécuri
 
 <img src="docs/sections/chantier.png" alt="En chantier" width="100%">
 
-<img src="docs/chantier/cybersas.png" alt="CyberSas, reverse proxy et VPN auto-hébergés, en cours. Exposer ce qui doit l'être et rien d'autre : un point d'entrée unique, terminaison TLS, et un tunnel privé pour le reste. Nginx, WireGuard, Debian, auto-hébergé." width="100%">
-
-<a href="https://github.com/Cybertrist/SmartBudget"><img src="docs/chantier/smartbudget.png" alt="Smart Budget, planifié. Arrêter de dépenser sans regarder, et de piocher dans l'épargne. Le mois entier sur un écran, et la part que prend chaque catégorie." width="100%"></a>
+<a href="https://github.com/Cybertrist/BeVannes"><img src="docs/chantier/bevannes.png" alt="BeVannes, mobile, géographie, photo, jeu. BeReal rencontre GeoGuessr : un lieu tiré au sort chaque jour, et la photo ne compte que si le GPS confirme que vous y êtes. Flutter, Firebase, géolocalisation." width="100%"></a>
 
 <a href="https://github.com/Cybertrist/BodyCount"><img src="docs/chantier/bodycount.png" alt="BodyCount, application mobile pour adultes. Journal personnel chiffré, hors ligne, sur Android. Aucun serveur, aucun compte, aucune télémétrie. Flutter, SQLCipher, biométrie." width="100%"></a>
 
-<a href="https://github.com/Cybertrist/Serenity"><img src="docs/chantier/serenity.png" alt="Serenity, sécurité. Ton coffre de mots de passe, chez toi. Un agent surveille les fuites, et change ceux que tu lui confies. Zéro connaissance, libsodium, auto-hébergé, AGPL v3." width="100%"></a>
+<img src="docs/chantier/cybersas.png" alt="CyberSas, reverse proxy et VPN auto-hébergés, en cours. Exposer ce qui doit l'être et rien d'autre : un point d'entrée unique, terminaison TLS, et un tunnel privé pour le reste. Nginx, WireGuard, Debian, auto-hébergé." width="100%">
 
 <a href="https://github.com/Cybertrist/KyrlCut"><img src="docs/chantier/kyrlcut.png" alt="KyrlCut, web, dépôt privé. Réservation en ligne pour salon de coiffure, sur code d'invitation. En production sur kyrlcut.fr. Express, MySQL, bcrypt." width="100%"></a>
+
+<a href="https://github.com/Cybertrist/Serenity"><img src="docs/chantier/serenity.png" alt="Serenity, sécurité. Ton coffre de mots de passe, chez toi. Un agent surveille les fuites, et change ceux que tu lui confies. Zéro connaissance, libsodium, auto-hébergé, AGPL v3." width="100%"></a>
+
+<a href="https://github.com/Cybertrist/SmartBudget"><img src="docs/chantier/smartbudget.png" alt="Smart Budget, planifié. Arrêter de dépenser sans regarder, et de piocher dans l'épargne. Le mois entier sur un écran, et la part que prend chaque catégorie." width="100%"></a>
 
 <img src="docs/sections/stack.png" alt="Stack" width="100%">
 <p align="center"><img src="docs/stack/lab-securite.png" alt="Sécurité et supervision" width="560" /></p>
