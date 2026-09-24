@@ -43,7 +43,7 @@ Je m'intéresse aux postes en **cybersécurité**, **infrastructure**, **sécuri
 
 <a href="https://github.com/Cybertrist/KyrlCut"><img src="docs/projets/kyrlcut.png" alt="KyrlCut, web, mobile, coiffure, dépôt privé. Réservation en ligne pour salon de coiffure, sur invitation. Créneaux au quart d'heure, rappel par email la veille. Express, MySQL, bcrypt." width="100%"></a>
 
-<a href="https://github.com/Microcoaster"><img src="docs/projets/microcoaster.png" alt="MicroCoaster, web, embarqué, coaster. Une carte conçue de zéro, son firmware, et l'application web qui la pilote. Conception PCB, ESP32, PlatformIO, WebSocket, Node.js, Socket.IO, MySQL, HTTPS." width="100%"></a>
+<a href="https://github.com/Microcoaster"><img src="docs/projets/microcoaster-carte.png" alt="MicroCoaster, web, embarqué, coaster. Une carte conçue de zéro, son firmware, et l'application web qui la pilote. Conception PCB, ESP32, PlatformIO, WebSocket, Node.js, Socket.IO, MySQL, HTTPS." width="100%"></a>
 
 <a href="https://github.com/Cybertrist/Serenity"><img src="docs/projets/serenity.png" alt="Serenity, web, mobile, sécurité. Ton coffre de mots de passe, chez toi. Un agent surveille les fuites, et change ceux que tu lui confies. Zéro connaissance, libsodium, auto-hébergé, AGPL v3." width="100%"></a>
 
