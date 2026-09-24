@@ -57,6 +57,10 @@ Je m'intéresse aux postes en **cybersécurité**, **infrastructure**, **sécuri
 
 <a href="https://github.com/Cybertrist/BodyCount"><img src="docs/chantier/bodycount.png" alt="BodyCount, application mobile pour adultes. Journal personnel chiffré, hors ligne, sur Android. Aucun serveur, aucun compte, aucune télémétrie. Flutter, SQLCipher, biométrie." width="100%"></a>
 
+<a href="https://github.com/Cybertrist/Serenity"><img src="docs/chantier/serenity.png" alt="Serenity, sécurité. Ton coffre de mots de passe, chez toi. Un agent surveille les fuites, et change ceux que tu lui confies. Zéro connaissance, libsodium, auto-hébergé, AGPL v3." width="100%"></a>
+
+<a href="https://github.com/Cybertrist/KyrlCut"><img src="docs/chantier/kyrlcut.png" alt="KyrlCut, web, dépôt privé. Réservation en ligne pour salon de coiffure, sur code d'invitation. En production sur kyrlcut.fr. Express, MySQL, bcrypt." width="100%"></a>
+
 <img src="docs/sections/stack.png" alt="Stack" width="100%">
 <p align="center"><img src="docs/stack/lab-securite.png" alt="Sécurité et supervision" width="560" /></p>
 <p align="center"><img src="docs/stack/securite.png" alt="LogPoint, Centreon, Fortinet, Wireshark" width="216" /></p>

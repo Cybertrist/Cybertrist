@@ -57,6 +57,10 @@ I am looking at roles in **cybersecurity**, **infrastructure**, **security opera
 
 <a href="https://github.com/Cybertrist/BodyCount/blob/main/README.en.md"><img src="docs/en/chantier/bodycount.png" alt="BodyCount, a mobile app for adults. An encrypted personal journal, offline, on Android. No server, no account, no telemetry. Flutter, SQLCipher, biometrics." width="100%"></a>
 
+<a href="https://github.com/Cybertrist/Serenity/blob/main/README.en.md"><img src="docs/en/chantier/serenity.png" alt="Serenity, security. Your password vault, hosted at home. An agent watches for breaches, and rotates the ones you trust it with. Zero knowledge, libsodium, self-hosted, AGPL v3." width="100%"></a>
+
+<a href="https://github.com/Cybertrist/KyrlCut/blob/main/README.en.md"><img src="docs/en/chantier/kyrlcut.png" alt="KyrlCut, web, private repository. Online booking for a hair salon, by invitation code only. Live at kyrlcut.fr. Express, MySQL, bcrypt." width="100%"></a>
+
 <img src="docs/en/sections/stack.png" alt="Stack" width="100%">
 <p align="center"><img src="docs/en/stack/lab-securite.png" alt="Security and monitoring" width="560" /></p>
 <p align="center"><img src="docs/stack/securite.png" alt="LogPoint, Centreon, Fortinet, Wireshark" width="216" /></p>
