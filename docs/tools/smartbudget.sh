@@ -1,5 +1,8 @@
 #!/bin/bash
-# Les deux cartes de Smart Budget.
+# Les deux cartes de Smart Budget. L'application tourne sur le compte réel
+# et sa version 1.0.2 est publiée : comme BodyCount, la carte ne porte plus
+# d'état, seulement ses catégories, et ses pastilles disent de quoi elle
+# est faite.
 #
 # Le contour néon n'est pas celui du fichier source. Réduit de 1254 px à
 # la taille d'affichage, son trait ne pesait plus que deux pixels et demi
@@ -15,15 +18,14 @@ A="#50F48D"
 NEON="border:1.5px solid ${A}C0;box-shadow:0 0 7px ${A}30, 0 12px 34px rgba(0,0,0,.5)"
 T='Smart <em>Budget</em>'
 L1="$(t "Arrêter de dépenser sans regarder, et de piocher dans l'épargne." 'Stop spending blind, and stop dipping into the savings.')"
-L2="$(t 'Le mois entier sur un écran, et la part que prend chaque catégorie.' 'The whole month on one screen, and the share each category takes.')"
+L2="$(t 'Le compte lu par la DSP2, classé et chiffré sur le téléphone.' 'The account read over PSD2, sorted and encrypted on the phone.')"
 GL="<div class='crop' style='$NEON'><img src='$L' style='width:182px;height:182px'></div>"
-PASTILLE="$(P "$(t 'À DÉFINIR' 'TO BE DECIDED')")"
-ETAT="$(t 'PLANIFIÉ' 'PLANNED')"
+PASTILLE="$(P 'FLUTTER' "$(t 'DSP2' 'PSD2')" 'SQLCIPHER')"
 
-# Carte de la grille de projets : catégorie, puis état.
+# Carte de la grille de projets.
 ban p-smartbudget "$A" "#1BCC6D" "#02120A" "$GL" "$T" "$L1" "$L2" \
-"$PASTILLE" "$(C 'MOBILE' 'FINANCE')" "<i>$ETAT</i>"
+"$PASTILLE" "$(C 'MOBILE' 'FINANCE')" ""
 
-# Carte de la section « En chantier » : mêmes catégories, puis l'état.
+# Carte de la section « En chantier », identique.
 ban ch-smartbudget "$A" "#1BCC6D" "#02120A" "$GL" "$T" "$L1" "$L2" \
-"$PASTILLE" "$(C 'MOBILE' 'FINANCE')" "<i>$ETAT</i>"
+"$PASTILLE" "$(C 'MOBILE' 'FINANCE')" ""
