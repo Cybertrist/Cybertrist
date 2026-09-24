@@ -14,8 +14,8 @@ ban microcoaster "#E8E8E8" "#8A8A8A" "#141414" \
 'Micro<em>Coaster</em>™' \
 "$(t 'Une carte conçue de zéro, son firmware,' 'A board designed from scratch, its firmware,')" \
 "$(t "et l'application web qui la pilote." 'and the web app that drives it.')" \
-"$(P "$(t 'CONCEPTION PCB' 'PCB DESIGN')" 'FIRMWARE' 'IoT' 'HTTPS')" \
-"$(t 'EMBARQUÉ' 'EMBEDDED')" ""
+"$(P "$(t 'CONCEPTION PCB' 'PCB DESIGN')" 'ESP32' 'PLATFORMIO' 'WEBSOCKET' 'NODE.JS' 'SOCKET.IO' 'MYSQL' 'HTTPS')" \
+"$(C 'WEB' "$(t 'EMBARQUÉ' 'EMBEDDED')" 'COASTER')" ""
 
 # Le cadre néon du logo n'occupe que 77 % du fichier : cadré au-delà, à
 # 198 px, et contour redessiné en CSS pour rester net.

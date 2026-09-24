@@ -43,7 +43,7 @@ I am looking at roles in **cybersecurity**, **infrastructure**, **security opera
 
 <a href="https://github.com/Cybertrist/KyrlCut/blob/main/README.en.md"><img src="docs/en/projets/kyrlcut.png" alt="KyrlCut, web, mobile, hair salon, private repository. Online booking for a hair salon, by invitation only. Quarter-hour slots, an email reminder the day before. Express, MySQL, bcrypt." width="100%"></a>
 
-<a href="https://github.com/Microcoaster"><img src="docs/en/projets/microcoaster.png" alt="MicroCoaster, embedded: a board designed from scratch, its firmware and the web app that drives it" width="100%"></a>
+<a href="https://github.com/Microcoaster"><img src="docs/en/projets/microcoaster.png" alt="MicroCoaster, web, embedded, coaster. A board designed from scratch, its firmware, and the web app that drives it. PCB design, ESP32, PlatformIO, WebSocket, Node.js, Socket.IO, MySQL, HTTPS." width="100%"></a>
 
 <a href="https://github.com/Cybertrist/Serenity/blob/main/README.en.md"><img src="docs/en/projets/serenity.png" alt="Serenity, web, mobile, security. Your password vault, hosted at home. An agent watches for breaches, and rotates the ones you trust it with. Zero knowledge, libsodium, self-hosted, AGPL v3." width="100%"></a>
 
