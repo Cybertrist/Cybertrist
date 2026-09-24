@@ -67,7 +67,7 @@ ban kyrlcut "#C26BFF" "#FFB3C8" "#100322" \
 "$(t 'Réservation en ligne pour salon de coiffure, sur code' 'Online booking for a hair salon, by invitation code')" \
 "$(t "d'invitation. En production sur kyrlcut.fr." 'only. Live at kyrlcut.fr.')" \
 "$(P 'EXPRESS' 'MYSQL' 'BCRYPT')" \
-'WEB' "$PRIV"
+"$(C 'WEB' 'MOBILE' "$(t 'COIFFURE' 'HAIR SALON')")" "$PRIV"
 
 ban bodycount "#E879F9" "#7C3AED" "#0A0410" \
 "<div class='crop'><img src='$ICONE'></div>" \
@@ -75,4 +75,4 @@ ban bodycount "#E879F9" "#7C3AED" "#0A0410" \
 "$(t 'Journal personnel chiffré, hors ligne, sur Android.' 'An encrypted personal journal, offline, on Android.')" \
 "$(t 'Aucun serveur, aucun compte, aucune télémétrie.' 'No server, no account, no telemetry.')" \
 "$(P 'FLUTTER' 'SQLCIPHER' "$(t 'BIOMÉTRIE' 'BIOMETRICS')")" \
-"$(t 'MOBILE · ADULTE' 'MOBILE · ADULT')" ""
+"$(C 'MOBILE' "$(t 'ADULTE' 'ADULT')")" ""

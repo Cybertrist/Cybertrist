@@ -12,4 +12,4 @@ ban ch-bodycount "#E879F9" "#7C3AED" "#0A0410" \
 "$(t 'Journal personnel chiffré, hors ligne, sur Android.' 'An encrypted personal journal, offline, on Android.')" \
 "$(t 'Aucun serveur, aucun compte, aucune télémétrie.' 'No server, no account, no telemetry.')" \
 "$(P 'FLUTTER' 'SQLCIPHER' "$(t 'BIOMÉTRIE' 'BIOMETRICS')")" \
-"$(t 'MOBILE · ADULTE' 'MOBILE · ADULT')" ""
+"$(C 'MOBILE' "$(t 'ADULTE' 'ADULT')")" ""

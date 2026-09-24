@@ -22,8 +22,8 @@ ETAT="$(t 'PLANIFIÉ' 'PLANNED')"
 
 # Carte de la grille de projets : catégorie, puis état.
 ban p-smartbudget "$A" "#1BCC6D" "#02120A" "$GL" "$T" "$L1" "$L2" \
-"$PASTILLE" "$(t 'FINANCES' 'FINANCE')" "<i>$ETAT</i>"
+"$PASTILLE" "$(C 'MOBILE' 'FINANCE')" "<i>$ETAT</i>"
 
-# Carte de la section « En chantier » : l'état seul tient lieu de cartouche.
+# Carte de la section « En chantier » : mêmes catégories, puis l'état.
 ban ch-smartbudget "$A" "#1BCC6D" "#02120A" "$GL" "$T" "$L1" "$L2" \
-"$PASTILLE" "$ETAT" ""
+"$PASTILLE" "$(C 'MOBILE' 'FINANCE')" "<i>$ETAT</i>"
