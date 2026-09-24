@@ -1,5 +1,5 @@
 #!/bin/bash
-# Les deux cartes de Smart Budget. L'application tourne sur le compte réel
+# La carte de Smart Budget. L'application tourne sur le compte réel
 # et sa version 1.0.2 est publiée : comme BodyCount, la carte ne porte plus
 # d'état, seulement ses catégories, et ses pastilles disent de quoi elle
 # est faite.
@@ -13,7 +13,7 @@
 # l'original.
 D="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 source "$D/cartes.sh" >/dev/null 2>&1
-L="file:///$B/../chantier/smartbudget-logo.png"
+L="file:///$B/smartbudget-logo.png"
 A="#50F48D"
 NEON="border:1.5px solid ${A}C0;box-shadow:0 0 7px ${A}30, 0 12px 34px rgba(0,0,0,.5)"
 T='Smart <em>Budget</em>'
@@ -22,10 +22,5 @@ L2="$(t 'Le compte lu par la DSP2, classé et chiffré sur le téléphone.' 'The
 GL="<div class='crop' style='$NEON'><img src='$L' style='width:182px;height:182px'></div>"
 PASTILLE="$(P 'FLUTTER' "$(t 'DSP2' 'PSD2')" 'SQLCIPHER')"
 
-# Carte de la grille de projets.
 ban p-smartbudget "$A" "#1BCC6D" "#02120A" "$GL" "$T" "$L1" "$L2" \
-"$PASTILLE" "$(C 'MOBILE' 'FINANCE')" ""
-
-# Carte de la section « En chantier », identique.
-ban ch-smartbudget "$A" "#1BCC6D" "#02120A" "$GL" "$T" "$L1" "$L2" \
 "$PASTILLE" "$(C 'MOBILE' 'FINANCE')" ""

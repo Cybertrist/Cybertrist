@@ -1,8 +1,8 @@
 #!/bin/bash
 # Les huit cartes de projet qui suivent le gabarit commun. Serenity a le
 # sien, dans serenity.sh.
-# Les bots Discord sont dans basicfit.sh et gomuscu.sh, les deux chantiers
-# dans cybersas.sh et smartbudget.sh.
+# Les bots Discord sont dans basicfit.sh et gomuscu.sh, CyberSas et Smart
+# Budget dans cybersas.sh et smartbudget.sh.
 #
 # Chaque texte porte ses deux langues, t <français> <anglais>. L'anglais
 # n'est pas une traduction mot à mot : une tournure qui claque en français

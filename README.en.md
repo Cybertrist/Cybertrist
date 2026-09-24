@@ -37,31 +37,35 @@ I am looking at roles in **cybersecurity**, **infrastructure**, **security opera
 
 <a href="https://github.com/Microcoaster"><img src="docs/en/projets/microcoaster.png" alt="MicroCoaster, embedded: a board designed from scratch, its firmware and the web app that drives it" width="100%"></a>
 
-<p align="center">
-<a href="https://github.com/Cybertrist/Serenity/blob/main/README.en.md"><img src="docs/en/projets/serenity.png" alt="Serenity, end-to-end encrypted password manager" width="49.8%"></a><a href="https://github.com/Cybertrist/Messagerie-securise-RSA-AES/blob/main/README.en.md"><img src="docs/en/projets/messagerie.png" alt="Encrypted messaging with RSA and AES, hybrid cryptography in Python" width="49.8%"></a>
-<a href="https://github.com/Cybertrist/DIR-ASM/blob/main/README.en.md"><img src="docs/en/projets/dirasm.png" alt="DIR-ASM, exploring x86 assembly" width="49.8%"></a><a href="https://github.com/Cybertrist/Huffman/blob/main/README.en.md"><img src="docs/en/projets/huffman.png" alt="Huffman, lossless compression implemented in C" width="49.8%"></a>
-<a href="https://github.com/Cybertrist/BeVannes/blob/main/README.en.md"><img src="docs/en/projets/bevannes.png" alt="BeVannes, a Flutter mobile app for student life in Vannes" width="49.8%"></a><a href="https://github.com/Cybertrist/ubhess-emargement/blob/main/README.en.md"><img src="docs/en/projets/emargement.png" alt="UBS attendance automated, the end of the weekly click" width="49.8%"></a>
-<a href="https://github.com/Cybertrist/KyrlCut/blob/main/README.en.md"><img src="docs/en/projets/kyrlcut.png" alt="KyrlCut, online booking for a hair salon, private repository" width="49.8%"></a><a href="https://github.com/Cybertrist/BodyCount/blob/main/README.en.md"><img src="docs/en/projets/bodycount.png" alt="BodyCount, a mobile app for adults: an encrypted personal journal, offline, on Android" width="49.8%"></a>
-<a href="https://github.com/Cybertrist/GoMuscu/blob/main/README.en.md"><img src="docs/en/projets/gomuscu.png" alt="GoMuscu, a Discord bot that tracks gym sessions, keeps the tally and nudges whoever skips" width="49.8%"></a><a href="https://github.com/Cybertrist/Basicfit-Coach/blob/main/README.en.md"><img src="docs/en/projets/bf-coach.png" alt="Basic-Fit Coach, a private Discord bot that reads the Basic-Fit account export: heatmaps, streaks, time of day, and seven gym calculators" width="49.8%"></a>
-<a href="https://github.com/Cybertrist/Basicfit-Securite/blob/main/README.en.md"><img src="docs/en/projets/bf-securite.png" alt="Basic-Fit Security, a private Discord moderation bot, twelve commands and a mute role set from inside Discord" width="49.8%"></a><a href="https://github.com/Cybertrist/Basicfit-Manager/blob/main/README.en.md"><img src="docs/en/projets/bf-manager.png" alt="Basic-Fit Manager, a private Discord welcome and ticketing bot, tickets opened from a menu, a role granted on arrival, the guide sent by direct message" width="49.8%"></a>
-<img src="docs/en/projets/cybersas.png" alt="CyberSas, network, in progress. A self-hosted reverse proxy and VPN: a single way in, TLS terminated there, and a private tunnel for the rest" width="49.8%"><a href="https://github.com/Cybertrist/SmartBudget"><img src="docs/en/projets/smartbudget.png" alt="Smart Budget, mobile, finance. Stop spending blind, and stop dipping into the savings. The account read over PSD2, sorted and encrypted on the phone. Flutter, PSD2, SQLCipher" width="49.8%"></a>
-</p>
+<a href="https://github.com/Cybertrist/Serenity/blob/main/README.en.md"><img src="docs/en/projets/serenity.png" alt="Serenity, web, mobile, security. Your password vault, hosted at home. An agent watches for breaches, and rotates the ones you trust it with. Zero knowledge, libsodium, self-hosted, AGPL v3." width="100%"></a>
+
+<a href="https://github.com/Cybertrist/Messagerie-securise-RSA-AES/blob/main/README.en.md"><img src="docs/en/projets/messagerie.png" alt="Encrypted messaging, cryptography. Build an RSA / AES protocol, then break it: MITM and spoofing, then fix it with signatures. RSA 2048, AES, MITM, Python." width="100%"></a>
+
+<a href="https://github.com/Cybertrist/DIR-ASM/blob/main/README.en.md"><img src="docs/en/projets/dirasm.png" alt="Dir ASM, low level. The dir /s command rewritten in x86 assembly: no macros, no runtime, raw Win32 calls. MASM32, x86, Win32 API." width="100%"></a>
+
+<a href="https://github.com/Cybertrist/Huffman/blob/main/README.en.md"><img src="docs/en/projets/huffman.png" alt="Huffman coding, algorithms. Three ways to build the tree: fixed, computed, or rebuilt on the fly as the stream goes by. Python, compression, adaptive." width="100%"></a>
+
+<a href="https://github.com/Cybertrist/BeVannes/blob/main/README.en.md"><img src="docs/en/projets/bevannes.png" alt="BeVannes, mobile, geography, photo, game. BeReal meets GeoGuessr: a spot drawn at random every day, and the photo only counts if GPS says you were there. Flutter, Firebase, geolocation." width="100%"></a>
+
+<a href="https://github.com/Cybertrist/ubhess-emargement/blob/main/README.en.md"><img src="docs/en/projets/emargement.png" alt="UBS sign-in, automation. Signing the Moodle attendance sheet, in one command. No crontab, no service. Python, Selenium, headless." width="100%"></a>
+
+<a href="https://github.com/Cybertrist/KyrlCut/blob/main/README.en.md"><img src="docs/en/projets/kyrlcut.png" alt="KyrlCut, web, mobile, hair salon, private repository. Online booking for a hair salon, by invitation only. Quarter-hour slots, an email reminder the day before. Express, MySQL, bcrypt." width="100%"></a>
+
+<a href="https://github.com/Cybertrist/BodyCount/blob/main/README.en.md"><img src="docs/en/projets/bodycount.png" alt="BodyCount, mobile, adult. An encrypted personal journal, offline, on Android. No server, no account, no telemetry. Flutter, SQLCipher, biometrics." width="100%"></a>
+
+<a href="https://github.com/Cybertrist/GoMuscu/blob/main/README.en.md"><img src="docs/en/projets/gomuscu.png" alt="GoMuscu, the Discord bot that tracks the gym sessions, keeps the tally, and nudges whoever skips." width="100%"></a>
+
+<a href="https://github.com/Cybertrist/Basicfit-Coach/blob/main/README.en.md"><img src="docs/en/projets/bf-coach.png" alt="Basic-Fit Coach, fitness bot, private repository. Import your Basic-Fit account export, and pull out what the app never shows: heatmaps, streaks, time of day. Plus seven gym calculators. Discord.js 14, Canvas, Undici." width="100%"></a>
+
+<a href="https://github.com/Cybertrist/Basicfit-Securite/blob/main/README.en.md"><img src="docs/en/projets/bf-securite.png" alt="Basic-Fit Security, moderation bot, private repository. Ban, kick, mute, lock a channel, purge it or rebuild it from scratch. Twelve moderation commands, and a mute role set from inside Discord. Discord.js 14, permissions, no database." width="100%"></a>
+
+<a href="https://github.com/Cybertrist/Basicfit-Manager/blob/main/README.en.md"><img src="docs/en/projets/bf-manager.png" alt="Basic-Fit Manager, community bot, private repository. A welcome channel that asks nothing of anyone: tickets opened from a menu, a role granted on arrival, the guide sent by direct message. Discord.js 14, tickets, auto-roles." width="100%"></a>
+
+<img src="docs/en/projets/cybersas.png" alt="CyberSas, network, in progress. Expose what has to be exposed, and nothing else: a single way in, TLS terminated there, and a private tunnel for the rest. Nginx, WireGuard, Debian." width="100%">
+
+<a href="https://github.com/Cybertrist/SmartBudget"><img src="docs/en/projets/smartbudget.png" alt="Smart Budget, mobile, finance. Stop spending blind, and stop dipping into the savings. The account read over PSD2, sorted and encrypted on the phone. Flutter, PSD2, SQLCipher." width="100%"></a>
 
 <img src="docs/en/notes/prive.png" alt="Private repositories. KyrlCut was built for a client, and the code belongs to whoever paid for it. The three Basic-Fit bots run a real Discord server and read account exports: channel IDs and personal data have no business being public. Their cards do point at the repository, but GitHub answers 404 to anyone without access. Every card carries its category, and its status when the repository does not exist yet." width="100%">
-
-<img src="docs/en/sections/chantier.png" alt="In progress" width="100%">
-
-<a href="https://github.com/Cybertrist/BeVannes/blob/main/README.en.md"><img src="docs/en/chantier/bevannes.png" alt="BeVannes, mobile, geography, photo, game. BeReal meets GeoGuessr: a spot drawn at random every day, and the photo only counts if GPS says you were there. Flutter, Firebase, geolocation." width="100%"></a>
-
-<a href="https://github.com/Cybertrist/BodyCount/blob/main/README.en.md"><img src="docs/en/chantier/bodycount.png" alt="BodyCount, a mobile app for adults. An encrypted personal journal, offline, on Android. No server, no account, no telemetry. Flutter, SQLCipher, biometrics." width="100%"></a>
-
-<img src="docs/en/chantier/cybersas.png" alt="CyberSas, a self-hosted reverse proxy and VPN, in progress. Expose what has to be exposed, and nothing else: a single way in, TLS terminated there, and a private tunnel for the rest. Nginx, WireGuard, Debian, self-hosted." width="100%">
-
-<a href="https://github.com/Cybertrist/KyrlCut/blob/main/README.en.md"><img src="docs/en/chantier/kyrlcut.png" alt="KyrlCut, web, private repository. Online booking for a hair salon, by invitation code only. Live at kyrlcut.fr. Express, MySQL, bcrypt." width="100%"></a>
-
-<a href="https://github.com/Cybertrist/Serenity/blob/main/README.en.md"><img src="docs/en/chantier/serenity.png" alt="Serenity, security. Your password vault, hosted at home. An agent watches for breaches, and rotates the ones you trust it with. Zero knowledge, libsodium, self-hosted, AGPL v3." width="100%"></a>
-
-<a href="https://github.com/Cybertrist/SmartBudget"><img src="docs/en/chantier/smartbudget.png" alt="Smart Budget, mobile, finance. Stop spending blind, and stop dipping into the savings. The account read over PSD2, sorted and encrypted on the phone. Flutter, PSD2, SQLCipher." width="100%"></a>
 
 <img src="docs/en/sections/stack.png" alt="Stack" width="100%">
 <p align="center"><img src="docs/en/stack/lab-securite.png" alt="Security and monitoring" width="560" /></p>

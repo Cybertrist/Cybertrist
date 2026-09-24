@@ -5,7 +5,7 @@
 D="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"; cd "$D"
 source "$D/langue.sh"
 DEST=".."; [ "$LG" = en ] && DEST="../en"
-mkdir -p "$DEST"/projets "$DEST"/liens "$DEST"/langues "$DEST"/chantier "$DEST"/sections "$DEST"/stack "$DEST"/notes
+mkdir -p "$DEST"/projets "$DEST"/liens "$DEST"/langues "$DEST"/sections "$DEST"/stack "$DEST"/notes
 n=0
 pose () { [ -f "$1" ] || { echo "  manquant : $1"; return; }; cp "$1" "$DEST/$2"; n=$((n+1)); }
 
@@ -16,16 +16,8 @@ done
 pose "png$SUF/banniere.png"         banniere.png
 pose "png$SUF/f-p-cybersas.png"     projets/cybersas.png
 pose "png$SUF/f-p-smartbudget.png"  projets/smartbudget.png
-pose "png$SUF/f-ch-cybersas.png"    chantier/cybersas.png
-pose "png$SUF/f-ch-smartbudget.png" chantier/smartbudget.png
-pose "png$SUF/f-ch-bodycount.png"   chantier/bodycount.png
-# BeVannes, KyrlCut et Serenity tournent déjà mais restent au chantier : leur carte
-# de projet sert telle quelle, en pleine largeur.
-pose "png$SUF/f-bevannes.png"       chantier/bevannes.png
-pose "png$SUF/f-kyrlcut.png"        chantier/kyrlcut.png
-pose "png$SUF/f-serenity.png"       chantier/serenity.png
 
-for k in quotidien objectif projets chantier stack contact; do
+for k in quotidien objectif projets stack contact; do
   pose "png$SUF/s-$k.png" "sections/$k.png"
 done
 for k in securite systemes microsoft exploitation langages web donnees embarque assistants; do

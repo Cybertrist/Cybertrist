@@ -3,7 +3,7 @@
 # pour le français et docs/en/ pour l'anglais.
 D="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 SCRIPTS="banniere sections projets serenity basicfit gomuscu cybersas smartbudget
-         bodycount stack-tuiles stack-intitules contact note"
+         stack-tuiles stack-intitules contact note"
 
 echo "pastilles.sh"; bash "$D/pastilles.sh"
 

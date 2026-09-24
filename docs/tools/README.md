@@ -45,15 +45,13 @@ fichiers, dans `docs/`.
 - `cartes.sh` : le gabarit commun des cartes 1280x320. Ne se lance pas
   seul, les autres le chargent.
 - `banniere.sh` : l'en-tête du profil.
-- `sections.sh` : les six bandeaux de section, numérotés.
+- `sections.sh` : les cinq bandeaux de section, numérotés.
 - `projets.sh` : les huit cartes de projet qui suivent le gabarit.
 - `serenity.sh` : la carte Serenity, qui a le sien.
 - `basicfit.sh` : les trois cartes des bots Basic-Fit.
 - `gomuscu.sh` : la carte de GoMuscu.
-- `cybersas.sh` : les deux cartes de CyberSas, celle de la grille de
-  projets et celle d'« En chantier ».
-- `smartbudget.sh` : les deux cartes de Smart Budget.
-- `bodycount.sh` : la carte « En chantier » de BodyCount.
+- `cybersas.sh` : la carte de CyberSas.
+- `smartbudget.sh` : la carte de Smart Budget.
 - `stack-tuiles.sh` : les rangées de logos de la stack.
 - `stack-intitules.sh` : les intitulés qui les séparent.
 - `liens.sh` : le gabarit des tuiles de contact. Chargé par `contact.sh`.
