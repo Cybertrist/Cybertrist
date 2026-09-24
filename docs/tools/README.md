@@ -46,7 +46,7 @@ fichiers, dans `docs/`.
   seul, les autres le chargent.
 - `banniere.sh` : l'en-tête du profil.
 - `sections.sh` : les cinq bandeaux de section, numérotés.
-- `projets.sh` : les trois cartes de projet qui suivent le gabarit.
+- `projets.sh` : les quatre cartes de projet qui suivent le gabarit.
 - `serenity.sh` : la carte Serenity, qui a le sien.
 - `cybersas.sh` : la carte de CyberSas.
 - `smartbudget.sh` : la carte de Smart Budget.

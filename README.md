@@ -41,6 +41,8 @@ Je m'intéresse aux postes en **cybersécurité**, **infrastructure**, **sécuri
 
 <img src="docs/projets/cybersas.png" alt="CyberSas, réseau, en cours. Exposer ce qui doit l'être, et rien d'autre : un point d'entrée unique, terminaison TLS, et un tunnel privé pour le reste. Nginx, WireGuard, Debian." width="100%">
 
+<a href="https://github.com/Cybertrist/KyrlCut"><img src="docs/projets/kyrlcut.png" alt="KyrlCut, web, mobile, coiffure, dépôt privé. Réservation en ligne pour salon de coiffure, sur invitation. Créneaux au quart d'heure, rappel par email la veille. Express, MySQL, bcrypt." width="100%"></a>
+
 <a href="https://github.com/Microcoaster"><img src="docs/projets/microcoaster.png" alt="MicroCoaster, embarqué : une carte conçue de zéro, son firmware et l'application web qui la pilote" width="100%"></a>
 
 <a href="https://github.com/Cybertrist/Serenity"><img src="docs/projets/serenity.png" alt="Serenity, web, mobile, sécurité. Ton coffre de mots de passe, chez toi. Un agent surveille les fuites, et change ceux que tu lui confies. Zéro connaissance, libsodium, auto-hébergé, AGPL v3." width="100%"></a>

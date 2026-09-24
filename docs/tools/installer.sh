@@ -9,7 +9,7 @@ mkdir -p "$DEST"/projets "$DEST"/liens "$DEST"/langues "$DEST"/sections "$DEST"/
 n=0
 pose () { [ -f "$1" ] || { echo "  manquant : $1"; return; }; cp "$1" "$DEST/$2"; n=$((n+1)); }
 
-for k in microcoaster serenity bevannes bodycount; do
+for k in microcoaster serenity bevannes bodycount kyrlcut; do
   pose "png$SUF/f-$k.png" "projets/$k.png"
 done
 pose "png$SUF/banniere.png"         banniere.png

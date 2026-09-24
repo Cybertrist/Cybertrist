@@ -1,5 +1,5 @@
 #!/bin/bash
-# Les trois cartes de projet qui suivent le gabarit commun. Serenity a le
+# Les quatre cartes de projet qui suivent le gabarit commun. Serenity a le
 # sien, dans serenity.sh.
 # CyberSas et Smart Budget sont dans cybersas.sh et smartbudget.sh.
 #
@@ -34,3 +34,14 @@ ban bodycount "#E879F9" "#7C3AED" "#0A0410" \
 "$(t 'Aucun serveur, aucun compte, aucune télémétrie.' 'No server, no account, no telemetry.')" \
 "$(P 'FLUTTER' 'SQLCIPHER' "$(t 'BIOMÉTRIE' 'BIOMETRICS')")" \
 "$(C 'MOBILE' "$(t 'ADULTE' 'ADULT')")" ""
+
+# Le badge néon du logo n'occupe que 80 % du fichier, et son trait réduit
+# à la taille de la plaque sortirait crénelé. Le logo est donc cadré
+# au-delà de son cadre, à 190 px, et le contour est redessiné en CSS.
+ban kyrlcut "#C26BFF" "#FFB3C8" "#100322" \
+"<div class='crop' style='border:1.5px solid #B45CFFC0;box-shadow:0 0 7px #B45CFF30, 0 12px 34px rgba(0,0,0,.5)'><img src='file:///$B/kyrlcut-logo.png' style='width:190px;height:190px'></div>" \
+'Kyrl<em>Cut</em>' \
+"$(t 'Réservation en ligne pour salon de coiffure, sur invitation.' 'Online booking for a hair salon, by invitation only.')" \
+"$(t 'Créneaux au quart d’heure, rappel par email la veille.' 'Quarter-hour slots, an email reminder the day before.')" \
+"$(P 'EXPRESS' 'MYSQL' 'BCRYPT')" \
+"$(C 'WEB' 'MOBILE' "$(t 'COIFFURE' 'HAIR SALON')")" "$PRIV"
