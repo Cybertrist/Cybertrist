@@ -1,5 +1,5 @@
 #!/bin/bash
-# Générateur unique des 9 bannières de projet.
+# Générateur unique des bannières de projet.
 # Chaque bannière porte sa catégorie en haut à droite, et la mention
 # « privé » quand le dépôt n'est pas public, pour qu'un visiteur comprenne
 # pourquoi il ne peut pas cliquer.

@@ -19,7 +19,7 @@
 
 Je me suis orienté vers la sécurité pour une raison simple : j'aime comprendre comment un système fonctionne, repérer où il cède, et trouver ce qu'il faut pour qu'il tienne. Mon parcours m'a fait passer par le développement, l'administration système, le réseau et la sécurité, et c'est cette vision d'ensemble qui m'intéresse aujourd'hui, plutôt qu'un outil isolé.
 
-**Quand une contrainte revient trop souvent, j'écris ce qui la fait disparaître.** La plupart des projets ci-dessous sont nés comme ça : un émargement à cliquer chaque semaine, un ami coiffeur qui gérait ses rendez-vous par messages, des mots de passe éparpillés sans coffre à qui les confier.
+**Quand une contrainte revient trop souvent, j'écris ce qui la fait disparaître.** La plupart des projets ci-dessous sont nés comme ça : un budget qui fondait sans que je le voie passer, des mots de passe éparpillés sans coffre à qui les confier.
 
 <img src="docs/sections/quotidien.png" alt="Au quotidien" width="100%">
 
@@ -35,37 +35,17 @@ Je m'intéresse aux postes en **cybersécurité**, **infrastructure**, **sécuri
 
 <img src="docs/sections/projets.png" alt="Projets" width="100%">
 
+<a href="https://github.com/Cybertrist/BeVannes"><img src="docs/projets/bevannes.png" alt="BeVannes, mobile, géographie, photo, jeu. BeReal rencontre GeoGuessr : un lieu tiré au sort chaque jour, et la photo ne compte que si le GPS confirme que vous y êtes. Flutter, Firebase, géolocalisation." width="100%"></a>
+
+<a href="https://github.com/Cybertrist/BodyCount"><img src="docs/projets/bodycount.png" alt="BodyCount, mobile, adulte. Journal personnel chiffré, hors ligne, sur Android. Aucun serveur, aucun compte, aucune télémétrie. Flutter, SQLCipher, biométrie." width="100%"></a>
+
+<img src="docs/projets/cybersas.png" alt="CyberSas, réseau, en cours. Exposer ce qui doit l'être, et rien d'autre : un point d'entrée unique, terminaison TLS, et un tunnel privé pour le reste. Nginx, WireGuard, Debian." width="100%">
+
 <a href="https://github.com/Microcoaster"><img src="docs/projets/microcoaster.png" alt="MicroCoaster, embarqué : une carte conçue de zéro, son firmware et l'application web qui la pilote" width="100%"></a>
 
 <a href="https://github.com/Cybertrist/Serenity"><img src="docs/projets/serenity.png" alt="Serenity, web, mobile, sécurité. Ton coffre de mots de passe, chez toi. Un agent surveille les fuites, et change ceux que tu lui confies. Zéro connaissance, libsodium, auto-hébergé, AGPL v3." width="100%"></a>
 
-<a href="https://github.com/Cybertrist/Messagerie-securise-RSA-AES"><img src="docs/projets/messagerie.png" alt="Messagerie chiffrée, cryptographie. Construire un protocole RSA / AES, puis le casser, MITM et usurpation, puis le réparer par signature. RSA 2048, AES, MITM, Python." width="100%"></a>
-
-<a href="https://github.com/Cybertrist/DIR-ASM"><img src="docs/projets/dirasm.png" alt="Dir ASM, bas niveau. La commande dir /s réécrite en assembleur x86, sans macro, sans runtime, appels Win32 bruts. MASM32, x86, Win32 API." width="100%"></a>
-
-<a href="https://github.com/Cybertrist/Huffman"><img src="docs/projets/huffman.png" alt="Codage de Huffman, algorithmique. Trois façons de construire l'arbre : figée, calculée, ou reconstruite à la volée au fil du flux. Python, compression, adaptatif." width="100%"></a>
-
-<a href="https://github.com/Cybertrist/BeVannes"><img src="docs/projets/bevannes.png" alt="BeVannes, mobile, géographie, photo, jeu. BeReal rencontre GeoGuessr : un lieu tiré au sort chaque jour, et la photo ne compte que si le GPS confirme que vous y êtes. Flutter, Firebase, géolocalisation." width="100%"></a>
-
-<a href="https://github.com/Cybertrist/ubhess-emargement"><img src="docs/projets/emargement.png" alt="Émargement UBS, automatisation. Émarger sur Moodle en une ligne de commande. Pas de crontab, pas de service. Python, Selenium, headless." width="100%"></a>
-
-<a href="https://github.com/Cybertrist/KyrlCut"><img src="docs/projets/kyrlcut.png" alt="KyrlCut, web, mobile, coiffure, dépôt privé. Réservation en ligne pour salon de coiffure, sur invitation. Créneaux au quart d'heure, rappel par email la veille. Express, MySQL, bcrypt." width="100%"></a>
-
-<a href="https://github.com/Cybertrist/BodyCount"><img src="docs/projets/bodycount.png" alt="BodyCount, mobile, adulte. Journal personnel chiffré, hors ligne, sur Android. Aucun serveur, aucun compte, aucune télémétrie. Flutter, SQLCipher, biométrie." width="100%"></a>
-
-<a href="https://github.com/Cybertrist/GoMuscu"><img src="docs/projets/gomuscu.png" alt="GoMuscu, le bot Discord qui suit les séances de la salle, tient les comptes et relance ceux qui sèchent." width="100%"></a>
-
-<a href="https://github.com/Cybertrist/Basicfit-Coach"><img src="docs/projets/bf-coach.png" alt="Basic-Fit Coach, bot fitness, dépôt privé. Importer son export de compte Basic-Fit, et en tirer ce que l'application ne montre pas : heatmap, séries, horaires. Et sept calculs de salle. Discord.js 14, Canvas, Undici." width="100%"></a>
-
-<a href="https://github.com/Cybertrist/Basicfit-Securite"><img src="docs/projets/bf-securite.png" alt="Basic-Fit Sécurité, bot de modération, dépôt privé. Bannir, expulser, museler, verrouiller un salon, le vider ou le refaire à neuf. Douze commandes de modération, et un rôle de mute défini depuis Discord. Discord.js 14, permissions, sans base." width="100%"></a>
-
-<a href="https://github.com/Cybertrist/Basicfit-Manager"><img src="docs/projets/bf-manager.png" alt="Basic-Fit Manager, bot communauté, dépôt privé. Un salon d'accueil qui ne demande rien à personne : tickets ouverts au menu, rôle donné à l'arrivée, guide envoyé en message privé. Discord.js 14, tickets, auto-rôles." width="100%"></a>
-
-<img src="docs/projets/cybersas.png" alt="CyberSas, réseau, en cours. Exposer ce qui doit l'être, et rien d'autre : un point d'entrée unique, terminaison TLS, et un tunnel privé pour le reste. Nginx, WireGuard, Debian." width="100%">
-
 <a href="https://github.com/Cybertrist/SmartBudget"><img src="docs/projets/smartbudget.png" alt="Smart Budget, mobile, finance. Arrêter de dépenser sans regarder, et de piocher dans l'épargne. Le compte lu par la DSP2, classé et chiffré sur le téléphone. Flutter, DSP2, SQLCipher." width="100%"></a>
-
-<img src="docs/notes/prive.png" alt="Dépôts privés. KyrlCut est un livrable client, son code appartient à celui qui l'a commandé. Les trois bots Basic-Fit servent un vrai serveur Discord et lisent des exports de compte : identifiants de salons et données personnelles n'ont rien à faire en public. Leurs cartes mènent bien au dépôt, mais GitHub répondra 404 à qui n'y a pas accès. Chaque bannière porte sa catégorie, et son état quand le dépôt n'existe pas encore." width="100%">
 
 <img src="docs/sections/stack.png" alt="Stack" width="100%">
 <p align="center"><img src="docs/stack/lab-securite.png" alt="Sécurité et supervision" width="560" /></p>

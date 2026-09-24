@@ -5,12 +5,11 @@
 D="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"; cd "$D"
 source "$D/langue.sh"
 DEST=".."; [ "$LG" = en ] && DEST="../en"
-mkdir -p "$DEST"/projets "$DEST"/liens "$DEST"/langues "$DEST"/sections "$DEST"/stack "$DEST"/notes
+mkdir -p "$DEST"/projets "$DEST"/liens "$DEST"/langues "$DEST"/sections "$DEST"/stack
 n=0
 pose () { [ -f "$1" ] || { echo "  manquant : $1"; return; }; cp "$1" "$DEST/$2"; n=$((n+1)); }
 
-for k in microcoaster serenity messagerie dirasm huffman bevannes emargement \
-         kyrlcut bodycount gomuscu bf-coach bf-securite bf-manager; do
+for k in microcoaster serenity bevannes bodycount; do
   pose "png$SUF/f-$k.png" "projets/$k.png"
 done
 pose "png$SUF/banniere.png"         banniere.png
@@ -23,7 +22,6 @@ done
 for k in securite systemes microsoft exploitation langages web donnees embarque assistants; do
   pose "stack$SUF/lab-$k.png" "stack/lab-$k.png"
 done
-pose "notes$SUF/prive.png" notes/prive.png
 
 # Les rangées de logos, les tuiles de contact et la pastille d'adresse ne
 # portent aucun texte : les deux READMEs pointent sur les mêmes fichiers.
