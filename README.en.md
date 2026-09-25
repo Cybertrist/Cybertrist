@@ -39,7 +39,7 @@ I am looking at roles in **cybersecurity**, **infrastructure**, **security opera
 
 <a href="https://github.com/Cybertrist/BodyCount/blob/main/README.en.md"><img src="docs/en/projets/bodycount.png" alt="BodyCount, mobile, adult. An encrypted personal journal, offline, on Android. No server, no account, no telemetry. Flutter, SQLCipher, biometrics." width="100%"></a>
 
-<img src="docs/en/projets/cybersas.png" alt="CyberSas, network, in progress. Expose what has to be exposed, and nothing else: a single way in, TLS terminated there, and a private tunnel for the rest. Nginx, WireGuard, Debian." width="100%">
+<a href="https://github.com/Cybertrist/CyberSas"><img src="docs/en/projets/cybersas.png" alt="CyberSas, network, in progress. Expose what has to be exposed, and nothing else: a single way in, TLS terminated there, and a private tunnel for the rest. Nginx, WireGuard, Debian." width="100%"></a>
 
 <a href="https://github.com/Cybertrist/KyrlCut/blob/main/README.en.md"><img src="docs/en/projets/kyrlcut.png" alt="KyrlCut, web, mobile, hair salon, private repository. Online booking for a hair salon, by invitation only. Quarter-hour slots, an email reminder the day before. Express, MySQL, bcrypt." width="100%"></a>
 
