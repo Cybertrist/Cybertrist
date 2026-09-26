@@ -28,11 +28,10 @@ PAST="$(c 'color:#F06A78D8;border:1px solid #E23B4E45;background:#E23B4E14' 'col
 OMBRE="$(c '#E23B4E70' '#E23B4E38')"
 PATTE="$(c '#6B3B44' '#B98A93')"
 
-# En clair, comme les cartes de projet : une carte de GitHub, blanche,
-# cadrée de gris, coins arrondis et détourés, sans voile rose ni halo.
+# En clair, comme les cartes de projet : cadrée comme une carte de GitHub,
+# coins arrondis et détourés, avec son voile rose et son halo à l'intérieur.
 CARTE_CLAIRE='html,body{background:transparent}
-.w{border-radius:14px;border:1px solid #D0D7DE;background:#FFFFFF}
-.gl{filter:none}'
+.w{border-radius:14px;border:1px solid #D0D7DE}'
 DETOUR="$(c '' '--default-background-color=00000000')"
 
 cat > "$D/html$SUF/banniere.html" <<HTML

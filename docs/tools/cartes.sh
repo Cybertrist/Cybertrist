@@ -16,14 +16,22 @@ ICONE="file:///$B/src-icone.png"
 # carte.
 #
 # Sur le noir de GitHub, la carte se fond dans la page. Sur le blanc, un
-# fond teinté dessinait un bloc à bords francs, et le halo du logo une
-# tache. La carte claire devient donc une carte de GitHub : blanche, cadrée
-# de gris, coins arrondis et détourés, sans halo. L'accent reste au titre,
-# aux pastilles et au trait du bas.
-CARTE_CLAIRE='html,body{background:transparent}
-.w{border-radius:14px;border:1px solid #D0D7DE;background:#FFFFFF}
-.grid{opacity:.18}
-.gl{filter:none}'
+# fond teinté jusqu'au bord dessinait un bloc à bords francs. La carte
+# claire est donc cadrée comme une carte de GitHub, coins arrondis et
+# détourés, et la couleur vit à l'intérieur : une lueur d'accent derrière
+# le logo, une autre de l'accent second dans le coin opposé, la grille, et
+# un halo resserré autour de la plaque. Toute blanche, elle paraissait vide.
+#
+# carte_claire <accent> <accent2> : les règles qui surchargent le gabarit.
+carte_claire () {
+  printf "%s" "html,body{background:transparent}
+.w{border-radius:14px;border:1px solid #D0D7DE;
+   background:radial-gradient(58% 130% at 12% 0%, ${1}24 0%, transparent 62%),
+              radial-gradient(46% 110% at 100% 100%, ${2}1C 0%, transparent 70%),
+              linear-gradient(135deg,#FFFFFF 0%,#FFFFFF 55%,#F6F8FA 100%)}
+.grid{opacity:.55}
+.gl{filter:drop-shadow(0 0 22px ${1}3A)}"
+}
 DETOUR="$(c '' '--default-background-color=00000000')"
 OMBRE="$(c 'rgba(0,0,0,.5)' 'rgba(30,20,50,.18)')"
 PLAQUE="$(c 'rgba(0,0,0,.55)' 'rgba(30,20,50,.2)')"
@@ -67,7 +75,7 @@ p{font-family:'Space Grotesk',sans-serif;font-size:18.5px;line-height:1.46;color
 .pl span{font-family:'Space Grotesk',sans-serif;font-size:12px;font-weight:500;letter-spacing:.7px;
   color:${2}D0;border:1px solid ${2}3A;background:${2}0E;border-radius:6px;padding:6px 11px}
 .ln{position:absolute;left:0;right:0;bottom:0;height:3px;background:linear-gradient(90deg,$2 0%,$3 44%,transparent 90%)}
-$(c '' "$CARTE_CLAIRE")
+$([ "$THEME" = clair ] && carte_claire "$2" "$3")
 </style></head><body>
 <div class="w"><div class="grid"></div>
 <div class="cat"><b>${10}</b>${11}</div>
