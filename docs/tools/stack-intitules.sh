@@ -16,6 +16,11 @@ B="$(cd "$D" && pwd -W 2>/dev/null || pwd)"
 
 L=560; H=42
 
+# Le fond est transparent : en clair, seuls le trait et le texte foncent.
+TRAIT="$(c '#2E3947' '#D0D7DE')"
+TEXTE="$(c '#CBD4DE' '#3D4852')"
+ACC="$(c '#E23B4E' '#D02A3F')"
+
 lab () { # <clé> <titre>
 cat > "$D/html$SUF/sl-$1.html" <<HTML
 <!doctype html><html lang="fr"><head><meta charset="utf-8">
@@ -27,12 +32,12 @@ html,body{width:${L}px;height:${H}px;overflow:hidden;background:transparent}
 /* Les deux règles s'effacent vers les bords : la page n'a pas de cadre,
    un trait net s'y arrêterait sèchement. */
 .r{flex:1;height:1px}
-.r.g{background:linear-gradient(90deg,transparent,#2E3947)}
-.r.d{background:linear-gradient(90deg,#2E3947,transparent)}
+.r.g{background:linear-gradient(90deg,transparent,$TRAIT)}
+.r.d{background:linear-gradient(90deg,$TRAIT,transparent)}
 .t{display:flex;align-items:center;gap:11px;flex-shrink:0}
 .t b{font-family:'JetBrains Mono',monospace;font-weight:500;font-size:12.5px;
-     letter-spacing:3.2px;text-transform:uppercase;color:#CBD4DE;white-space:nowrap}
-.t i{width:5px;height:5px;background:#E23B4E;border-radius:1px;transform:rotate(45deg);flex-shrink:0}
+     letter-spacing:3.2px;text-transform:uppercase;color:$TEXTE;white-space:nowrap}
+.t i{width:5px;height:5px;background:$ACC;border-radius:1px;transform:rotate(45deg);flex-shrink:0}
 </style></head><body>
 <div class="w"><div class="r g"></div><div class="t"><i></i><b>$2</b><i></i></div><div class="r d"></div></div>
 </body></html>

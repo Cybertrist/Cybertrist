@@ -13,7 +13,9 @@
 #   logo   <clé>             le logo MicroCoaster
 #
 # Les sources vivent dans tools/icones/, sk/ pour celles du pack.
-D="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"; mkdir -p "$D/html" "$D/liens"
+D="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+source "$D/langue.sh"
+mkdir -p "$D/html$SUF" "$D/liens$SUF"
 CH="${CHROME:-/c/Program Files/Google/Chrome/Application/chrome.exe}"
 B="$(cd "$D" && pwd -W 2>/dev/null || pwd)"
 I="$D/icones"
@@ -21,7 +23,7 @@ I="$D/icones"
 T=288   # rendu à 288, affiché à 72 : quatre fois, pour rester net
 
 rendu () { # <clé> <corps html>
-cat > "$D/html/l-$1.html" <<HTML
+cat > "$D/html$SUF/l-$1.html" <<HTML
 <!doctype html><html><head><meta charset="utf-8"><style>
 *{margin:0;padding:0}
 html,body{width:${T}px;height:${T}px;overflow:hidden;background:transparent;line-height:0}
@@ -30,7 +32,7 @@ html,body{width:${T}px;height:${T}px;overflow:hidden;background:transparent;line
 HTML
 "$CH" --headless=new --disable-gpu --hide-scrollbars --virtual-time-budget=8000 \
   --default-background-color=00000000 \
-  --screenshot="$B/liens/$1.png" --window-size=$T,$T "file:///$B/html/l-$1.html" >/dev/null 2>&1
+  --screenshot="$B/liens$SUF/$1.png" --window-size=$T,$T "file:///$B/html$SUF/l-$1.html" >/dev/null 2>&1
 echo "  $1.png"
 }
 
@@ -50,9 +52,14 @@ marque () {
 
 
 # adresse <clé> <texte> : la pastille en clair qui suit la rangée, pour
-# que l'adresse reste copiable à l'œil et pas seulement cliquable.
+# que l'adresse reste copiable à l'œil et pas seulement cliquable. Les
+# tuiles de marque gardent leurs couleurs sur les deux fonds ; seule la
+# pastille a une jumelle claire.
 adresse () {
-cat > "$D/html/l-$1.html" <<HTML
+local pil txt acc
+pil="$(c 'background:#131A24;border:1px solid #23303D' 'background:#F6F8FA;border:1px solid #D0D7DE')"
+txt="$(c '#D7E0EA' '#1F2933')"; acc="$(c '#E23B4E' '#D02A3F')"
+cat > "$D/html$SUF/l-$1.html" <<HTML
 <!doctype html><html lang="fr"><head><meta charset="utf-8">
 <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@500&display=swap" rel="stylesheet">
 <style>
@@ -60,18 +67,18 @@ cat > "$D/html/l-$1.html" <<HTML
 html,body{width:760px;height:96px;overflow:hidden;background:transparent}
 .w{width:760px;height:96px;display:flex;align-items:center;justify-content:center}
 .p{height:72px;display:flex;align-items:center;gap:16px;padding:0 30px;
-   border-radius:36px;background:#131A24;border:1px solid #23303D}
+   border-radius:36px;$pil}
 .p svg{flex-shrink:0}
-.p span{font-family:'JetBrains Mono',monospace;font-size:26px;letter-spacing:.2px;color:#D7E0EA}
+.p span{font-family:'JetBrains Mono',monospace;font-size:26px;letter-spacing:.2px;color:$txt}
 </style></head><body><div class="w"><div class="p">
 <svg width="28" height="28" viewBox="0 0 24 24" fill="none">
-  <rect x="2.4" y="4.9" width="19.2" height="14.2" rx="2.6" stroke="#E23B4E" stroke-width="1.8"/>
-  <path d="M3.5 6.9l8.5 6 8.5-6" stroke="#E23B4E" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+  <rect x="2.4" y="4.9" width="19.2" height="14.2" rx="2.6" stroke="$acc" stroke-width="1.8"/>
+  <path d="M3.5 6.9l8.5 6 8.5-6" stroke="$acc" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
 <span>$2</span>
 </div></div></body></html>
 HTML
 "$CH" --headless=new --disable-gpu --hide-scrollbars --virtual-time-budget=10000 \
   --force-device-scale-factor=2 --default-background-color=00000000 \
-  --screenshot="$B/liens/$1.png" --window-size=760,96 "file:///$B/html/l-$1.html" >/dev/null 2>&1
+  --screenshot="$B/liens$SUF/$1.png" --window-size=760,96 "file:///$B/html$SUF/l-$1.html" >/dev/null 2>&1
 echo "  $1.png  à afficher sur 380 px"
 }

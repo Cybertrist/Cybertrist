@@ -10,7 +10,7 @@ un fichier image.
 
     bash docs/tools/tout.sh
 
-Cela rend les deux langues. Les scripts écrivent dans `docs/tools/png/`,
+Cela rend les deux langues et les deux thèmes. Les scripts écrivent dans `docs/tools/png/`,
 `stack/`, `liens/` et `langues/`, suffixés `-en` pour l'anglais, qui ne
 sont pas versionnés. `installer.sh` recopie ensuite les fichiers
 retenus dans `docs/` et `docs/en/`.
@@ -40,6 +40,32 @@ Dix images ne portent aucun texte, les rangées de logos, les tuiles de
 contact et la pastille d'adresse : les deux pages pointent sur les mêmes
 fichiers, dans `docs/`.
 
+## Les deux thèmes
+
+GitHub affiche la page sur fond noir ou sur fond blanc, selon le réglage
+du visiteur. Chaque image porteuse d'un fond ou d'un texte a donc une
+jumelle claire, et le README les sert par une balise `<picture>` :
+
+    <picture><source media="(prefers-color-scheme: light)" srcset="docs/clair/banniere.png"><img src="docs/banniere.png" ...></picture>
+
+GitHub la résout selon le thème du site, pas celui du système. Le `<img>`
+reste la version sombre, celle que voit tout lecteur qui ignore `<picture>`.
+
+`THEME=clair` fait rendre à chaque script sa jumelle dans les dossiers
+suffixés `-clair`, et `installer.sh` la pose dans `docs/clair/` ou
+`docs/en/clair/`. Dans les scripts, `c <sombre> <clair>` choisit la
+couleur, sur le modèle de `t` : les deux valeurs sont côte à côte, et le
+rendu sombre reste identique au pixel près.
+
+    THEME=clair bash docs/tools/smartbudget.sh
+    THEME=clair bash docs/tools/installer.sh
+
+En clair, chaque carte de projet prend un accent un cran plus soutenu, qui
+tient sur fond blanc, et un fond à peine teinté de sa couleur. Les logos
+gardent leur plaque sombre. Les rangées de logos et les tuiles de contact
+n'ont pas de jumelle : leurs couleurs de marque tiennent sur les deux
+fonds. Les badges shields.io passent du fond `0D1117` au gris `F6F8FA`.
+
 ## Ce que fait chaque script
 
 - `cartes.sh` : le gabarit commun des cartes 1280x320. Ne se lance pas
@@ -56,10 +82,12 @@ fichiers, dans `docs/`.
 - `contact.sh` : les quatre tuiles de contact et la pastille d'adresse.
 - `pastilles.sh` : les deux pastilles du sélecteur de langue, allumée et
   éteinte dans chaque langue.
-- `langue.sh` : la bascule `LANGUE` et la fonction `t`. Ne se lance pas
-  seul, tous les autres le chargent.
-- `installer.sh` : repose les images rendues dans `docs/` ou `docs/en/`.
-- `tout.sh` : enchaîne tout ce qui précède, dans les deux langues.
+- `langue.sh` : les bascules `LANGUE` et `THEME`, les fonctions `t` et `c`.
+  Ne se lance pas seul, tous les autres le chargent.
+- `installer.sh` : repose les images rendues dans `docs/` ou `docs/en/`,
+  et leur sous-dossier `clair/` pour le thème clair.
+- `tout.sh` : enchaîne tout ce qui précède, dans les deux langues et les
+  deux thèmes.
 
 ## Ce dont ils dépendent
 

@@ -11,3 +11,16 @@
 LG="${LANGUE:-fr}"
 SUF=""; [ "$LG" = en ] && SUF="-en"
 t () { if [ "$LG" = en ]; then printf '%s' "$2"; else printf '%s' "$1"; fi; }
+
+# La bascule de thème, sur le même modèle. GitHub affiche la page sur
+# fond noir ou sur fond blanc selon le réglage du visiteur, et le README
+# sert l'une ou l'autre série d'images par une balise <picture>.
+#
+# THEME=sombre (par défaut) rend les images actuelles. THEME=clair rend
+# leurs jumelles dans les mêmes dossiers suffixés -clair, que installer.sh
+# pose dans docs/clair/ et docs/en/clair/.
+#
+# c <sombre> <clair> choisit la couleur, comme t choisit la langue.
+THEME="${THEME:-sombre}"
+[ "$THEME" = clair ] && SUF="$SUF-clair"
+c () { if [ "$THEME" = clair ]; then printf '%s' "$2"; else printf '%s' "$1"; fi; }

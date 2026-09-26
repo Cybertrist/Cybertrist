@@ -8,14 +8,21 @@ mkdir -p "$D/html$SUF" "$D/png$SUF"
 CH="${CHROME:-/c/Program Files/Google/Chrome/Application/chrome.exe}"
 B="$(cd "$D" && pwd -W 2>/dev/null || pwd)"
 
+# En clair, le fond prend le blanc de GitHub et le cartouche un rose pâle.
+FOND="$(c '#0D1117' '#FFFFFF')"
+CART="$(c 'color:#E23B4E;border:1.5px solid #4A2029;background:#160A0E' 'color:#D02A3F;border:1.5px solid #F2C4CB;background:#FDF1F3')"
+TITRE="$(c '#F0F4F8' '#16090D')"
+ACC="$(c '#E23B4E' '#D02A3F')"
+REGLE="$(c '#3A4450 0%,#222A34 42%' '#C9D1D9 0%,#E4E8EC 42%')"
+
 sec () {
 cat > "$D/html$SUF/s-$1.html" <<HTML
 <!doctype html><html lang="fr"><head><meta charset="utf-8">
 <link href="https://fonts.googleapis.com/css2?family=Syne:wght@800&family=JetBrains+Mono:wght@500&display=swap" rel="stylesheet">
 <style>
 *{margin:0;padding:0;box-sizing:border-box}
-html,body{width:1280px;height:118px;overflow:hidden;background:#0D1117}
-.w{width:1280px;height:118px;position:relative;background:#0D1117;
+html,body{width:1280px;height:118px;overflow:hidden;background:$FOND}
+.w{width:1280px;height:118px;position:relative;background:$FOND;
    display:flex;flex-direction:column;justify-content:center;gap:18px;padding:0 60px}
 
 .row{display:flex;align-items:center;gap:20px;height:40px}
@@ -24,16 +31,16 @@ html,body{width:1280px;height:118px;overflow:hidden;background:#0D1117}
    même endroit quelle que soit la section. */
 .ix{width:52px;height:40px;flex-shrink:0;display:flex;align-items:center;justify-content:center;
     font-family:'JetBrains Mono',monospace;font-size:15px;font-weight:500;letter-spacing:1px;
-    color:#E23B4E;border:1.5px solid #4A2029;background:#160A0E;border-radius:6px}
+    $CART;border-radius:6px}
 
 h2{font-family:Syne,sans-serif;font-weight:800;font-size:29px;line-height:40px;letter-spacing:5px;
-   color:#F0F4F8;text-transform:uppercase;white-space:nowrap}
+   color:$TITRE;text-transform:uppercase;white-space:nowrap}
 
 /* La règle : un segment rouge sous le cartouche, puis un dégradé qui
    s'efface vers le bord droit. */
 .rule{height:2px;display:flex;border-radius:2px;overflow:hidden}
-.rule .a{width:52px;flex-shrink:0;background:#E23B4E}
-.rule .b{flex:1;background:linear-gradient(90deg,#3A4450 0%,#222A34 42%,transparent 100%)}
+.rule .a{width:52px;flex-shrink:0;background:$ACC}
+.rule .b{flex:1;background:linear-gradient(90deg,$REGLE,transparent 100%)}
 </style></head><body>
 <div class="w">
   <div class="row"><div class="ix">$3</div><h2>$2</h2></div>

@@ -14,13 +14,13 @@
 D="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 source "$D/cartes.sh" >/dev/null 2>&1
 L="file:///$B/smartbudget-logo.png"
-A="#50F48D"
-NEON="border:1.5px solid ${A}C0;box-shadow:0 0 7px ${A}30, 0 12px 34px rgba(0,0,0,.5)"
+A="$(c '#50F48D' '#16A34A')"
+NEON="border:1.5px solid ${A}C0;box-shadow:0 0 7px ${A}30, 0 12px 34px $OMBRE"
 T='Smart <em>Budget</em>'
 L1="$(t "Arrêter de dépenser sans regarder, et de piocher dans l'épargne." 'Stop spending blind, and stop dipping into the savings.')"
 L2="$(t 'Le compte lu par la DSP2, classé et chiffré sur le téléphone.' 'The account read over PSD2, sorted and encrypted on the phone.')"
 GL="<div class='crop' style='$NEON'><img src='$L' style='width:182px;height:182px'></div>"
 PASTILLE="$(P 'FLUTTER' "$(t 'DSP2' 'PSD2')" 'SQLCIPHER')"
 
-ban p-smartbudget "$A" "#1BCC6D" "#02120A" "$GL" "$T" "$L1" "$L2" \
+ban p-smartbudget "$A" "#1BCC6D" "$(c '#02120A' '#F3FBF6')" "$GL" "$T" "$L1" "$L2" \
 "$PASTILLE" "$(C 'MOBILE' 'FINANCE')" ""

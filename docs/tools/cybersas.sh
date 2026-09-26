@@ -15,5 +15,5 @@ L1="$(t 'Mon propre VPN, écrit de bout en bout. Un serveur qui relaie' 'My own 
 L2="$(t "sans lire, et c'est le doigt de l'admin qui décide qui entre." "reading, and the admin's fingerprint decides who gets in.")"
 ETAT="$(t 'EN COURS' 'IN PROGRESS')"
 
-ban p-cybersas "#31E7FD" "#01B9FD" "#060F16" "$GL" "$T" "$L1" "$L2" \
+ban p-cybersas "$(c '#31E7FD' '#0788A8')" "$(c '#01B9FD' '#0AA5E0')" "$(c '#060F16' '#F3FAFC')" "$GL" "$T" "$L1" "$L2" \
 "$(P 'GO' 'NOISE IK' 'ED25519' 'FLUTTER')" "VPN</b><b>ANDROID" "<i>$ETAT</i>"

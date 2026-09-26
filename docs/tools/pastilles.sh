@@ -12,8 +12,11 @@
 # LANGUE, et vivent dans docs/langues/.
 #
 # Leur fond est opaque : GitHub rend les README sur blanc comme sur noir,
-# et un sélecteur qui disparaît sur l'un des deux ne sert à rien.
-D="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"; mkdir -p "$D/html" "$D/langues"
+# et un sélecteur qui disparaît sur l'un des deux ne sert à rien. THEME=clair
+# leur donne en plus une jumelle claire, servie au visiteur en thème clair.
+D="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+source "$D/langue.sh"
+mkdir -p "$D/html$SUF" "$D/langues$SUF"
 CH="${CHROME:-/c/Program Files/Google/Chrome/Application/chrome.exe}"
 B="$(cd "$D" && pwd -W 2>/dev/null || pwd)"
 
@@ -23,11 +26,11 @@ W=300; H=96
 pastille () {
 local pt ct bd fd
 if [ "$3" = allumee ]; then
-  pt='<i></i>'; ct='#F0F4F8'; bd='#4A2029'; fd='#160A0E'
+  pt='<i></i>'; ct="$(c '#F0F4F8' '#16090D')"; bd="$(c '#4A2029' '#F2C4CB')"; fd="$(c '#160A0E' '#FDF1F3')"
 else
-  pt='';        ct='#7C8894'; bd='#2A333D';             fd='#0C1117'
+  pt='';        ct="$(c '#7C8894' '#5B6672')"; bd="$(c '#2A333D' '#D5DBE1')"; fd="$(c '#0C1117' '#F3F5F7')"
 fi
-cat > "$D/html/lg-$1.html" <<HTML
+cat > "$D/html$SUF/lg-$1.html" <<HTML
 <!doctype html><html lang="fr"><head><meta charset="utf-8">
 <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@500&display=swap" rel="stylesheet">
 <style>
@@ -40,13 +43,13 @@ html,body{width:${W}px;height:${H}px;overflow:hidden;background:transparent}
      letter-spacing:3.2px;color:$ct;white-space:nowrap}
 /* Le point n'est là que sur la langue affichée : il dit « vous êtes ici »
    sans avoir à l'écrire, et laisse l'autre pastille lisible comme un lien. */
-.p i{width:8px;height:8px;border-radius:2px;background:#E23B4E;
+.p i{width:8px;height:8px;border-radius:2px;background:$(c '#E23B4E' '#D02A3F');
      transform:rotate(45deg);flex-shrink:0}
 </style></head><body><div class="w"><div class="p">$pt<b>$2</b></div></div></body></html>
 HTML
 "$CH" --headless=new --disable-gpu --hide-scrollbars --virtual-time-budget=10000 \
   --force-device-scale-factor=3 --default-background-color=00000000 \
-  --screenshot="$B/langues/$1.png" --window-size=$W,$H "file:///$B/html/lg-$1.html" >/dev/null 2>&1
+  --screenshot="$B/langues$SUF/$1.png" --window-size=$W,$H "file:///$B/html$SUF/lg-$1.html" >/dev/null 2>&1
 echo "  $1.png  à afficher sur 150 px"
 }
 
