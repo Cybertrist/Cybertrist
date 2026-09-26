@@ -17,6 +17,6 @@ L1="$(t 'Musculation, nutrition et santé, avec un coach IA qui connaît mes sé
 L2="$(t 'Simple, en noir et blanc, et tout mon historique Lyfta repris.' 'Simple, black and white, with my whole Lyfta history brought over.')"
 ETAT="$(t 'EN COURS' 'IN PROGRESS')"
 
-ban p-aesthetic "#D4D4D4" "#737373" "#0A0A0A" "$GL" "$T" "$L1" "$L2" \
+ban p-aesthetic "$(c '#D4D4D4' '#262626')" "#737373" "$(c '#0A0A0A' '#FFFFFF')" "$GL" "$T" "$L1" "$L2" \
 "$(P 'FLUTTER' "$(t 'COACH IA' 'AI COACH')" 'HEALTH CONNECT' "$(t 'HORS LIGNE' 'OFFLINE')")" \
 "$(C 'MOBILE' "$(t 'MUSCULATION' 'STRENGTH')" 'NUTRITION')" "<i>$ETAT</i>"

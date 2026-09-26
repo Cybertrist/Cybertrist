@@ -11,9 +11,20 @@ B="$(cd "$D" && pwd -W 2>/dev/null || pwd)"
 LOGO="file:///C:/Users/trist/Documents/Github/Microcoaster-bot-org/images/logo.png"
 ICONE="file:///$B/src-icone.png"
 
-# En clair, chaque carte passe son accent, un cran plus soutenu, et un fond
-# à peine teinté de sa couleur. Le reste du gabarit bascule ici. OMBRE sert
-# aussi aux plaques néon des scripts de carte.
+# En clair, chaque carte passe son accent, un cran plus soutenu, et le reste
+# du gabarit bascule ici. OMBRE sert aussi aux plaques néon des scripts de
+# carte.
+#
+# Sur le noir de GitHub, la carte se fond dans la page. Sur le blanc, un
+# fond teinté dessinait un bloc à bords francs, et le halo du logo une
+# tache. La carte claire devient donc une carte de GitHub : blanche, cadrée
+# de gris, coins arrondis et détourés, sans halo. L'accent reste au titre,
+# aux pastilles et au trait du bas.
+CARTE_CLAIRE='html,body{background:transparent}
+.w{border-radius:14px;border:1px solid #D0D7DE;background:#FFFFFF}
+.grid{opacity:.18}
+.gl{filter:none}'
+DETOUR="$(c '' '--default-background-color=00000000')"
 OMBRE="$(c 'rgba(0,0,0,.5)' 'rgba(30,20,50,.18)')"
 PLAQUE="$(c 'rgba(0,0,0,.55)' 'rgba(30,20,50,.2)')"
 COIN="$(c '#04060A' '#F4F6F9')"
@@ -56,6 +67,7 @@ p{font-family:'Space Grotesk',sans-serif;font-size:18.5px;line-height:1.46;color
 .pl span{font-family:'Space Grotesk',sans-serif;font-size:12px;font-weight:500;letter-spacing:.7px;
   color:${2}D0;border:1px solid ${2}3A;background:${2}0E;border-radius:6px;padding:6px 11px}
 .ln{position:absolute;left:0;right:0;bottom:0;height:3px;background:linear-gradient(90deg,$2 0%,$3 44%,transparent 90%)}
+$(c '' "$CARTE_CLAIRE")
 </style></head><body>
 <div class="w"><div class="grid"></div>
 <div class="cat"><b>${10}</b>${11}</div>
@@ -63,7 +75,7 @@ p{font-family:'Space Grotesk',sans-serif;font-size:18.5px;line-height:1.46;color
 <div class="tx"><h1>$6</h1><p>$7<br>$8</p><div class="pl">$9</div></div></div>
 <div class="ln"></div></div></body></html>
 HTML
-"$CH" --headless=new --disable-gpu --hide-scrollbars --virtual-time-budget=10000 --force-device-scale-factor=2 \
+"$CH" --headless=new --disable-gpu --hide-scrollbars --virtual-time-budget=10000 --force-device-scale-factor=2 $DETOUR \
   --screenshot="$B/png$SUF/f-$1.png" --window-size=1280,320 "file:///$B/html$SUF/f-$1.html" >/dev/null 2>&1
 echo "  f-$1.png"
 }

@@ -28,6 +28,13 @@ PAST="$(c 'color:#F06A78D8;border:1px solid #E23B4E45;background:#E23B4E14' 'col
 OMBRE="$(c '#E23B4E70' '#E23B4E38')"
 PATTE="$(c '#6B3B44' '#B98A93')"
 
+# En clair, comme les cartes de projet : une carte de GitHub, blanche,
+# cadrée de gris, coins arrondis et détourés, sans voile rose ni halo.
+CARTE_CLAIRE='html,body{background:transparent}
+.w{border-radius:14px;border:1px solid #D0D7DE;background:#FFFFFF}
+.gl{filter:none}'
+DETOUR="$(c '' '--default-background-color=00000000')"
+
 cat > "$D/html$SUF/banniere.html" <<HTML
 <!doctype html><html lang="$LG"><head><meta charset="utf-8">
 <link href="https://fonts.googleapis.com/css2?family=Syne:wght@700;800&family=Space+Grotesk:wght@400;500;600&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
@@ -51,6 +58,7 @@ p{font-family:'Space Grotesk',sans-serif;font-size:19px;line-height:1.46;color:$
   $PAST;border-radius:6px;padding:6px 12px}
 .ln{position:absolute;left:0;right:0;bottom:0;height:3px;
     background:linear-gradient(90deg,#E23B4E 0%,#7A1220 46%,transparent 90%)}
+$(c '' "$CARTE_CLAIRE")
 </style></head><body>
 <div class="w">
 
@@ -128,7 +136,7 @@ p{font-family:'Space Grotesk',sans-serif;font-size:19px;line-height:1.46;color:$
 HTML
 
 "$CH" --headless=new --disable-gpu --hide-scrollbars --virtual-time-budget=10000 \
-  --force-device-scale-factor=2 \
+  --force-device-scale-factor=2 $DETOUR \
   --screenshot="$B/png$SUF/banniere.png" --window-size=1280,320 \
   "file:///$B/html$SUF/banniere.html" >/dev/null 2>&1
 echo "  banniere.png"
