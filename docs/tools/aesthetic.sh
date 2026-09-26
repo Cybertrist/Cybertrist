@@ -1,6 +1,9 @@
 #!/bin/bash
-# La carte d'ÆSTHETIC : mon suivi de musculation, calqué sur Lyfta. Son
-# cartouche porte les catégories, puis l'état.
+# La carte d'ÆSTHETIC : mon suivi complet, musculation, nutrition, santé
+# et coach IA. Son cartouche porte les catégories, puis l'état.
+#
+# L'application est en noir et blanc : la carte aussi, accent gris clair,
+# aucune couleur vive. Seul le logo garde sa lueur.
 #
 # Le logo porte son propre badge sombre, qui n'occupe que 80 % du fichier.
 # Il est donc agrandi à 184 px dans la fenêtre de 142 pour que la plaque
@@ -10,10 +13,10 @@ source "$D/cartes.sh" >/dev/null 2>&1
 L="file:///$B/aesthetic-logo.png"
 GL="<div class='crop'><img src='$L' style='width:184px;height:184px'></div>"
 T='<em>Æ</em>STHETIC'
-L1="$(t 'Le suivi de musculation de Lyfta, refait pour moi, sans abonnement.' 'Lyfta-style workout tracking, rebuilt for myself, with no subscription.')"
-L2="$(t 'Séances, records, streak et analyses, avec tout mon historique importé.' 'Workouts, records, streaks and insights, with my whole history imported.')"
+L1="$(t 'Musculation, nutrition et santé, avec un coach IA qui connaît mes séances.' 'Training, nutrition and health, with an AI coach that knows my workouts.')"
+L2="$(t 'Simple, en noir et blanc, et tout mon historique Lyfta repris.' 'Simple, black and white, with my whole Lyfta history brought over.')"
 ETAT="$(t 'EN COURS' 'IN PROGRESS')"
 
-ban p-aesthetic "$(c '#FF2B2B' '#D61C1C')" "#8A0A12" "$(c '#0A0506' '#FDF6F6')" "$GL" "$T" "$L1" "$L2" \
-"$(P 'FLUTTER' "$(t 'HORS LIGNE' 'OFFLINE')" "$(t 'IMPORT CSV' 'CSV IMPORT')")" \
-"$(C 'MOBILE' "$(t 'MUSCULATION' 'STRENGTH TRAINING')")" "<i>$ETAT</i>"
+ban p-aesthetic "#D4D4D4" "#737373" "#0A0A0A" "$GL" "$T" "$L1" "$L2" \
+"$(P 'FLUTTER' "$(t 'COACH IA' 'AI COACH')" 'HEALTH CONNECT' "$(t 'HORS LIGNE' 'OFFLINE')")" \
+"$(C 'MOBILE' "$(t 'MUSCULATION' 'STRENGTH')" 'NUTRITION')" "<i>$ETAT</i>"

@@ -35,7 +35,7 @@ Je m'intéresse aux postes en **cybersécurité**, **infrastructure**, **sécuri
 
 <picture><source media="(prefers-color-scheme: light)" srcset="docs/clair/sections/projets.png"><img src="docs/sections/projets.png" alt="Projets" width="100%"></picture>
 
-<a href="https://github.com/Cybertrist/Aesthetic"><picture><source media="(prefers-color-scheme: light)" srcset="docs/clair/projets/aesthetic.png"><img src="docs/projets/aesthetic.png" alt="ÆSTHETIC, mobile, musculation, en cours. Le suivi de musculation de Lyfta, refait pour moi, sans abonnement. Séances, records, streak et analyses, avec tout mon historique importé. Flutter, hors ligne, import CSV." width="100%"></picture></a>
+<a href="https://github.com/Cybertrist/Aesthetic"><picture><source media="(prefers-color-scheme: light)" srcset="docs/clair/projets/aesthetic.png"><img src="docs/projets/aesthetic.png" alt="ÆSTHETIC, mobile, musculation, nutrition, en cours. Musculation, nutrition et santé, avec un coach IA qui connaît mes séances. Simple, en noir et blanc, et tout mon historique Lyfta repris. Flutter, coach IA, Health Connect, hors ligne." width="100%"></picture></a>
 
 <a href="https://github.com/Cybertrist/BeVannes"><picture><source media="(prefers-color-scheme: light)" srcset="docs/clair/projets/bevannes.png"><img src="docs/projets/bevannes.png" alt="BeVannes, mobile, géographie, photo, jeu. BeReal rencontre GeoGuessr : un lieu tiré au sort chaque jour, et la photo ne compte que si le GPS confirme que vous y êtes. Flutter, Firebase, géolocalisation." width="100%"></picture></a>
 
