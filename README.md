@@ -39,7 +39,7 @@ Je m'intéresse aux postes en **cybersécurité**, **infrastructure**, **sécuri
 
 <a href="https://github.com/Cybertrist/BodyCount"><img src="docs/projets/bodycount.png" alt="BodyCount, mobile, adulte. Journal personnel chiffré, hors ligne, sur Android. Aucun serveur, aucun compte, aucune télémétrie. Flutter, SQLCipher, biométrie." width="100%"></a>
 
-<a href="https://github.com/Cybertrist/CyberSas"><img src="docs/projets/cybersas.png" alt="CyberSas, réseau, en cours. Exposer ce qui doit l'être, et rien d'autre : un point d'entrée unique, terminaison TLS, et un tunnel privé pour le reste. Nginx, WireGuard, Debian." width="100%"></a>
+<a href="https://github.com/Cybertrist/CyberSas"><img src="docs/projets/cybersas-vpn.png" alt="CyberSas, VPN et Android, en cours. Mon propre VPN, écrit de bout en bout. Un serveur qui relaie sans lire, et c'est le doigt de l'admin qui décide qui entre. Go, Noise IK, Ed25519, Flutter." width="100%"></a>
 
 <a href="https://github.com/Cybertrist/KyrlCut"><img src="docs/projets/kyrlcut.png" alt="KyrlCut, web, mobile, coiffure, dépôt privé. Réservation en ligne pour salon de coiffure, sur invitation. Créneaux au quart d'heure, rappel par email la veille. Express, MySQL, bcrypt." width="100%"></a>
 

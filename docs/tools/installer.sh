@@ -14,7 +14,7 @@ for k in serenity bevannes bodycount kyrlcut; do
 done
 pose "png$SUF/banniere.png"         banniere.png
 pose "png$SUF/f-microcoaster.png"    projets/microcoaster-carte.png
-pose "png$SUF/f-p-cybersas.png"     projets/cybersas.png
+pose "png$SUF/f-p-cybersas.png"     projets/cybersas-vpn.png
 pose "png$SUF/f-p-smartbudget.png"  projets/smartbudget.png
 
 for k in quotidien objectif projets stack contact; do
