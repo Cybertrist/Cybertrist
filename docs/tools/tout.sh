@@ -2,7 +2,7 @@
 # Refait toutes les images des deux READMEs, puis les repose dans docs/
 # pour le français et docs/en/ pour l'anglais.
 D="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
-SCRIPTS="banniere sections projets serenity cybersas smartbudget
+SCRIPTS="banniere sections projets serenity cybersas smartbudget aesthetic
          stack-tuiles stack-intitules contact"
 
 echo "pastilles.sh"; bash "$D/pastilles.sh"

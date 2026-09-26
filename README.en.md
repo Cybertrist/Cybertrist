@@ -35,6 +35,8 @@ I am looking at roles in **cybersecurity**, **infrastructure**, **security opera
 
 <img src="docs/en/sections/projets.png" alt="Projects" width="100%">
 
+<a href="https://github.com/Cybertrist/Aesthetic/blob/main/README.en.md"><img src="docs/en/projets/aesthetic.png" alt="ÆSTHETIC, mobile, strength training, in progress. Lyfta-style workout tracking, rebuilt for myself, with no subscription. Workouts, records, streaks and insights, with my whole history imported. Flutter, offline, CSV import." width="100%"></a>
+
 <a href="https://github.com/Cybertrist/BeVannes/blob/main/README.en.md"><img src="docs/en/projets/bevannes.png" alt="BeVannes, mobile, geography, photo, game. BeReal meets GeoGuessr: a spot drawn at random every day, and the photo only counts if GPS says you were there. Flutter, Firebase, geolocation." width="100%"></a>
 
 <a href="https://github.com/Cybertrist/BodyCount/blob/main/README.en.md"><img src="docs/en/projets/bodycount.png" alt="BodyCount, mobile, adult. An encrypted personal journal, offline, on Android. No server, no account, no telemetry. Flutter, SQLCipher, biometrics." width="100%"></a>

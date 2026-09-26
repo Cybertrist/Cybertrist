@@ -35,6 +35,8 @@ Je m'intéresse aux postes en **cybersécurité**, **infrastructure**, **sécuri
 
 <img src="docs/sections/projets.png" alt="Projets" width="100%">
 
+<a href="https://github.com/Cybertrist/Aesthetic"><img src="docs/projets/aesthetic.png" alt="ÆSTHETIC, mobile, musculation, en cours. Le suivi de musculation de Lyfta, refait pour moi, sans abonnement. Séances, records, streak et analyses, avec tout mon historique importé. Flutter, hors ligne, import CSV." width="100%"></a>
+
 <a href="https://github.com/Cybertrist/BeVannes"><img src="docs/projets/bevannes.png" alt="BeVannes, mobile, géographie, photo, jeu. BeReal rencontre GeoGuessr : un lieu tiré au sort chaque jour, et la photo ne compte que si le GPS confirme que vous y êtes. Flutter, Firebase, géolocalisation." width="100%"></a>
 
 <a href="https://github.com/Cybertrist/BodyCount"><img src="docs/projets/bodycount.png" alt="BodyCount, mobile, adulte. Journal personnel chiffré, hors ligne, sur Android. Aucun serveur, aucun compte, aucune télémétrie. Flutter, SQLCipher, biométrie." width="100%"></a>

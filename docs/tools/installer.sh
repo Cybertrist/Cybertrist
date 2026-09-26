@@ -16,6 +16,7 @@ pose "png$SUF/banniere.png"         banniere.png
 pose "png$SUF/f-microcoaster.png"    projets/microcoaster-carte.png
 pose "png$SUF/f-p-cybersas.png"     projets/cybersas-vpn.png
 pose "png$SUF/f-p-smartbudget.png"  projets/smartbudget.png
+pose "png$SUF/f-p-aesthetic.png"    projets/aesthetic.png
 
 for k in quotidien objectif projets stack contact; do
   pose "png$SUF/s-$k.png" "sections/$k.png"
