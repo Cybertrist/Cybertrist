@@ -35,7 +35,7 @@ I am looking at roles in **cybersecurity**, **infrastructure**, **security opera
 
 <picture><source media="(prefers-color-scheme: light)" srcset="docs/en/clair/sections/projets.png"><img src="docs/en/sections/projets.png" alt="Projects" width="100%"></picture>
 
-<a href="https://github.com/Cybertrist/Aesthetic/blob/main/README.en.md"><picture><source media="(prefers-color-scheme: light)" srcset="docs/en/clair/projets/aesthetic.png"><img src="docs/en/projets/aesthetic.png" alt="ÆSTHETIC, mobile, strength, nutrition, in progress. Training, nutrition and health, with an AI coach that knows my workouts. Simple, black and white, with my whole Lyfta history brought over. Flutter, AI coach, Health Connect, offline." width="100%"></picture></a>
+<a href="https://github.com/Cybertrist/Aesthetic/blob/main/README.en.md"><picture><source media="(prefers-color-scheme: light)" srcset="docs/en/clair/projets/aesthetic.png"><img src="docs/en/projets/aesthetic.png" alt="ÆSTHETIC, mobile, health, strength, in progress. My own health app: training, nutrition, sleep and an AI coach. All in one place, to become the best version of myself. Nutrition, sleep, AI coach, Flutter." width="100%"></picture></a>
 
 <a href="https://github.com/Cybertrist/BeVannes/blob/main/README.en.md"><picture><source media="(prefers-color-scheme: light)" srcset="docs/en/clair/projets/bevannes.png"><img src="docs/en/projets/bevannes.png" alt="BeVannes, mobile, geography, photo, game. BeReal meets GeoGuessr: a spot drawn at random every day, and the photo only counts if GPS says you were there. Flutter, Firebase, geolocation." width="100%"></picture></a>
 
