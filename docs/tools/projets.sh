@@ -1,7 +1,7 @@
 #!/bin/bash
 # Les quatre cartes de projet qui suivent le gabarit commun. Serenity a le
 # sien, dans serenity.sh.
-# CyberSas et Smart Budget sont dans cybersas.sh et smartbudget.sh.
+# CyberSAS et Smart Budget sont dans cybersas.sh et smartbudget.sh.
 #
 # Chaque texte porte ses deux langues, t <français> <anglais>. L'anglais
 # n'est pas une traduction mot à mot : une tournure qui claque en français

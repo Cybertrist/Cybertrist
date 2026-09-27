@@ -74,7 +74,7 @@ fonds. Les badges shields.io passent du fond `0D1117` au gris `F6F8FA`.
 - `sections.sh` : les cinq bandeaux de section, numérotés.
 - `projets.sh` : les quatre cartes de projet qui suivent le gabarit.
 - `serenity.sh` : la carte Serenity, qui a le sien.
-- `cybersas.sh` : la carte de CyberSas.
+- `cybersas.sh` : la carte de CyberSAS.
 - `smartbudget.sh` : la carte de Smart Budget.
 - `stack-tuiles.sh` : les rangées de logos de la stack.
 - `stack-intitules.sh` : les intitulés qui les séparent.
