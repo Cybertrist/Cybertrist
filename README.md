@@ -41,7 +41,7 @@ Je m'intéresse aux postes en **cybersécurité**, **infrastructure**, **sécuri
 
 <a href="https://github.com/Cybertrist/BodyCount"><picture><source media="(prefers-color-scheme: light)" srcset="docs/clair/projets/bodycount.png"><img src="docs/projets/bodycount.png" alt="BodyCount, mobile, adulte. Journal personnel chiffré, hors ligne, sur Android. Aucun serveur, aucun compte, aucune télémétrie. Flutter, SQLCipher, biométrie." width="100%"></picture></a>
 
-<a href="https://github.com/Cybertrist/CyberSas"><picture><source media="(prefers-color-scheme: light)" srcset="docs/clair/projets/cybersas-vpn.png"><img src="docs/projets/cybersas-vpn.png" alt="CyberSas, VPN et Android, en cours. Mon propre VPN, écrit de bout en bout. Un serveur qui relaie sans lire, et c'est le doigt de l'admin qui décide qui entre. Go, Noise IK, Ed25519, Flutter." width="100%"></picture></a>
+<a href="https://github.com/Cybertrist/CyberSAS"><picture><source media="(prefers-color-scheme: light)" srcset="docs/clair/projets/cybersas-vpn.png"><img src="docs/projets/cybersas-vpn.png" alt="CyberSas, VPN et Android, en cours. Mon propre VPN, écrit de bout en bout. Un serveur qui relaie sans lire, et c'est le doigt de l'admin qui décide qui entre. Go, Noise IK, Ed25519, Flutter." width="100%"></picture></a>
 
 <a href="https://github.com/Cybertrist/KyrlCut"><picture><source media="(prefers-color-scheme: light)" srcset="docs/clair/projets/kyrlcut.png"><img src="docs/projets/kyrlcut.png" alt="KyrlCut, web, mobile, coiffure, dépôt privé. Réservation en ligne pour salon de coiffure, sur invitation. Créneaux au quart d'heure, rappel par email la veille. Express, MySQL, bcrypt." width="100%"></picture></a>
 

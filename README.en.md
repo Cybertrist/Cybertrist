@@ -41,7 +41,7 @@ I am looking at roles in **cybersecurity**, **infrastructure**, **security opera
 
 <a href="https://github.com/Cybertrist/BodyCount/blob/main/README.en.md"><picture><source media="(prefers-color-scheme: light)" srcset="docs/en/clair/projets/bodycount.png"><img src="docs/en/projets/bodycount.png" alt="BodyCount, mobile, adult. An encrypted personal journal, offline, on Android. No server, no account, no telemetry. Flutter, SQLCipher, biometrics." width="100%"></picture></a>
 
-<a href="https://github.com/Cybertrist/CyberSas"><picture><source media="(prefers-color-scheme: light)" srcset="docs/en/clair/projets/cybersas-vpn.png"><img src="docs/en/projets/cybersas-vpn.png" alt="CyberSas, VPN and Android, in progress. My own VPN, written end to end. A server that relays without reading, and the admin's fingerprint decides who gets in. Go, Noise IK, Ed25519, Flutter." width="100%"></picture></a>
+<a href="https://github.com/Cybertrist/CyberSAS"><picture><source media="(prefers-color-scheme: light)" srcset="docs/en/clair/projets/cybersas-vpn.png"><img src="docs/en/projets/cybersas-vpn.png" alt="CyberSas, VPN and Android, in progress. My own VPN, written end to end. A server that relays without reading, and the admin's fingerprint decides who gets in. Go, Noise IK, Ed25519, Flutter." width="100%"></picture></a>
 
 <a href="https://github.com/Cybertrist/KyrlCut/blob/main/README.en.md"><picture><source media="(prefers-color-scheme: light)" srcset="docs/en/clair/projets/kyrlcut.png"><img src="docs/en/projets/kyrlcut.png" alt="KyrlCut, web, mobile, hair salon, private repository. Online booking for a hair salon, by invitation only. Quarter-hour slots, an email reminder the day before. Express, MySQL, bcrypt." width="100%"></picture></a>
 
