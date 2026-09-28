@@ -3,7 +3,7 @@
 # repose dans docs/ pour le français, docs/en/ pour l'anglais, et leur
 # sous-dossier clair/ pour les jumelles claires.
 D="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
-SCRIPTS="banniere sections parcours projets serenity cybersas smartbudget aesthetic
+SCRIPTS="banniere sections parcours projets serenity cybersas smartbudget aesthetic redoublant
          stack-tuiles stack-intitules contact"
 
 for TH in sombre clair; do
