@@ -178,7 +178,7 @@ $(e "2020 → 2022" "$(t 'Baccalauréat STI2D, mention Bien' 'STI2D baccalaureat
 
 # Le secourisme tient en une tuile : le BNSSA et les PSE vont ensemble,
 # les séparer les faisait compter trois fois.
-carte certifs 785 "$(t 'Certifications' 'Certifications')" "<div class='tu q'>
+carte certifs 810 "$(t 'Certifications' 'Certifications')" "<div class='tu q'>
 $(t2 'TOEIC' "$(t '785 ET PLUS · B2' '785 AND UP · B2')" "$(t 'Anglais professionnel.' 'Professional English.')")
 $(t2 'Le Robert' "$(t 'NIVEAU AVANCÉ' 'ADVANCED LEVEL')" "$(t 'Maîtrise du français écrit.' 'Written French.')")
 $(t2 "$(t 'Sauveteur secouriste' 'Lifeguard, first aider')" 'BNSSA · PSE1 · PSE2' "$(t 'Surveillance de baignade et premiers secours en équipe.' 'Pool and beach lifeguarding, team first aid.')")
@@ -187,7 +187,7 @@ $(t2 "$(t 'Permis B' 'Driving licence')" "$(t 'VÉHICULÉ · MOBILE' 'OWN CAR ·
 <div class='hd b2'><i></i><b>$(t 'Centres d’intérêt' 'Interests')</b></div>
 <div class='tu'>
 $(t2 "$(t 'Musculation' 'Weight training')" 'SPORT' "$(t 'Assez sérieusement pour coder ma propre appli de suivi, ÆSTHETIC.' 'Serious enough to build my own tracking app, ÆSTHETIC.')")
-$(t2 "$(t 'Montagnes russes' 'Roller coasters')" 'PASSION' "$(t 'La passion à l’origine de MicroCoaster.' 'The passion behind MicroCoaster.')")
+$(t2 "$(t 'Coasters' 'Coasters')" 'PASSION' "$(t 'J’écume les parcs d’Europe. Avec MicroCoaster, je réalise le rêve en miniature.' 'I ride my way through Europe’s parks. With MicroCoaster, I build the dream in miniature.')")
 $(t2 "$(t 'Vidéo et 3D' 'Video and 3D')" "$(t 'CRÉATION' 'MAKING')" "$(t 'Premiere Pro, After Effects, Fusion 360 et impression 3D.' 'Premiere Pro, After Effects, Fusion 360 and 3D printing.')")
 </div>
 <div class='hd b2'><i></i><b>$(t 'Langues' 'Languages')</b></div>
