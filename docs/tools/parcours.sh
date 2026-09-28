@@ -185,10 +185,11 @@ $(t2 "$(t 'Sauveteur secouriste' 'Lifeguard, first aider')" 'BNSSA · PSE1 · PS
 $(t2 "$(t 'Permis B' 'Driving licence')" "$(t 'VÉHICULÉ · MOBILE' 'OWN CAR · MOBILE')" "$(t 'Prêt à partir n’importe où, à l’autre bout du monde s’il le faut.' 'Ready to go anywhere, to the other side of the world if need be.')")
 </div>
 <div class='hd b2'><i></i><b>$(t 'Centres d’intérêt' 'Interests')</b></div>
-<div class='tu'>
+<div class='tu q'>
 $(t2 "$(t 'Musculation' 'Weight training')" 'SPORT' "$(t 'Assez sérieusement pour coder ma propre appli de suivi, ÆSTHETIC.' 'Serious enough to build my own tracking app, ÆSTHETIC.')")
 $(t2 "$(t 'Coasters' 'Coasters')" 'PASSION' "$(t 'J’écume les parcs d’Europe. Avec MicroCoaster, je réalise le rêve en miniature.' 'I ride my way through Europe’s parks. With MicroCoaster, I build the dream in miniature.')")
 $(t2 "$(t 'Vidéo et 3D' 'Video and 3D')" "$(t 'CRÉATION' 'MAKING')" "$(t 'Premiere Pro, After Effects, Fusion 360 et impression 3D.' 'Premiere Pro, After Effects, Fusion 360 and 3D printing.')")
+$(t2 "$(t 'Écriture' 'Writing')" 'ROMAN · 18+' "$(t 'Mon premier roman, Le Redoublant, se lit en ligne.' 'My first novel, Le Redoublant, is online to read.')")
 </div>
 <div class='hd b2'><i></i><b>$(t 'Langues' 'Languages')</b></div>
 <div class='lg'>
