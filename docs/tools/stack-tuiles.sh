@@ -103,11 +103,11 @@ rangee exploitation "$(marque jira '#0052CC')$(sk docker)$(sk nginx)$(sk git)$(s
 # une Creality pour les imprimer.
 rangee conception "$(couleurs "$I/fusion.svg" '0 0 423 390')$(marque cinema4d '#011A6A')$(marque creality '#242938')"
 
-# Le montage : les deux tuiles Adobe viennent de skillicons. Le logo de
+# Le montage et le graphisme : les tuiles Adobe viennent de skillicons. Le logo de
 # Filmora est un carré plein au sigle en creux : rendu en blanc, il
 # disparaissait sur le fond clair de GitHub. icones/filmora-sigle.svg n'en
 # garde que le sigle.
-rangee montage "$(marque filmora-sigle '#07273D')$(sk ae)$(sk pr)"
+rangee montage "$(marque filmora-sigle '#07273D')$(sk ae)$(sk pr)$(sk ps)"
 
 # Les assistants font partie de l'outillage quotidien : autant le dire.
 rangee assistants "$(marque claude '#D97757')$(marque openai '#10A37F')$(marque githubcopilot '#24292F')"
