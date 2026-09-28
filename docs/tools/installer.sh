@@ -24,7 +24,7 @@ pose "png$SUF/f-p-aesthetic.png"    projets/aesthetic.png
 for k in quotidien objectif projets stack contact; do
   pose "png$SUF/s-$k.png" "sections/$k.png"
 done
-for k in securite systemes microsoft exploitation langages web donnees embarque assistants; do
+for k in securite systemes microsoft exploitation langages web donnees embarque conception montage assistants; do
   pose "stack$SUF/lab-$k.png" "stack/lab-$k.png"
 done
 
@@ -42,7 +42,7 @@ fi
 # Les rangées de logos, les tuiles de contact et la pastille d'adresse ne
 # portent aucun texte : les deux READMEs pointent sur les mêmes fichiers.
 if [ "$LG" != en ]; then
-  for k in securite systemes microsoft exploitation assistants; do pose "stack/$k.png" "stack/$k.png"; done
+  for k in securite systemes microsoft exploitation conception montage assistants; do pose "stack/$k.png" "stack/$k.png"; done
   for k in gmail discord instagram spotify adresse; do pose "liens/$k.png" "liens/$k.png"; done
   for k in fr-on fr-off en-on en-off; do pose "langues/$k.png" "langues/$k.png"; done
 fi

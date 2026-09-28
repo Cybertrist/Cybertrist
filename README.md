@@ -68,6 +68,10 @@ Je m'intéresse aux postes en **cybersécurité**, **infrastructure**, **sécuri
 <p align="center"><img src="https://skillicons.dev/icons?i=mysql,sqlite,mongodb,firebase&theme=dark" alt="MySQL, SQLite, MongoDB, Firebase" /></p>
 <p align="center"><picture><source media="(prefers-color-scheme: light)" srcset="docs/clair/stack/lab-embarque.png"><img src="docs/stack/lab-embarque.png" alt="Sécurité et embarqué" width="560" /></picture></p>
 <p align="center"><img src="https://skillicons.dev/icons?i=kali,arduino,raspberrypi,cloudflare,vscode,idea&theme=dark" alt="Sécurité et embarqué" /></p>
+<p align="center"><picture><source media="(prefers-color-scheme: light)" srcset="docs/clair/stack/lab-conception.png"><img src="docs/stack/lab-conception.png" alt="Conception et impression 3D" width="560" /></picture></p>
+<p align="center"><img src="docs/stack/conception.png" alt="Fusion 360, Cinema 4D, Creality" width="160" /></p>
+<p align="center"><picture><source media="(prefers-color-scheme: light)" srcset="docs/clair/stack/lab-montage.png"><img src="docs/stack/lab-montage.png" alt="Montage vidéo" width="560" /></picture></p>
+<p align="center"><img src="docs/stack/montage.png" alt="Filmora, After Effects, Premiere Pro" width="160" /></p>
 <p align="center"><picture><source media="(prefers-color-scheme: light)" srcset="docs/clair/stack/lab-assistants.png"><img src="docs/stack/lab-assistants.png" alt="Assistants et prompting" width="560" /></picture></p>
 <p align="center"><img src="docs/stack/assistants.png" alt="Claude, ChatGPT, GitHub Copilot" width="160" /></p>
 <picture><source media="(prefers-color-scheme: light)" srcset="docs/clair/sections/contact.png"><img src="docs/sections/contact.png" alt="Contact" width="100%"></picture>

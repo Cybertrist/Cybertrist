@@ -7,7 +7,7 @@
 # l'extérieur de chaque côté.
 #
 # Largeur d'affichage de 560 pixels, celle de la plus large rangée
-# d'icônes : les huit groupes partagent ainsi la même colonne.
+# d'icônes : les onze groupes partagent ainsi la même colonne.
 D="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 source "$D/langue.sh"
 mkdir -p "$D/html$SUF" "$D/stack$SUF"
@@ -56,4 +56,6 @@ lab langages     "$(t 'Langages'                   'Languages')"
 lab web          "$(t 'Web et mobile'              'Web and mobile')"
 lab donnees      "$(t 'Données'                    'Data')"
 lab embarque     "$(t 'Sécurité et embarqué'       'Security and embedded')"
+lab conception   "$(t 'Conception et impression 3D' '3D design and printing')"
+lab montage      "$(t 'Montage vidéo'              'Video editing')"
 lab assistants   "$(t 'Assistants et prompting'    'Assistants and prompting')"

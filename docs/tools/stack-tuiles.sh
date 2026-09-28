@@ -42,10 +42,11 @@ marque () {
 }
 
 # couleurs <fichier svg> : marque multicolore, donc fond gris, comme
-# skillicons le fait pour Linux ou Python
+# skillicons le fait pour Linux ou Python. La vue par défaut est celle
+# d'Entra ; Fusion, recadré sur son emblème, passe la sienne.
 couleurs () {
-  local corps
-  corps=$(sed -e 's|<svg[^>]*>|<svg viewBox="0 0 512 512" width="'"$LOGO"'" height="'"$LOGO"'">|' "$1")
+  local corps vue="${2:-0 0 512 512}"
+  corps=$(sed -e 's|<svg[^>]*>|<svg viewBox="'"$vue"'" width="'"$LOGO"'" height="'"$LOGO"'">|' "$1")
   printf '<div class="t">%s</div>' "$corps"
 }
 
@@ -97,6 +98,16 @@ rangee systemes "$(marque vmware '#4A5560')$(marque virtualbox '#2F61B4')$(marqu
 rangee microsoft "$(marque microsoftoffice '#D83B01')$(marque microsoftexchange '#0078D4')$(couleurs "$I/entra.svg")$(sk powershell)"
 
 rangee exploitation "$(marque jira '#0052CC')$(sk docker)$(sk nginx)$(sk git)$(sk githubactions)"
+
+# La 3D : Fusion pour concevoir les pièces, Cinema 4D pour modéliser,
+# une Creality pour les imprimer.
+rangee conception "$(couleurs "$I/fusion.svg" '0 0 423 390')$(marque cinema4d '#011A6A')$(marque creality '#242938')"
+
+# Le montage : les deux tuiles Adobe viennent de skillicons. Le logo de
+# Filmora est un carré plein au sigle en creux : rendu en blanc, il
+# disparaissait sur le fond clair de GitHub. icones/filmora-sigle.svg n'en
+# garde que le sigle.
+rangee montage "$(marque filmora-sigle '#07273D')$(sk ae)$(sk pr)"
 
 # Les assistants font partie de l'outillage quotidien : autant le dire.
 rangee assistants "$(marque claude '#D97757')$(marque openai '#10A37F')$(marque githubcopilot '#24292F')"
