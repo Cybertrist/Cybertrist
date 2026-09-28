@@ -39,7 +39,7 @@ Je m'intéresse aux postes en **cybersécurité**, **infrastructure**, **sécuri
 
 <picture><source media="(prefers-color-scheme: light)" srcset="docs/clair/parcours/formation.png"><img src="docs/parcours/formation.png" alt="Formation. Diplôme d'ingénieur en cyberdéfense à l'ENSIBS, Vannes, 2022 à 2027. DUT en cycle préparatoire intégré à l'IUT de Vannes, 2022 à 2024. Baccalauréat STI2D mention Bien au Likès, Quimper, 2020 à 2022." width="100%"></picture>
 
-<picture><source media="(prefers-color-scheme: light)" srcset="docs/clair/parcours/certifs.png"><img src="docs/parcours/certifs.png" alt="Certifications : TOEIC, 785 et plus, niveau B2. Certificat Le Robert, niveau Avancé. Secourisme : BNSSA, PSE1 et PSE2. Permis B. Centres d'intérêt : musculation, jusqu'à coder ma propre appli de suivi, ÆSTHETIC ; montagnes russes, à l'origine de MicroCoaster ; vidéo et 3D. Langues : français langue maternelle, anglais B2, allemand et espagnol en notions." width="100%"></picture>
+<picture><source media="(prefers-color-scheme: light)" srcset="docs/clair/parcours/certifs.png"><img src="docs/parcours/certifs.png" alt="Certifications : TOEIC, 785 et plus, niveau B2. Certificat Le Robert, niveau Avancé. Sauveteur secouriste : BNSSA, PSE1 et PSE2. Permis B, mobile partout, jusqu'à l'autre bout du monde. Centres d'intérêt : musculation, jusqu'à coder ma propre appli de suivi, ÆSTHETIC ; montagnes russes, à l'origine de MicroCoaster ; vidéo et 3D. Langues : français langue maternelle, anglais B2, allemand et espagnol en notions." width="100%"></picture>
 
 <picture><source media="(prefers-color-scheme: light)" srcset="docs/clair/sections/projets.png"><img src="docs/sections/projets.png" alt="Projets" width="100%"></picture>
 

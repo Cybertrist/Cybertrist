@@ -178,11 +178,11 @@ $(e "2020 → 2022" "$(t 'Baccalauréat STI2D, mention Bien' 'STI2D baccalaureat
 
 # Le secourisme tient en une tuile : le BNSSA et les PSE vont ensemble,
 # les séparer les faisait compter trois fois.
-carte certifs 760 "$(t 'Certifications' 'Certifications')" "<div class='tu q'>
+carte certifs 785 "$(t 'Certifications' 'Certifications')" "<div class='tu q'>
 $(t2 'TOEIC' "$(t '785 ET PLUS · B2' '785 AND UP · B2')" "$(t 'Anglais professionnel.' 'Professional English.')")
 $(t2 'Le Robert' "$(t 'NIVEAU AVANCÉ' 'ADVANCED LEVEL')" "$(t 'Maîtrise du français écrit.' 'Written French.')")
-$(t2 "$(t 'Secourisme' 'First aid')" 'BNSSA · PSE1 · PSE2' "$(t 'Sauveteur aquatique, premiers secours en équipe.' 'Lifeguard, team first aid.')")
-$(t2 "$(t 'Permis B' 'Driving licence')" "$(t 'VÉHICULÉ' 'OWN CAR')" "$(t 'Mobile partout en Bretagne.' 'Mobile across Brittany.')")
+$(t2 "$(t 'Sauveteur secouriste' 'Lifeguard, first aider')" 'BNSSA · PSE1 · PSE2' "$(t 'Surveillance de baignade et premiers secours en équipe.' 'Pool and beach lifeguarding, team first aid.')")
+$(t2 "$(t 'Permis B' 'Driving licence')" "$(t 'VÉHICULÉ · MOBILE' 'OWN CAR · MOBILE')" "$(t 'Prêt à partir n’importe où, à l’autre bout du monde s’il le faut.' 'Ready to go anywhere, to the other side of the world if need be.')")
 </div>
 <div class='hd b2'><i></i><b>$(t 'Centres d’intérêt' 'Interests')</b></div>
 <div class='tu'>
