@@ -15,7 +15,7 @@
 
 </div>
 
-Élève ingénieur en **cyberdéfense** à l'**ENSIBS**, à Vannes, en alternance dans une équipe d'infrastructure technique.
+Élève ingénieur en **cyberdéfense** à l'**ENSIBS**, à Vannes, en alternance chez **ASSIA**, à Quimper, dans l'équipe d'infrastructure technique.
 
 Je me suis orienté vers la sécurité pour une raison simple : j'aime comprendre comment un système fonctionne, repérer où il cède, et trouver ce qu'il faut pour qu'il tienne. Mon parcours m'a fait passer par le développement, l'administration système, le réseau et la sécurité, et c'est cette vision d'ensemble qui m'intéresse aujourd'hui, plutôt qu'un outil isolé.
 

@@ -15,7 +15,7 @@
 
 </div>
 
-Engineering student in **cyberdefence** at **ENSIBS**, in Vannes, France, working part-time in an infrastructure team alongside my studies.
+Engineering student in **cyberdefence** at **ENSIBS**, in Vannes, France, on a work-study contract at **ASSIA**, in Quimper, in the technical infrastructure team.
 
 I moved towards security for a simple reason: I like understanding how a system works, spotting where it gives way, and finding what it takes to hold it together. I came up through development, system administration, networking and security, and it is that whole picture that interests me today, rather than any single tool.
 
