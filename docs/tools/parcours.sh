@@ -139,7 +139,7 @@ plein () { printf '<div class="lo plein"><img src="%s/%s"></div>' "$LG_" "$1"; }
 fond () { printf '<div class="lo" style="background:%s;border-color:%s"><img src="%s/%s" style="max-width:76px;max-height:76px"></div>' "$1" "$1" "$LG_" "$2"; }
 Q () { for s in "$@"; do printf '<span>%s</span>' "$s"; done; }
 
-carte experience 1195 "$(t 'Expérience' 'Experience')" "<div>
+carte experience 1170 "$(t 'Expérience' 'Experience')" "<div>
 $(x "$(plein microcoaster.png)" "$(t 'Fondateur et directeur technique' 'Founder and CTO')" "$(t 'sept. 2025' 'Sep 2025') → $A" \
   "$(t 'CoasterSystems, micro-entreprise · Vannes' 'CoasterSystems, sole company · Vannes')" \
   "$(t "Je conçois l'électronique et le logiciel de MicroCoaster : la carte, le firmware ESP32, la liaison IoT et l'application web de pilotage." 'I design the electronics and software behind MicroCoaster: the board, the ESP32 firmware, the IoT link and the web control app.')" \
@@ -152,7 +152,7 @@ $(x "$(lo avril.svg)" "$(t 'Alternant ingénieur cyberdéfense' 'Cyber defence e
   "$(t 'Groupe Avril · Bruz' 'Avril group · Bruz')" "" "")
 $(x "$(lo unibw.svg)" "$(t 'Assistant de recherche, stage' 'Research assistant, internship')" "$(t 'janv. → mars 2024' 'Jan → Mar 2024')" \
   "$(t 'Université de la Bundeswehr · Munich' 'Bundeswehr University · Munich')" \
-  "$(t 'Au laboratoire de cybersécurité RI CODE : prototypes matériels, protocoles de communication résilients, interface du centre d’opérations.' 'At the RI CODE cyber security lab: hardware prototypes, resilient communication protocols, operations centre front end.')" \
+  "$(t 'Au laboratoire de cybersécurité RI CODE : prototypes matériels et protocoles de communication résilients.' 'At the RI CODE cyber security lab: hardware prototypes and resilient communication protocols.')" \
   "$(Q "$(t 'Prototypage' 'Prototyping')" "$(t 'Protocoles résilients' 'Resilient protocols')")")
 $(x "$(lo leclerc.svg)" "$(t 'Employé polyvalent' 'General store assistant')" "$(t 'déc. 2023 → janv. 2024' 'Dec 2023 → Jan 2024')" \
   "E.Leclerc · Pont-l’Abbé" \
