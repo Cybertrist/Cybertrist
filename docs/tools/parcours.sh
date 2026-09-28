@@ -72,6 +72,30 @@ html,body{width:1280px;height:${2}px;overflow:hidden;background:transparent}
 .l s i.p{background:$MOYEN}
 .l span{font-family:'JetBrains Mono',monospace;font-size:13px;letter-spacing:1px;color:$DOUX}
 .hd.b2{margin:38px 0 26px}
+
+/* Expérience : une carte par poste, le logo de la structure sur une plaque
+   blanche, la date à droite du titre, les outils en puces. Le logo est
+   contenu, jamais étiré. */
+.x{display:flex;gap:26px;padding:22px 0;border-top:1px solid $BORD}
+.x:first-child{border-top:0;padding-top:2px}
+.lo{width:76px;height:76px;flex-shrink:0;border-radius:16px;background:#FFFFFF;border:1px solid $BORD;
+    display:flex;align-items:center;justify-content:center;overflow:hidden}
+.lo img{max-width:58px;max-height:58px;width:auto;height:auto}
+.lo.plein img{max-width:76px;max-height:76px}
+.lo.ic{background:$TUILE}
+.xb{flex:1;min-width:0}
+.xh{display:flex;align-items:baseline;justify-content:space-between;gap:20px}
+.xh h3{font-family:'Space Grotesk',sans-serif;font-weight:600;font-size:23px;line-height:1.25;color:$FORT}
+.xh time{font-family:'JetBrains Mono',monospace;font-size:14px;letter-spacing:.4px;color:$DOUX;white-space:nowrap;
+         display:flex;align-items:center;gap:9px}
+.xh time.on{color:$FORT}
+.xh time.on:before{content:'';width:8px;height:8px;border-radius:50%;background:$ACC}
+.x h4{font-family:'Space Grotesk',sans-serif;font-weight:500;font-size:17px;color:$MOYEN;margin-top:4px}
+.x p{font-family:'Space Grotesk',sans-serif;font-size:16.5px;line-height:1.5;color:$DOUX;margin-top:7px}
+.ch{display:flex;flex-wrap:wrap;gap:7px;margin-top:12px}
+.ch span{font-family:'JetBrains Mono',monospace;font-size:12px;letter-spacing:.6px;color:$MOYEN;
+         border:1px solid $BORD;background:$TUILE;border-radius:6px;padding:5px 10px}
+.tu.q{grid-template-columns:repeat(4,1fr)}
 </style></head><body>
 <div class="w">
 <div class="hd"><i></i><b>$3</b></div>
@@ -101,25 +125,44 @@ lg () {
 }
 
 A="$(t "aujourd'hui" 'present')"
+LG_="file:///$B/icones/parcours"
 
-carte experience 905 "$(t 'Expérience' 'Experience')" "<div class='fr'>
-$(e "$(t 'sept. 2025' 'Sep 2025') → $A" "$(t 'Fondateur et directeur technique' 'Founder and CTO')" \
-  "$(t 'CoasterSystems, micro-entreprise' 'CoasterSystems, sole company')" \
-  "$(t "Systèmes embarqués sur ESP32, électronique, modules audio et capteurs, et le logiciel de l'écosystème MicroCoaster." 'Embedded systems on ESP32, electronics, audio modules and sensors, and the software behind the MicroCoaster ecosystem.')" on)
-$(e "$(t 'déc. 2024' 'Dec 2024') → $A" "$(t 'Alternant ingénieur cyberdéfense' 'Cyber defence engineering apprentice')" \
-  "$(t 'Groupe de santé et d’assurance, Quimper' 'Health and insurance group, Quimper')" \
-  "$(t "Analyse des journaux de sécurité dans un SIEM, supervision, sécurité réseau et durcissement de l'infrastructure." 'Security log analysis in a SIEM, monitoring, network security and infrastructure hardening.')" on)
-$(e "$(t 'sept. → oct. 2024' 'Sep → Oct 2024')" "$(t 'Alternant ingénieur cyberdéfense' 'Cyber defence engineering apprentice')" \
-  "$(t 'Avril, Bruz' 'Avril, Bruz')" "")
-$(e "$(t 'janv. → mars 2024' 'Jan → Mar 2024')" "$(t 'Assistant de recherche, stage' 'Research assistant, internship')" \
-  "$(t 'Université de la Bundeswehr, Munich' 'Bundeswehr University Munich')" \
-  "$(t 'Laboratoire de cybersécurité RI CODE : prototypes matériels, protocoles de communication résilients, interface du centre d’opérations.' 'RI CODE cyber security lab: hardware prototypes, resilient communication protocols, operations centre front end.')")
-$(e '2021 → 2024' "$(t 'Jobs saisonniers' 'Seasonal jobs')" \
+# x <logo> <poste> <date> <structure> <détail> <puces> [on]
+# Le logo est un bloc déjà prêt : lo, plein ou ic ci-dessous.
+x () {
+  local on=""; [ "$7" = on ] && on=' class="on"'
+  printf '<div class="x">%s<div class="xb"><div class="xh"><h3>%s</h3><time%s>%s</time></div><h4>%s</h4>%s%s</div></div>' \
+    "$1" "$2" "$on" "$3" "$4" "${5:+<p>$5</p>}" "${6:+<div class=\"ch\">$6</div>}"
+}
+lo ()    { printf '<div class="lo"><img src="%s/%s"></div>' "$LG_" "$1"; }
+plein () { printf '<div class="lo plein"><img src="%s/%s"></div>' "$LG_" "$1"; }
+# L'employeur n'est pas nommé, donc pas de logo : un bouclier à la place.
+bouclier () {
+  printf '<div class="lo ic"><svg width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="%s" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><path d="m9 12 2 2 4-4"/></svg></div>' "$MOYEN"
+}
+Q () { for s in "$@"; do printf '<span>%s</span>' "$s"; done; }
+
+carte experience 1050 "$(t 'Expérience' 'Experience')" "<div>
+$(x "$(plein microcoaster.png)" "$(t 'Fondateur et directeur technique' 'Founder and CTO')" "$(t 'sept. 2025' 'Sep 2025') → $A" \
+  "$(t 'CoasterSystems, micro-entreprise · Vannes' 'CoasterSystems, sole company · Vannes')" \
+  "$(t "Je conçois l'électronique et le logiciel de MicroCoaster : la carte, le firmware ESP32, la liaison IoT et l'application web de pilotage." 'I design the electronics and software behind MicroCoaster: the board, the ESP32 firmware, the IoT link and the web control app.')" \
+  "$(Q ESP32 'PCB' 'IoT' "$(t 'Web HTTPS' 'HTTPS web app')")" on)
+$(x "$(bouclier)" "$(t 'Alternant ingénieur cyberdéfense' 'Cyber defence engineering apprentice')" "$(t 'déc. 2024' 'Dec 2024') → $A" \
+  "$(t 'Groupe de santé et d’assurance · Quimper' 'Health and insurance group · Quimper')" \
+  "$(t "Analyse des journaux de sécurité dans un SIEM, supervision, sécurité réseau et durcissement de l'infrastructure." 'Security log analysis in a SIEM, monitoring, network security and infrastructure hardening.')" \
+  "$(Q SIEM LogPoint Centreon Fortinet "$(t 'Durcissement' 'Hardening')")" on)
+$(x "$(lo avril.svg)" "$(t 'Alternant ingénieur cyberdéfense' 'Cyber defence engineering apprentice')" "$(t 'sept. → oct. 2024' 'Sep → Oct 2024')" \
+  "$(t 'Groupe Avril · Bruz' 'Avril group · Bruz')" "" "")
+$(x "$(lo unibw.svg)" "$(t 'Assistant de recherche, stage' 'Research assistant, internship')" "$(t 'janv. → mars 2024' 'Jan → Mar 2024')" \
+  "$(t 'Université de la Bundeswehr · Munich' 'Bundeswehr University · Munich')" \
+  "$(t 'Au laboratoire de cybersécurité RI CODE : prototypes matériels, protocoles de communication résilients, interface du centre d’opérations.' 'At the RI CODE cyber security lab: hardware prototypes, resilient communication protocols, operations centre front end.')" \
+  "$(Q "$(t 'Prototypage' 'Prototyping')" "$(t 'Protocoles résilients' 'Resilient protocols')")")
+$(x "$(lo yelloh.png)" "$(t 'Jobs saisonniers' 'Seasonal jobs')" '2021 → 2024' \
   "$(t 'Yelloh Village et Marvilla Parks à Bénodet, E.Leclerc Pont-l’Abbé' 'Yelloh Village and Marvilla Parks in Bénodet, E.Leclerc Pont-l’Abbé')" \
-  "$(t 'Cuisine en saison sur un camping cinq étoiles, logistique en magasin. Rapidité, endurance, sang-froid face au rush.' 'Kitchen work on a five star campsite, in-store logistics. Speed, stamina, keeping calm under the rush.')")
-$(e '2017 → 2021' "$(t 'Conseiller municipal des jeunes' 'Youth town councillor')" \
+  "$(t 'Cuisine en saison sur un camping cinq étoiles, logistique en magasin. Rapidité, endurance, sang-froid face au rush.' 'Kitchen work on a five star campsite, in-store logistics. Speed, stamina, keeping calm under the rush.')" "")
+$(x "$(lo combrit.svg)" "$(t 'Conseiller municipal des jeunes' 'Youth town councillor')" '2017 → 2021' \
   "$(t 'Mairie de Combrit' 'Combrit town hall')" \
-  "$(t 'Quatre ans à monter des projets pour les jeunes de la commune, puis un été au port de plaisance de Sainte-Marine.' 'Four years building projects for the town’s young people, then a summer at the Sainte-Marine marina.')")
+  "$(t 'Quatre ans à monter des projets pour les jeunes de la commune, puis un été au port de plaisance de Sainte-Marine.' 'Four years building projects for the town’s young people, then a summer at the Sainte-Marine marina.')" "")
 </div>"
 
 carte formation 450 "$(t 'Formation' 'Education')" "<div class='fr'>
@@ -133,13 +176,19 @@ $(e "2020 → 2022" "$(t 'Baccalauréat STI2D, mention Bien' 'STI2D baccalaureat
   "$(t 'Sciences et technologies de l’industrie et du développement durable.' 'Industrial science and technology, sustainable development.')")
 </div>"
 
-carte certifs 655 "$(t 'Certifications et secourisme' 'Certifications and first aid')" "<div class='tu'>
-$(t2 'TOEIC' "$(t '785 ET PLUS · B2' '785 AND UP · B2')" "$(t 'Anglais professionnel, compréhension écrite et orale.' 'Professional English, reading and listening.')")
-$(t2 'Le Robert' "$(t 'NIVEAU AVANCÉ' 'ADVANCED LEVEL')" "$(t 'Certificat de maîtrise du français écrit.' 'Certificate in written French.')")
-$(t2 'BNSSA' "$(t 'SAUVETEUR AQUATIQUE' 'LIFEGUARD')" "$(t 'Brevet national de sécurité et de sauvetage aquatique.' 'French national lifeguard certificate.')")
-$(t2 'PSE1 · PSE2' "$(t 'SECOURISTE' 'FIRST RESPONDER')" "$(t 'Premiers secours en équipe, niveaux 1&nbsp;et&nbsp;2.' 'Team first aid, levels 1&nbsp;and&nbsp;2.')")
-$(t2 "$(t 'Permis B' 'Driving licence')" "$(t 'VÉHICULÉ' 'OWN CAR')" "$(t 'Mobile partout en Bretagne, et au-delà.' 'Mobile across Brittany, and beyond.')")
-$(t2 "$(t 'Sauvetage' 'Lifesaving')" "$(t 'SPORT ET LOISIR' 'SPORT')" "$(t 'Dans la continuité du BNSSA et du secourisme.' 'Hand in hand with lifeguarding and first aid.')")
+# Le secourisme tient en une tuile : le BNSSA et les PSE vont ensemble,
+# les séparer les faisait compter trois fois.
+carte certifs 760 "$(t 'Certifications' 'Certifications')" "<div class='tu q'>
+$(t2 'TOEIC' "$(t '785 ET PLUS · B2' '785 AND UP · B2')" "$(t 'Anglais professionnel.' 'Professional English.')")
+$(t2 'Le Robert' "$(t 'NIVEAU AVANCÉ' 'ADVANCED LEVEL')" "$(t 'Maîtrise du français écrit.' 'Written French.')")
+$(t2 "$(t 'Secourisme' 'First aid')" 'BNSSA · PSE1 · PSE2' "$(t 'Sauveteur aquatique, premiers secours en équipe.' 'Lifeguard, team first aid.')")
+$(t2 "$(t 'Permis B' 'Driving licence')" "$(t 'VÉHICULÉ' 'OWN CAR')" "$(t 'Mobile partout en Bretagne.' 'Mobile across Brittany.')")
+</div>
+<div class='hd b2'><i></i><b>$(t 'Centres d’intérêt' 'Interests')</b></div>
+<div class='tu'>
+$(t2 "$(t 'Musculation' 'Weight training')" 'SPORT' "$(t 'Assez sérieusement pour coder ma propre appli de suivi, ÆSTHETIC.' 'Serious enough to build my own tracking app, ÆSTHETIC.')")
+$(t2 "$(t 'Montagnes russes' 'Roller coasters')" 'PASSION' "$(t 'La passion à l’origine de MicroCoaster.' 'The passion behind MicroCoaster.')")
+$(t2 "$(t 'Vidéo et 3D' 'Video and 3D')" "$(t 'CRÉATION' 'MAKING')" "$(t 'Premiere Pro, After Effects, Fusion 360 et impression 3D.' 'Premiere Pro, After Effects, Fusion 360 and 3D printing.')")
 </div>
 <div class='hd b2'><i></i><b>$(t 'Langues' 'Languages')</b></div>
 <div class='lg'>
