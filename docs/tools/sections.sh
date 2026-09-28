@@ -1,6 +1,6 @@
 #!/bin/bash
 # Bandeaux de section : index numéroté, titre, règle de séparation.
-# Rien ne dépend de la longueur du titre, donc les cinq sont alignés à
+# Rien ne dépend de la longueur du titre, donc les six sont alignés à
 # l'identique : même marge, même hauteur, même position de règle.
 D="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 source "$D/langue.sh"
@@ -55,6 +55,7 @@ echo "  s-$1.png"
 
 sec quotidien "$(t 'Au quotidien' 'Day to day')"      "01"
 sec objectif  "$(t 'Objectif' "Where I'm headed")"    "02"
-sec projets   "$(t 'Projets' 'Projects')"             "03"
-sec stack     "$(t 'Stack' 'Stack')"                  "04"
-sec contact   "$(t 'Contact' 'Contact')"              "05"
+sec parcours  "$(t 'Parcours' 'Background')"          "03"
+sec projets   "$(t 'Projets' 'Projects')"             "04"
+sec stack     "$(t 'Stack' 'Stack')"                  "05"
+sec contact   "$(t 'Contact' 'Contact')"              "06"

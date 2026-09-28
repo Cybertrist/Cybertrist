@@ -33,6 +33,14 @@ En parallèle, mes projets personnels et académiques me font creuser **Python**
 
 Je m'intéresse aux postes en **cybersécurité**, **infrastructure**, **sécurité opérationnelle** et **ingénierie des systèmes et réseaux**. Continuer à apprendre, gagner en expertise, et contribuer à la sécurité des systèmes d'information.
 
+<picture><source media="(prefers-color-scheme: light)" srcset="docs/clair/sections/parcours.png"><img src="docs/sections/parcours.png" alt="Parcours" width="100%"></picture>
+
+<picture><source media="(prefers-color-scheme: light)" srcset="docs/clair/parcours/experience.png"><img src="docs/parcours/experience.png" alt="Expérience. Depuis septembre 2025, fondateur et directeur technique de CoasterSystems : systèmes embarqués ESP32 et logiciel de MicroCoaster. Depuis décembre 2024, alternant ingénieur cyberdéfense dans un groupe de santé et d'assurance à Quimper : SIEM, supervision, sécurité réseau. Septembre à octobre 2024, alternant chez Avril à Bruz. Janvier à mars 2024, assistant de recherche au laboratoire RI CODE de l'Université de la Bundeswehr à Munich. De 2021 à 2024, jobs saisonniers à Bénodet et Pont-l'Abbé. De 2017 à 2021, conseiller municipal des jeunes à Combrit." width="100%"></picture>
+
+<picture><source media="(prefers-color-scheme: light)" srcset="docs/clair/parcours/formation.png"><img src="docs/parcours/formation.png" alt="Formation. Diplôme d'ingénieur en cyberdéfense à l'ENSIBS, Vannes, 2022 à 2027. DUT en cycle préparatoire intégré à l'IUT de Vannes, 2022 à 2024. Baccalauréat STI2D mention Bien au Likès, Quimper, 2020 à 2022." width="100%"></picture>
+
+<picture><source media="(prefers-color-scheme: light)" srcset="docs/clair/parcours/certifs.png"><img src="docs/parcours/certifs.png" alt="Certifications et secourisme : TOEIC, 785 et plus, niveau B2. Certificat Le Robert, niveau Avancé. BNSSA, sauveteur aquatique. PSE1 et PSE2, secouriste. Permis B. Sauvetage sportif. Langues : français langue maternelle, anglais B2, allemand et espagnol en notions." width="100%"></picture>
+
 <picture><source media="(prefers-color-scheme: light)" srcset="docs/clair/sections/projets.png"><img src="docs/sections/projets.png" alt="Projets" width="100%"></picture>
 
 <a href="https://github.com/Cybertrist/Aesthetic"><picture><source media="(prefers-color-scheme: light)" srcset="docs/clair/projets/aesthetic.png"><img src="docs/projets/aesthetic.png" alt="ÆSTHETIC, mobile, santé, musculation, en cours. Ma propre application de santé : musculation, nutrition, sommeil et un coach IA. Tout au même endroit, pour devenir la meilleure version de moi-même. Nutrition, sommeil, coach IA, Flutter." width="100%"></picture></a>

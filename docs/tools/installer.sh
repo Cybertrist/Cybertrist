@@ -8,7 +8,7 @@ D="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"; cd "$D"
 source "$D/langue.sh"
 DEST=".."; [ "$LG" = en ] && DEST="../en"
 [ "$THEME" = clair ] && DEST="$DEST/clair"
-mkdir -p "$DEST"/projets "$DEST"/liens "$DEST"/langues "$DEST"/sections "$DEST"/stack
+mkdir -p "$DEST"/projets "$DEST"/liens "$DEST"/langues "$DEST"/sections "$DEST"/stack "$DEST"/parcours
 n=0
 pose () { [ -f "$1" ] || { echo "  manquant : $1"; return; }; cp "$1" "$DEST/$2"; n=$((n+1)); }
 
@@ -21,8 +21,11 @@ pose "png$SUF/f-p-cybersas.png"     projets/cybersas-vpn.png
 pose "png$SUF/f-p-smartbudget.png"  projets/smartbudget.png
 pose "png$SUF/f-p-aesthetic.png"    projets/aesthetic.png
 
-for k in quotidien objectif projets stack contact; do
+for k in quotidien objectif parcours projets stack contact; do
   pose "png$SUF/s-$k.png" "sections/$k.png"
+done
+for k in experience formation certifs; do
+  pose "png$SUF/cv-$k.png" "parcours/$k.png"
 done
 for k in securite systemes microsoft exploitation langages web donnees embarque conception montage assistants; do
   pose "stack$SUF/lab-$k.png" "stack/lab-$k.png"

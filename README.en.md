@@ -33,6 +33,14 @@ When I finish my engineering degree, in **September 2027**, I am aiming for **Lu
 
 I am looking at roles in **cybersecurity**, **infrastructure**, **security operations** and **systems and network engineering**. To keep learning, build real expertise, and contribute to the security of information systems.
 
+<picture><source media="(prefers-color-scheme: light)" srcset="docs/en/clair/sections/parcours.png"><img src="docs/en/sections/parcours.png" alt="Background" width="100%"></picture>
+
+<picture><source media="(prefers-color-scheme: light)" srcset="docs/en/clair/parcours/experience.png"><img src="docs/en/parcours/experience.png" alt="Experience. Since September 2025, founder and CTO of CoasterSystems: ESP32 embedded systems and the MicroCoaster software. Since December 2024, cyber defence engineering apprentice in a health and insurance group in Quimper: SIEM, monitoring, network security. September to October 2024, apprentice at Avril in Bruz. January to March 2024, research assistant at the RI CODE lab, Bundeswehr University Munich. 2021 to 2024, seasonal jobs in Bénodet and Pont-l'Abbé. 2017 to 2021, youth town councillor in Combrit." width="100%"></picture>
+
+<picture><source media="(prefers-color-scheme: light)" srcset="docs/en/clair/parcours/formation.png"><img src="docs/en/parcours/formation.png" alt="Education. Engineering degree in cyber defence at ENSIBS, Vannes, 2022 to 2027. DUT, integrated preparatory cycle, IUT de Vannes, 2022 to 2024. STI2D baccalaureate with honours, Le Likès, Quimper, 2020 to 2022." width="100%"></picture>
+
+<picture><source media="(prefers-color-scheme: light)" srcset="docs/en/clair/parcours/certifs.png"><img src="docs/en/parcours/certifs.png" alt="Certifications and first aid: TOEIC, 785 and up, B2. Le Robert certificate, advanced level. BNSSA lifeguard. PSE1 and PSE2 first responder. Driving licence. Lifesaving sport. Languages: French native, English B2, German and Spanish basic." width="100%"></picture>
+
 <picture><source media="(prefers-color-scheme: light)" srcset="docs/en/clair/sections/projets.png"><img src="docs/en/sections/projets.png" alt="Projects" width="100%"></picture>
 
 <a href="https://github.com/Cybertrist/Aesthetic/blob/main/README.en.md"><picture><source media="(prefers-color-scheme: light)" srcset="docs/en/clair/projets/aesthetic.png"><img src="docs/en/projets/aesthetic.png" alt="ÆSTHETIC, mobile, health, strength, in progress. My own health app: training, nutrition, sleep and an AI coach. All in one place, to become the best version of myself. Nutrition, sleep, AI coach, Flutter." width="100%"></picture></a>
