@@ -9,8 +9,6 @@
 # cadrées de son gris, sur son propre fond, texte en gris de GitHub. Le
 # rouge ne marque plus que deux choses : l'intitulé et ce qui est en cours.
 #
-# L'employeur de l'alternance n'est pas nommé, comme dans l'introduction :
-# on dit le secteur, pas la maison.
 D="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 source "$D/cartes.sh" >/dev/null 2>&1
 
@@ -136,19 +134,18 @@ x () {
 }
 lo ()    { printf '<div class="lo"><img src="%s/%s"></div>' "$LG_" "$1"; }
 plein () { printf '<div class="lo plein"><img src="%s/%s"></div>' "$LG_" "$1"; }
-# L'employeur n'est pas nommé, donc pas de logo : un bouclier à la place.
-bouclier () {
-  printf '<div class="lo ic"><svg width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="%s" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><path d="m9 12 2 2 4-4"/></svg></div>' "$MOYEN"
-}
+# fond <couleur> <logo> : un logo qui porte déjà son fond de couleur, posé
+# sur ce fond pour que la plaque entière soit à ses couleurs.
+fond () { printf '<div class="lo" style="background:%s;border-color:%s"><img src="%s/%s" style="max-width:76px;max-height:76px"></div>' "$1" "$1" "$LG_" "$2"; }
 Q () { for s in "$@"; do printf '<span>%s</span>' "$s"; done; }
 
-carte experience 1050 "$(t 'Expérience' 'Experience')" "<div>
+carte experience 1195 "$(t 'Expérience' 'Experience')" "<div>
 $(x "$(plein microcoaster.png)" "$(t 'Fondateur et directeur technique' 'Founder and CTO')" "$(t 'sept. 2025' 'Sep 2025') → $A" \
   "$(t 'CoasterSystems, micro-entreprise · Vannes' 'CoasterSystems, sole company · Vannes')" \
   "$(t "Je conçois l'électronique et le logiciel de MicroCoaster : la carte, le firmware ESP32, la liaison IoT et l'application web de pilotage." 'I design the electronics and software behind MicroCoaster: the board, the ESP32 firmware, the IoT link and the web control app.')" \
   "$(Q ESP32 'PCB' 'IoT' "$(t 'Web HTTPS' 'HTTPS web app')")" on)
-$(x "$(bouclier)" "$(t 'Alternant ingénieur cyberdéfense' 'Cyber defence engineering apprentice')" "$(t 'déc. 2024' 'Dec 2024') → $A" \
-  "$(t 'Groupe de santé et d’assurance · Quimper' 'Health and insurance group · Quimper')" \
+$(x "$(fond '#0FECA0' assia.svg)" "$(t 'Alternant ingénieur cyberdéfense' 'Cyber defence engineering apprentice')" "$(t 'déc. 2024' 'Dec 2024') → $A" \
+  "$(t 'ASSIA, plateforme santé et assurance · Quimper' 'ASSIA, health and insurance platform · Quimper')" \
   "$(t "Analyse des journaux de sécurité dans un SIEM, supervision, sécurité réseau et durcissement de l'infrastructure." 'Security log analysis in a SIEM, monitoring, network security and infrastructure hardening.')" \
   "$(Q SIEM LogPoint Centreon Fortinet "$(t 'Durcissement' 'Hardening')")" on)
 $(x "$(lo avril.svg)" "$(t 'Alternant ingénieur cyberdéfense' 'Cyber defence engineering apprentice')" "$(t 'sept. → oct. 2024' 'Sep → Oct 2024')" \
@@ -157,9 +154,12 @@ $(x "$(lo unibw.svg)" "$(t 'Assistant de recherche, stage' 'Research assistant, 
   "$(t 'Université de la Bundeswehr · Munich' 'Bundeswehr University · Munich')" \
   "$(t 'Au laboratoire de cybersécurité RI CODE : prototypes matériels, protocoles de communication résilients, interface du centre d’opérations.' 'At the RI CODE cyber security lab: hardware prototypes, resilient communication protocols, operations centre front end.')" \
   "$(Q "$(t 'Prototypage' 'Prototyping')" "$(t 'Protocoles résilients' 'Resilient protocols')")")
+$(x "$(lo leclerc.svg)" "$(t 'Employé polyvalent' 'General store assistant')" "$(t 'déc. 2023 → janv. 2024' 'Dec 2023 → Jan 2024')" \
+  "E.Leclerc · Pont-l’Abbé" \
+  "$(t 'Déchargement des camions, mise en rayon, rangement des réserves.' 'Unloading trucks, restocking shelves, organising the stockroom.')" "")
 $(x "$(lo yelloh.png)" "$(t 'Jobs saisonniers' 'Seasonal jobs')" '2021 → 2024' \
-  "$(t 'Yelloh Village et Marvilla Parks à Bénodet, E.Leclerc Pont-l’Abbé' 'Yelloh Village and Marvilla Parks in Bénodet, E.Leclerc Pont-l’Abbé')" \
-  "$(t 'Cuisine en saison sur un camping cinq étoiles, logistique en magasin. Rapidité, endurance, sang-froid face au rush.' 'Kitchen work on a five star campsite, in-store logistics. Speed, stamina, keeping calm under the rush.')" "")
+  "$(t 'Yelloh Village et Marvilla Parks · Bénodet' 'Yelloh Village and Marvilla Parks · Bénodet')" \
+  "$(t 'Trois étés en cuisine sur un camping cinq étoiles. Rapidité, endurance, sang-froid face au rush.' 'Three summers in the kitchen of a five star campsite. Speed, stamina, keeping calm under the rush.')" "")
 $(x "$(lo combrit.svg)" "$(t 'Conseiller municipal des jeunes' 'Youth town councillor')" '2017 → 2021' \
   "$(t 'Mairie de Combrit' 'Combrit town hall')" \
   "$(t 'Quatre ans à monter des projets pour les jeunes de la commune, puis un été au port de plaisance de Sainte-Marine.' 'Four years building projects for the town’s young people, then a summer at the Sainte-Marine marina.')" "")
