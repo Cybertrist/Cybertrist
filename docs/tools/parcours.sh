@@ -1,83 +1,85 @@
 #!/bin/bash
 # La section Parcours : le CV en trois cartes, expérience, formation, puis
-# certifications et langues. Même cadre que les cartes de projet, la
-# lueur rouge du profil en haut à gauche, pour qu'elles se lisent comme une
-# suite de la page et non comme un document collé dedans.
+# certifications et langues.
+#
+# Un CV se lit, il ne se regarde pas. La première version reprenait les
+# effets des cartes de projet, lueur rouge, grille, liseré rouge et bleu en
+# bas, et mettait du rouge sur les dates, les niveaux et les jauges : jugée
+# tape-à-l'œil et peu lisible. Ces cartes sont donc des cartes de GitHub,
+# cadrées de son gris, sur son propre fond, texte en gris de GitHub. Le
+# rouge ne marque plus que deux choses : l'intitulé et ce qui est en cours.
 #
 # L'employeur de l'alternance n'est pas nommé, comme dans l'introduction :
 # on dit le secteur, pas la maison.
 D="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 source "$D/cartes.sh" >/dev/null 2>&1
 
+# Les couleurs sont celles de GitHub, pour que la carte se fonde dans la page.
 ACC="$(c '#E23B4E' '#D02A3F')"
-AC2="$(c '#4D8EF7' '#2A67D6')"
-FOND="$(c '#070B12' '#FFFFFF')"
-FIL="$(c '#2A333D' '#D5DBE1')"
-PASTILLE="$(c '#0D1117' '#FFFFFF')"
-DATE="$(c '#7C8894' '#5B6672')"
+FOND="$(c '#0D1117' '#FFFFFF')"
+BORD="$(c '#30363D' '#D0D7DE')"
+TUILE="$(c '#161B22' '#F6F8FA')"
+FORT="$(c '#F0F6FC' '#1F2328')"
+MOYEN="$(c '#C9D1D9' '#31383F')"
+DOUX="$(c '#9198A1' '#59636E')"
+FIL="$(c '#30363D' '#D0D7DE')"
 
 # carte <clé> <hauteur> <intitulé> <corps>
 carte () {
 cat > "$D/html$SUF/cv-$1.html" <<HTML
 <!doctype html><html lang="fr"><head><meta charset="utf-8">
-<link href="https://fonts.googleapis.com/css2?family=Syne:wght@800&family=Space+Grotesk:wght@400;500;600&family=JetBrains+Mono:wght@500&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600&family=JetBrains+Mono:wght@500&display=swap" rel="stylesheet">
 <style>
 *{margin:0;padding:0;box-sizing:border-box}
-html,body{width:1280px;height:${2}px;overflow:hidden;background:$FOND}
-.w{width:1280px;height:${2}px;position:relative;overflow:hidden;padding:44px 66px 0;
-   background:radial-gradient(58% 70% at 8% 0%, ${ACC}1E 0%, transparent 62%),
-              linear-gradient(135deg,$FOND 0%,$FOND 55%,$COIN 100%)}
-.grid{position:absolute;inset:0;opacity:.30;
-  background-image:linear-gradient(${ACC}14 1px,transparent 1px),linear-gradient(90deg,${ACC}14 1px,transparent 1px);
-  background-size:46px 46px;-webkit-mask-image:radial-gradient(60% 60% at 4% 0%,#000 0%,transparent 72%)}
-.ln{position:absolute;left:0;right:0;bottom:0;height:3px;background:linear-gradient(90deg,$ACC 0%,$AC2 44%,transparent 90%)}
-.hd{position:relative;display:flex;align-items:center;gap:14px;margin-bottom:34px}
-.hd i{width:9px;height:9px;background:$ACC;border-radius:2px;transform:rotate(45deg)}
-.hd b{font-family:'JetBrains Mono',monospace;font-weight:500;font-size:15px;letter-spacing:3.4px;
-      text-transform:uppercase;color:$TITRE}
+html,body{width:1280px;height:${2}px;overflow:hidden;background:transparent}
+.w{width:1280px;height:${2}px;overflow:hidden;padding:42px 64px 0;
+   background:$FOND;border:1px solid $BORD;border-radius:14px}
+.hd{display:flex;align-items:center;gap:13px;padding-bottom:22px;margin-bottom:30px;border-bottom:1px solid $BORD}
+.hd i{width:8px;height:8px;background:$ACC;border-radius:1.5px;transform:rotate(45deg)}
+.hd b{font-family:'JetBrains Mono',monospace;font-weight:500;font-size:15px;letter-spacing:3px;
+      text-transform:uppercase;color:$FORT}
 
 /* Frise : la date à gauche, un fil vertical ponctué, le poste à droite. */
-.fr{position:relative}
-.e{display:grid;grid-template-columns:200px 34px 1fr;min-height:0}
-.d{font-family:'JetBrains Mono',monospace;font-size:14.5px;letter-spacing:.6px;color:$DATE;padding-top:5px;line-height:1.5}
-.d.on{color:$ACC}
+.e{display:grid;grid-template-columns:200px 34px 1fr}
+.d{font-family:'JetBrains Mono',monospace;font-size:14.5px;letter-spacing:.4px;color:$DOUX;padding-top:5px;line-height:1.5}
+.d.on{color:$FORT}
 .f{position:relative;display:flex;justify-content:center}
-.f:before{content:'';position:absolute;top:0;bottom:0;width:1.5px;background:$FIL}
+.f:before{content:'';position:absolute;top:0;bottom:0;width:1px;background:$FIL}
 .e:first-child .f:before{top:12px}
 .e:last-child .f:before{bottom:auto;height:12px}
-.f span{position:relative;margin-top:7px;width:13px;height:13px;border-radius:50%;
-        border:2px solid $DATE;background:$PASTILLE}
-.f span.on{border-color:$ACC;background:$ACC;box-shadow:0 0 0 5px ${ACC}26}
+.f span{position:relative;margin-top:8px;width:11px;height:11px;border-radius:50%;
+        border:1.5px solid $DOUX;background:$FOND}
+.f span.on{border-color:$ACC;background:$ACC}
 .c{padding:0 0 26px 14px}
-.c h3{font-family:'Space Grotesk',sans-serif;font-weight:600;font-size:23px;line-height:1.25;color:$TITRE}
-.c h4{font-family:'Space Grotesk',sans-serif;font-weight:500;font-size:16.5px;color:$AC2;margin-top:3px}
-.c p{font-family:'Space Grotesk',sans-serif;font-size:17px;line-height:1.5;color:$TEXTE;margin-top:7px;max-width:880px}
+.c h3{font-family:'Space Grotesk',sans-serif;font-weight:600;font-size:23px;line-height:1.25;color:$FORT}
+.c h4{font-family:'Space Grotesk',sans-serif;font-weight:500;font-size:17px;color:$MOYEN;margin-top:4px}
+.c p{font-family:'Space Grotesk',sans-serif;font-size:17px;line-height:1.5;color:$DOUX;margin-top:6px;max-width:880px}
 
-/* Certificats : des tuiles, le sigle en grand, le niveau dessous. */
-.tu{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;position:relative}
-.t{border:1px solid $FIL;border-radius:12px;padding:20px 22px;background:$(c '#0B1018' '#F6F8FAB0')}
-.t b{display:block;font-family:Syne,sans-serif;font-weight:800;font-size:24px;letter-spacing:.5px;color:$TITRE}
-.t em{display:inline-block;font-style:normal;font-family:'JetBrains Mono',monospace;font-size:12.5px;letter-spacing:1.6px;
-      color:$ACC;border:1px solid ${ACC}46;background:${ACC}10;border-radius:5px;padding:4px 9px;margin-top:10px}
-.t p{font-family:'Space Grotesk',sans-serif;font-size:16px;line-height:1.45;color:$TEXTE;margin-top:9px}
+/* Certificats : des tuiles, le nom, le niveau, une ligne d'explication. */
+.tu{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+.t{border:1px solid $BORD;border-radius:10px;padding:20px 22px;background:$TUILE}
+.t b{display:block;font-family:'Space Grotesk',sans-serif;font-weight:600;font-size:23px;color:$FORT}
+.t em{display:block;font-style:normal;font-family:'JetBrains Mono',monospace;font-size:13px;letter-spacing:1.4px;
+      color:$MOYEN;margin-top:6px}
+.t p{font-family:'Space Grotesk',sans-serif;font-size:16px;line-height:1.45;color:$DOUX;margin-top:10px}
 
 /* Langues : une jauge en cinq crans, pleine pour la langue maternelle. */
-.lg{display:grid;grid-template-columns:1fr 1fr;gap:18px 60px;position:relative;margin-top:6px}
+.lg{display:grid;grid-template-columns:1fr 1fr;gap:18px 60px;margin-top:4px}
 .l{display:flex;align-items:center;gap:18px}
-.l b{width:120px;font-family:'Space Grotesk',sans-serif;font-weight:600;font-size:19px;color:$TITRE}
-.l s{display:flex;gap:6px;text-decoration:none}
-.l s i{width:30px;height:8px;border-radius:4px;background:$FIL}
-.l s i.p{background:$ACC}
-.l span{font-family:'JetBrains Mono',monospace;font-size:13px;letter-spacing:1px;color:$DATE}
-.hd.b2{margin:40px 0 26px}
-$([ "$THEME" = clair ] && carte_claire "$ACC" "$AC2")
+.l b{width:120px;font-family:'Space Grotesk',sans-serif;font-weight:600;font-size:19px;color:$FORT}
+.l s{display:flex;gap:5px;text-decoration:none}
+.l s i{width:28px;height:6px;border-radius:3px;background:$FIL}
+.l s i.p{background:$MOYEN}
+.l span{font-family:'JetBrains Mono',monospace;font-size:13px;letter-spacing:1px;color:$DOUX}
+.hd.b2{margin:38px 0 26px}
 </style></head><body>
-<div class="w"><div class="grid"></div>
+<div class="w">
 <div class="hd"><i></i><b>$3</b></div>
 $4
-<div class="ln"></div></div></body></html>
+</div></body></html>
 HTML
-"$CH" --headless=new --disable-gpu --hide-scrollbars --virtual-time-budget=10000 --force-device-scale-factor=2 $DETOUR \
+"$CH" --headless=new --disable-gpu --hide-scrollbars --virtual-time-budget=10000 --force-device-scale-factor=2 \
+  --default-background-color=00000000 \
   --screenshot="$B/png$SUF/cv-$1.png" --window-size=1280,$2 "file:///$B/html$SUF/cv-$1.html" >/dev/null 2>&1
 echo "  cv-$1.png"
 }
@@ -100,7 +102,7 @@ lg () {
 
 A="$(t "aujourd'hui" 'present')"
 
-carte experience 880 "$(t 'Expérience' 'Experience')" "<div class='fr'>
+carte experience 905 "$(t 'Expérience' 'Experience')" "<div class='fr'>
 $(e "$(t 'sept. 2025' 'Sep 2025') → $A" "$(t 'Fondateur et directeur technique' 'Founder and CTO')" \
   "$(t 'CoasterSystems, micro-entreprise' 'CoasterSystems, sole company')" \
   "$(t "Systèmes embarqués sur ESP32, électronique, modules audio et capteurs, et le logiciel de l'écosystème MicroCoaster." 'Embedded systems on ESP32, electronics, audio modules and sensors, and the software behind the MicroCoaster ecosystem.')" on)
@@ -120,7 +122,7 @@ $(e '2017 → 2021' "$(t 'Conseiller municipal des jeunes' 'Youth town councillo
   "$(t 'Quatre ans à monter des projets pour les jeunes de la commune, puis un été au port de plaisance de Sainte-Marine.' 'Four years building projects for the town’s young people, then a summer at the Sainte-Marine marina.')")
 </div>"
 
-carte formation 425 "$(t 'Formation' 'Education')" "<div class='fr'>
+carte formation 450 "$(t 'Formation' 'Education')" "<div class='fr'>
 $(e "2022 → 2027" "$(t 'Diplôme d’ingénieur en cyberdéfense' 'Engineering degree in cyber defence')" \
   "$(t 'ENSIBS, Vannes, en alternance' 'ENSIBS, Vannes, work-study')" \
   "$(t 'Parcours cyber opérationnel, après deux ans de cycle préparatoire intégré.' 'Operational cyber track, after a two-year integrated preparatory cycle.')" on)
@@ -131,7 +133,7 @@ $(e "2020 → 2022" "$(t 'Baccalauréat STI2D, mention Bien' 'STI2D baccalaureat
   "$(t 'Sciences et technologies de l’industrie et du développement durable.' 'Industrial science and technology, sustainable development.')")
 </div>"
 
-carte certifs 680 "$(t 'Certifications et secourisme' 'Certifications and first aid')" "<div class='tu'>
+carte certifs 655 "$(t 'Certifications et secourisme' 'Certifications and first aid')" "<div class='tu'>
 $(t2 'TOEIC' "$(t '785 ET PLUS · B2' '785 AND UP · B2')" "$(t 'Anglais professionnel, compréhension écrite et orale.' 'Professional English, reading and listening.')")
 $(t2 'Le Robert' "$(t 'NIVEAU AVANCÉ' 'ADVANCED LEVEL')" "$(t 'Certificat de maîtrise du français écrit.' 'Certificate in written French.')")
 $(t2 'BNSSA' "$(t 'SAUVETEUR AQUATIQUE' 'LIFEGUARD')" "$(t 'Brevet national de sécurité et de sauvetage aquatique.' 'French national lifeguard certificate.')")
