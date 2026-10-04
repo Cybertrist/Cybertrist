@@ -3,8 +3,8 @@
 # porte les catégories, puis l'état.
 #
 # Le nom est tout en blanc, comme dans l'application : plus de « Æ » rouge.
-# La carte reste sobre, accent gris clair, et le rouge des muscles ne
-# sert qu'au trait du bas.
+# La carte reste sobre, en noir et blanc, sans couleur d'accent : accent
+# gris clair, trait du bas gris.
 #
 # Le logo est une silhouette blanche sur un carré noir qui remplit tout le
 # fichier : il est posé tel quel, en plaque arrondie.
@@ -17,6 +17,6 @@ L1="$(t 'Mon application de musculation : la séance, le minuteur, les records.'
 L2="$(t 'Chaque série comptée, pour devenir la meilleure version de moi-même.' 'Every set counted, to become the best version of myself.')"
 ETAT="$(t 'EN COURS' 'IN PROGRESS')"
 
-ban p-aesthetic "$(c '#D4D4D4' '#262626')" "#E0393E" "$(c '#0A0A0A' '#FFFFFF')" "$GL" "$T" "$L1" "$L2" \
+ban p-aesthetic "$(c '#D4D4D4' '#262626')" "#737373" "$(c '#0A0A0A' '#FFFFFF')" "$GL" "$T" "$L1" "$L2" \
 "$(P 'FLUTTER' "$(t '608 EXERCICES' '608 EXERCISES')" "$(t 'HORS LIGNE' 'OFFLINE')")" \
 "$(C 'MOBILE' "$(t 'MUSCULATION' 'STRENGTH')")" "<i>$ETAT</i>"
