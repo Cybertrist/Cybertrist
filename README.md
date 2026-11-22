@@ -43,7 +43,7 @@ Je m'intéresse aux postes en **cybersécurité**, **infrastructure**, **sécuri
 
 <picture><source media="(prefers-color-scheme: light)" srcset="docs/clair/sections/projets.png"><img src="docs/sections/projets.png" alt="Projets" width="100%"></picture>
 
-<a href="https://github.com/Cybertrist/AESTHETICS"><picture><source media="(prefers-color-scheme: light)" srcset="docs/clair/projets/aesthetic.png"><img src="docs/projets/aesthetic.png" alt="AESTHETICS, mobile, musculation, en cours. Mon application de musculation : la séance, le minuteur, les records. Chaque série comptée, pour devenir la meilleure version de moi-même. Flutter, 608 exercices, hors ligne." width="100%"></picture></a>
+<a href="https://github.com/Cybertrist/AESTHETICS"><picture><source media="(prefers-color-scheme: light)" srcset="docs/clair/projets/aesthetic.png"><img src="docs/projets/aesthetic.png" alt="AESTHETICS, mobile, musculation, en cours. Mon application de musculation : la séance, le minuteur, les records. Chaque série comptée, pour devenir la meilleure version de moi-même. Flutter, 727 exercices, communauté." width="100%"></picture></a>
 
 <a href="https://github.com/Cybertrist/BeVannes"><picture><source media="(prefers-color-scheme: light)" srcset="docs/clair/projets/bevannes.png"><img src="docs/projets/bevannes.png" alt="BeVannes, mobile, géographie, photo, jeu. BeReal rencontre GeoGuessr : un lieu tiré au sort chaque jour, et la photo ne compte que si le GPS confirme que vous y êtes. Flutter, Firebase, géolocalisation." width="100%"></picture></a>
 

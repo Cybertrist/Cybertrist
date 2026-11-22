@@ -18,5 +18,5 @@ L2="$(t 'Chaque série comptée, pour devenir la meilleure version de moi-même.
 ETAT="$(t 'EN COURS' 'IN PROGRESS')"
 
 ban p-aesthetic "$(c '#D4D4D4' '#262626')" "#737373" "$(c '#0A0A0A' '#FFFFFF')" "$GL" "$T" "$L1" "$L2" \
-"$(P 'FLUTTER' "$(t '608 EXERCICES' '608 EXERCISES')" "$(t 'HORS LIGNE' 'OFFLINE')")" \
+"$(P 'FLUTTER' "$(t '727 EXERCICES' '727 EXERCISES')" "$(t 'COMMUNAUTÉ' 'COMMUNITY')")" \
 "$(C 'MOBILE' "$(t 'MUSCULATION' 'STRENGTH')")" "<i>$ETAT</i>"

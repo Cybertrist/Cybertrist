@@ -43,7 +43,7 @@ I am looking at roles in **cybersecurity**, **infrastructure**, **security opera
 
 <picture><source media="(prefers-color-scheme: light)" srcset="docs/en/clair/sections/projets.png"><img src="docs/en/sections/projets.png" alt="Projects" width="100%"></picture>
 
-<a href="https://github.com/Cybertrist/AESTHETICS/blob/main/README.en.md"><picture><source media="(prefers-color-scheme: light)" srcset="docs/en/clair/projets/aesthetic.png"><img src="docs/en/projets/aesthetic.png" alt="AESTHETICS, mobile, strength training, in progress. My strength training app: the workout, the rest timer, the records. Every set counted, to become the best version of myself. Flutter, 608 exercises, offline." width="100%"></picture></a>
+<a href="https://github.com/Cybertrist/AESTHETICS/blob/main/README.en.md"><picture><source media="(prefers-color-scheme: light)" srcset="docs/en/clair/projets/aesthetic.png"><img src="docs/en/projets/aesthetic.png" alt="AESTHETICS, mobile, strength training, in progress. My strength training app: the workout, the rest timer, the records. Every set counted, to become the best version of myself. Flutter, 727 exercises, community." width="100%"></picture></a>
 
 <a href="https://github.com/Cybertrist/BeVannes/blob/main/README.en.md"><picture><source media="(prefers-color-scheme: light)" srcset="docs/en/clair/projets/bevannes.png"><img src="docs/en/projets/bevannes.png" alt="BeVannes, mobile, geography, photo, game. BeReal meets GeoGuessr: a spot drawn at random every day, and the photo only counts if GPS says you were there. Flutter, Firebase, geolocation." width="100%"></picture></a>
 
